@@ -1,0 +1,418 @@
+﻿Field Name,Field Title,Alt Piece Names,Classic Type,Data Type,Definition,Description,Notes,Index Field
+Piece Name,,,,,,,,Classic XPath
+resultsSection,Results Section,,STRUCT,ResultsSection,Study Results,,,resultsSection
+ResultsSection,,,,,,,,/Study/ResultsSection
+participantFlowModule,Participant Flow Module,,STRUCT,ParticipantFlowModule,Participant Flow,,,resultsSection.participantFlowModule
+ParticipantFlowModule,,,,,,,,/Study/ResultsSection/ParticipantFlowModule
+preAssignmentDetails,,,MARKUP,markup ✓ (stats),Pre-assignment Details,,,resultsSection.participantFlowModule.preAssignmentDetails
+FlowPreAssignmentDetails,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPreAssignmentDetails
+recruitmentDetails,,,MARKUP,markup ✓ (stats),Recruitment Details,,,resultsSection.participantFlowModule.recruitmentDetails
+FlowRecruitmentDetails,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowRecruitmentDetails
+typeUnitsAnalyzed,,,TEXT,text ✓ (stats),Type of Units Assigned,,,resultsSection.participantFlowModule.typeUnitsAnalyzed
+FlowTypeUnitsAnalyzed,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowTypeUnitsAnalyzed
+groups,,,STRUCT,FlowGroup[],Arm/Group Information,,,resultsSection.participantFlowModule.groups
+FlowGroup,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowGroupList/FlowGroup
+id,,,TEXT,text ✓ (stats),,,,resultsSection.participantFlowModule.groups.id
+FlowGroupId,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowGroupList/FlowGroup/FlowGroupId
+title,,,TEXT,text ✓ (stats),Arm/Group Title,,,resultsSection.participantFlowModule.groups.title
+FlowGroupTitle,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowGroupList/FlowGroup/FlowGroupTitle
+description,,,MARKUP,markup ✓ (stats),Arm/Group Description,,,resultsSection.participantFlowModule.groups.description
+FlowGroupDescription,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowGroupList/FlowGroup/FlowGroupDescription
+numFlowGroups ✗,,,FUNC NOccrs(FlowGroup),short (stats),,,,resultsSection.participantFlowModule.numFlowGroups
+NumFlowGroups,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/NumFlowGroups
+periods,,,STRUCT,FlowPeriod[],Period(s),,,resultsSection.participantFlowModule.periods
+FlowPeriod,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod
+title,,,TEXT,text ✓ (stats),Period Title,,,resultsSection.participantFlowModule.periods.title
+FlowPeriodTitle,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowPeriodTitle
+milestones,,,STRUCT,FlowMilestone[],Additional Milestone(s),,,resultsSection.participantFlowModule.periods.milestones
+FlowMilestone,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone
+type,,,TEXT,text ✓ (stats),Started,,,resultsSection.participantFlowModule.periods.milestones.type
+FlowMilestoneType,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone/FlowMilestoneType
+comment,,,MARKUP,markup ✓ (stats),Comments,,,resultsSection.participantFlowModule.periods.milestones.comment
+FlowMilestoneComment,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone/FlowMilestoneComment
+achievements,,,STRUCT,FlowStats[],,,,resultsSection.participantFlowModule.periods.milestones.achievements
+FlowAchievement,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone/FlowAchievementList/FlowAchievement
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.participantFlowModule.periods.milestones.achievements.groupId
+FlowAchievementGroupId,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone/FlowAchievementList/FlowAchievement/FlowAchievementGroupId
+comment,,,MARKUP,markup ✓ (stats),Comments,,,resultsSection.participantFlowModule.periods.milestones.achievements.comment
+FlowAchievementComment,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone/FlowAchievementList/FlowAchievement/FlowAchievementComment
+numSubjects,,,TEXT,text ✓ (stats),Milestone Data,,,resultsSection.participantFlowModule.periods.milestones.achievements.numSubjects
+FlowAchievementNumSubjects,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone/FlowAchievementList/FlowAchievement/FlowAchievementNumSubjects
+numUnits,,,TEXT,text ✓ (stats),Milestone Data,,,resultsSection.participantFlowModule.periods.milestones.achievements.numUnits
+FlowAchievementNumUnits,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone/FlowAchievementList/FlowAchievement/FlowAchievementNumUnits
+numFlowAchievements ✗,,,FUNC NOccrs(FlowAchievement),short (stats),,,,resultsSection.participantFlowModule.periods.milestones.numFlowAchievements
+NumFlowAchievements,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowMilestoneList/FlowMilestone/NumFlowAchievements
+numFlowMilestones ✗,,,FUNC NOccrs(FlowMilestone),short (stats),,,,resultsSection.participantFlowModule.periods.numFlowMilestones
+NumFlowMilestones,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/NumFlowMilestones
+dropWithdraws,,,STRUCT,DropWithdraw[],Reason Not Completed,,,resultsSection.participantFlowModule.periods.dropWithdraws
+FlowDropWithdraw,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowDropWithdrawList/FlowDropWithdraw
+type,,,TEXT,text ✓ (stats),Reason Not Completed Type,,,resultsSection.participantFlowModule.periods.dropWithdraws.type
+FlowDropWithdrawType,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowDropWithdrawList/FlowDropWithdraw/FlowDropWithdrawType
+comment,,,MARKUP,markup ✓ (stats),,,,resultsSection.participantFlowModule.periods.dropWithdraws.comment
+FlowDropWithdrawComment,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowDropWithdrawList/FlowDropWithdraw/FlowDropWithdrawComment
+reasons,,,STRUCT,FlowStats[],,,,resultsSection.participantFlowModule.periods.dropWithdraws.reasons
+FlowReason,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowDropWithdrawList/FlowDropWithdraw/FlowReasonList/FlowReason
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.participantFlowModule.periods.dropWithdraws.reasons.groupId
+FlowReasonGroupId,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowDropWithdrawList/FlowDropWithdraw/FlowReasonList/FlowReason/FlowReasonGroupId
+comment,,,MARKUP,markup ✓ (stats),Reason Not Completed Data,,,resultsSection.participantFlowModule.periods.dropWithdraws.reasons.comment
+FlowReasonComment,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowDropWithdrawList/FlowDropWithdraw/FlowReasonList/FlowReason/FlowReasonComment
+numSubjects,,,TEXT,text ✓ (stats),Reason Not Completed Data,,,resultsSection.participantFlowModule.periods.dropWithdraws.reasons.numSubjects
+FlowReasonNumSubjects,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowDropWithdrawList/FlowDropWithdraw/FlowReasonList/FlowReason/FlowReasonNumSubjects
+numFlowReasons ✗,,,FUNC NOccrs(FlowReason),short (stats),,,,resultsSection.participantFlowModule.periods.dropWithdraws.numFlowReasons
+NumFlowReasons,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/FlowDropWithdrawList/FlowDropWithdraw/NumFlowReasons
+numFlowDropWithdraws ✗,,,FUNC NOccrs(FlowDropWithdraw),short (stats),,,,resultsSection.participantFlowModule.periods.numFlowDropWithdraws
+NumFlowDropWithdraws,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/FlowPeriodList/FlowPeriod/NumFlowDropWithdraws
+numFlowPeriods ✗,,,FUNC NOccrs(FlowPeriod),short (stats),,,,resultsSection.participantFlowModule.numFlowPeriods
+NumFlowPeriods,,,,,,,,/Study/ResultsSection/ParticipantFlowModule/NumFlowPeriods
+baselineCharacteristicsModule,,,STRUCT,BaselineCharacteristicsModule,Baseline Characteristics,,,resultsSection.baselineCharacteristicsModule
+BaselineCharacteristicsModule,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule
+populationDescription,,,MARKUP,markup ✓ (stats),Baseline Analysis Population Description,,,resultsSection.baselineCharacteristicsModule.populationDescription
+BaselinePopulationDescription,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselinePopulationDescription
+typeUnitsAnalyzed,,,TEXT,text ✓ (stats),Type of Units Analyzed,,,resultsSection.baselineCharacteristicsModule.typeUnitsAnalyzed
+BaselineTypeUnitsAnalyzed,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineTypeUnitsAnalyzed
+groups,,,STRUCT,MeasureGroup[],Arm/Group Information,,,resultsSection.baselineCharacteristicsModule.groups
+BaselineGroup,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineGroupList/BaselineGroup
+id,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.groups.id
+BaselineGroupId,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineGroupList/BaselineGroup/BaselineGroupId
+title,,,TEXT,text ✓ (stats),Arm/Group Title,,,resultsSection.baselineCharacteristicsModule.groups.title
+BaselineGroupTitle,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineGroupList/BaselineGroup/BaselineGroupTitle
+description,,,MARKUP,markup ✓ (stats),Arm/Group Description,,,resultsSection.baselineCharacteristicsModule.groups.description
+BaselineGroupDescription,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineGroupList/BaselineGroup/BaselineGroupDescription
+numBaselineGroups ✗,,,FUNC NOccrs(BaselineGroup),short (stats),,,,resultsSection.baselineCharacteristicsModule.numBaselineGroups
+NumBaselineGroups,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/NumBaselineGroups
+denoms,,,STRUCT,Denom[],,,,resultsSection.baselineCharacteristicsModule.denoms
+BaselineDenom,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineDenomList/BaselineDenom
+units,,,TEXT,text ✓ (stats),Overall Number of Units Analyzed,,,resultsSection.baselineCharacteristicsModule.denoms.units
+BaselineDenomUnits,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineDenomList/BaselineDenom/BaselineDenomUnits
+counts,,,STRUCT,DenomCount[],,,,resultsSection.baselineCharacteristicsModule.denoms.counts
+BaselineDenomCount,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineDenomList/BaselineDenom/BaselineDenomCountList/BaselineDenomCount
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.denoms.counts.groupId
+BaselineDenomCountGroupId,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineDenomList/BaselineDenom/BaselineDenomCountList/BaselineDenomCount/BaselineDenomCountGroupId
+value,,,TEXT,text ✓ (stats),Overall Number of Baseline Participants,,,resultsSection.baselineCharacteristicsModule.denoms.counts.value
+BaselineDenomCountValue,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineDenomList/BaselineDenom/BaselineDenomCountList/BaselineDenomCount/BaselineDenomCountValue
+numBaselineDenoms ✗,,,FUNC NOccrs(BaselineDenom),short (stats),,,,resultsSection.baselineCharacteristicsModule.numBaselineDenoms
+NumBaselineDenoms,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/NumBaselineDenoms
+measures,,,STRUCT,BaselineMeasure[],Baseline Measure Information,,,resultsSection.baselineCharacteristicsModule.measures
+BaselineMeasure,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure
+title,,,TEXT,text ✓ (stats),Baseline Measure Title,,,resultsSection.baselineCharacteristicsModule.measures.title
+BaselineMeasureTitle,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureTitle
+description,,,MARKUP,markup ✓ (stats),Baseline Measure Description,,,resultsSection.baselineCharacteristicsModule.measures.description
+BaselineMeasureDescription,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureDescription
+populationDescription,,,MARKUP,markup ✓ (stats),Measure Analysis Population Description,,,resultsSection.baselineCharacteristicsModule.measures.populationDescription
+BaselineMeasurePopulationDescription,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasurePopulationDescription
+paramType,,,TEXT,enum MeasureParam (stats),Measure Type,,,resultsSection.baselineCharacteristicsModule.measures.paramType
+BaselineMeasureParamType,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureParamType
+dispersionType,,,TEXT,enum MeasureDispersionType (stats),Measure of Dispersion,,,resultsSection.baselineCharacteristicsModule.measures.dispersionType
+BaselineMeasureDispersionType,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureDispersionType
+unitOfMeasure,,,TEXT,text ✓ (stats),Unit of Measure,,,resultsSection.baselineCharacteristicsModule.measures.unitOfMeasure
+BaselineMeasureUnitOfMeasure,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureUnitOfMeasure
+calculatePct,,,BOOLEAN,boolean (stats),,,,resultsSection.baselineCharacteristicsModule.measures.calculatePct
+BaselineMeasureCalculatePct,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureCalculatePct
+denomUnitsSelected,,,TEXT,text ✓ (stats),Analysis Population Type,,,resultsSection.baselineCharacteristicsModule.measures.denomUnitsSelected
+BaselineMeasureDenomUnitsSelected,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureDenomUnitsSelected
+denoms,,,STRUCT,Denom[],,,,resultsSection.baselineCharacteristicsModule.measures.denoms
+BaselineMeasureDenom,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureDenomList/BaselineMeasureDenom
+units,,,TEXT,text ✓ (stats),Number of Units Analyzed,,,resultsSection.baselineCharacteristicsModule.measures.denoms.units
+BaselineMeasureDenomUnits,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureDenomList/BaselineMeasureDenom/BaselineMeasureDenomUnits
+counts,,,STRUCT,DenomCount[],,,,resultsSection.baselineCharacteristicsModule.measures.denoms.counts
+BaselineMeasureDenomCount,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureDenomList/BaselineMeasureDenom/BaselineMeasureDenomCountList/BaselineMeasureDenomCount
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.denoms.counts.groupId
+BaselineMeasureDenomCountGroupId,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureDenomList/BaselineMeasureDenom/BaselineMeasureDenomCountList/BaselineMeasureDenomCount/BaselineMeasureDenomCountGroupId
+value,,,TEXT,text ✓ (stats),Number of Baseline Participants,,,resultsSection.baselineCharacteristicsModule.measures.denoms.counts.value
+BaselineMeasureDenomCountValue,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineMeasureDenomList/BaselineMeasureDenom/BaselineMeasureDenomCountList/BaselineMeasureDenomCount/BaselineMeasureDenomCountValue
+numBaselineMeasureDenoms ✗,,,FUNC NOccrs(BaselineMeasureDenom),short (stats),,,,resultsSection.baselineCharacteristicsModule.measures.numBaselineMeasureDenoms
+NumBaselineMeasureDenoms,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/NumBaselineMeasureDenoms
+classes,,,STRUCT,MeasureClass[],,,,resultsSection.baselineCharacteristicsModule.measures.classes
+BaselineClass,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass
+title,,,TEXT,text ✓ (stats),Category or Row Title,,,resultsSection.baselineCharacteristicsModule.measures.classes.title
+BaselineClassTitle,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineClassTitle
+denoms,,,STRUCT,Denom[],,,,resultsSection.baselineCharacteristicsModule.measures.classes.denoms
+BaselineClassDenom,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineClassDenomList/BaselineClassDenom
+units,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.denoms.units
+BaselineClassDenomUnits,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineClassDenomList/BaselineClassDenom/BaselineClassDenomUnits
+counts,,,STRUCT,DenomCount[],,,,resultsSection.baselineCharacteristicsModule.measures.classes.denoms.counts
+BaselineClassDenomCount,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineClassDenomList/BaselineClassDenom/BaselineClassDenomCountList/BaselineClassDenomCount
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.denoms.counts.groupId
+BaselineClassDenomCountGroupId,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineClassDenomList/BaselineClassDenom/BaselineClassDenomCountList/BaselineClassDenomCount/BaselineClassDenomCountGroupId
+value,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.denoms.counts.value
+BaselineClassDenomCountValue,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineClassDenomList/BaselineClassDenom/BaselineClassDenomCountList/BaselineClassDenomCount/BaselineClassDenomCountValue
+categories,,,STRUCT,MeasureCategory[],,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories
+BaselineCategory,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory
+title,,,TEXT,text ✓ (stats),Category or Row Title,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.title
+BaselineCategoryTitle,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/BaselineCategoryTitle
+measurements,,,STRUCT,Measurement[],,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.measurements
+BaselineMeasurement,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/BaselineMeasurementList/BaselineMeasurement
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.measurements.groupId
+BaselineMeasurementGroupId,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/BaselineMeasurementList/BaselineMeasurement/BaselineMeasurementGroupId
+value,,,TEXT,text ✓ (stats),Baseline Measure Data,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.measurements.value
+BaselineMeasurementValue,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/BaselineMeasurementList/BaselineMeasurement/BaselineMeasurementValue
+spread,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.measurements.spread
+BaselineMeasurementSpread,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/BaselineMeasurementList/BaselineMeasurement/BaselineMeasurementSpread
+lowerLimit,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.measurements.lowerLimit
+BaselineMeasurementLowerLimit,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/BaselineMeasurementList/BaselineMeasurement/BaselineMeasurementLowerLimit
+upperLimit,,,TEXT,text ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.measurements.upperLimit
+BaselineMeasurementUpperLimit,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/BaselineMeasurementList/BaselineMeasurement/BaselineMeasurementUpperLimit
+comment,,,MARKUP,markup ✓ (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.measurements.comment
+BaselineMeasurementComment,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/BaselineMeasurementList/BaselineMeasurement/BaselineMeasurementComment
+numBaselineMeasurements ✗,,,FUNC NOccrs(BaselineMeasurement),short (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.categories.numBaselineMeasurements
+NumBaselineMeasurements,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/BaselineCategoryList/BaselineCategory/NumBaselineMeasurements
+numBaselineCategories ✗,,,FUNC NOccrs(BaselineCategory),short (stats),,,,resultsSection.baselineCharacteristicsModule.measures.classes.numBaselineCategories
+NumBaselineCategories,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/BaselineClassList/BaselineClass/NumBaselineCategories
+numBaselineClasses ✗,,,FUNC NOccrs(BaselineClass),short (stats),,,,resultsSection.baselineCharacteristicsModule.measures.numBaselineClasses
+NumBaselineClasses,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/BaselineMeasureList/BaselineMeasure/NumBaselineClasses
+numBaselineMeasures ✗,,,FUNC NOccrs(BaselineMeasure),short (stats),,,,resultsSection.baselineCharacteristicsModule.numBaselineMeasures
+NumBaselineMeasures,,,,,,,,/Study/ResultsSection/BaselineCharacteristicsModule/NumBaselineMeasures
+outcomeMeasuresModule,,,STRUCT,OutcomeMeasuresModule,Outcome Measures,,,resultsSection.outcomeMeasuresModule
+OutcomeMeasuresModule,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule
+outcomeMeasures,,,STRUCT,OutcomeMeasure[],Outcome Measure Information,,,resultsSection.outcomeMeasuresModule.outcomeMeasures
+OutcomeMeasure,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure
+type,,,TEXT,enum OutcomeMeasureType (stats),Outcome Measure Type,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.type
+OutcomeMeasureType,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureType
+title,,,TEXT,text ✓ (stats),Outcome Measure Title,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.title
+OutcomeMeasureTitle,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureTitle
+description,,,MARKUP,markup ✓ (stats),Outcome Measure Description,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.description
+OutcomeMeasureDescription,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureDescription
+populationDescription,,,MARKUP,markup ✓ (stats),Analysis Population Description,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.populationDescription
+OutcomeMeasurePopulationDescription,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasurePopulationDescription
+reportingStatus,,,TEXT,enum ReportingStatus (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.reportingStatus
+OutcomeMeasureReportingStatus,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureReportingStatus
+anticipatedPostingDate,,,DATE,PartialDate (stats),Anticipated Reporting Date,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.anticipatedPostingDate
+OutcomeMeasureAnticipatedPostingDate,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureAnticipatedPostingDate
+paramType,,,TEXT,enum MeasureParam (stats),Measure Type,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.paramType
+OutcomeMeasureParamType,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureParamType
+dispersionType,,,TEXT,text ✓ (stats),Measure of Dispersion/Precision,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.dispersionType
+OutcomeMeasureDispersionType,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureDispersionType
+unitOfMeasure,,,TEXT,text ✓ (stats),Unit of Measure,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.unitOfMeasure
+OutcomeMeasureUnitOfMeasure,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureUnitOfMeasure
+calculatePct,,,BOOLEAN,boolean (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.calculatePct
+OutcomeMeasureCalculatePct,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureCalculatePct
+timeFrame,,,TEXT,text ✓ (stats),Outcome Measure Time Frame,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.timeFrame
+OutcomeMeasureTimeFrame,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureTimeFrame
+typeUnitsAnalyzed,,,TEXT,text ✓ (stats),Type of Units Analyzed,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.typeUnitsAnalyzed
+OutcomeMeasureTypeUnitsAnalyzed,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureTypeUnitsAnalyzed
+denomUnitsSelected,,,TEXT,text ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.denomUnitsSelected
+OutcomeMeasureDenomUnitsSelected,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeMeasureDenomUnitsSelected
+groups,,,STRUCT,MeasureGroup[],Arm/Group Information,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.groups
+OutcomeGroup,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeGroupList/OutcomeGroup
+id,,,TEXT,text ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.groups.id
+OutcomeGroupId,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeGroupList/OutcomeGroup/OutcomeGroupId
+title,,,TEXT,text ✓ (stats),Arm/Group Title,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.groups.title
+OutcomeGroupTitle,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeGroupList/OutcomeGroup/OutcomeGroupTitle
+description,,,MARKUP,markup ✓ (stats),Arm/Group Description,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.groups.description
+OutcomeGroupDescription,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeGroupList/OutcomeGroup/OutcomeGroupDescription
+numOutcomeGroups ✗,,,FUNC NOccrs(OutcomeGroup),short (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.numOutcomeGroups
+NumOutcomeGroups,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/NumOutcomeGroups
+denoms,,,STRUCT,Denom[],,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.denoms
+OutcomeDenom,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeDenomList/OutcomeDenom
+units,,,TEXT,text ✓ (stats),Overall Number of Units Analyzed,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.denoms.units
+OutcomeDenomUnits,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeDenomList/OutcomeDenom/OutcomeDenomUnits
+counts,,,STRUCT,DenomCount[],,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.denoms.counts
+OutcomeDenomCount,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeDenomList/OutcomeDenom/OutcomeDenomCountList/OutcomeDenomCount
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.denoms.counts.groupId
+OutcomeDenomCountGroupId,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeDenomList/OutcomeDenom/OutcomeDenomCountList/OutcomeDenomCount/OutcomeDenomCountGroupId
+value,,,TEXT,text ✓ (stats),Overall Number of Participants Analyzed,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.denoms.counts.value
+OutcomeDenomCountValue,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeDenomList/OutcomeDenom/OutcomeDenomCountList/OutcomeDenomCount/OutcomeDenomCountValue
+numOutcomeDenoms ✗,,,FUNC NOccrs(OutcomeDenom),short (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.numOutcomeDenoms
+NumOutcomeDenoms,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/NumOutcomeDenoms
+classes,,,STRUCT,MeasureClass[],,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes
+OutcomeClass,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass
+title,,,TEXT,text ✓ (stats),Category or Row Title,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.title
+OutcomeClassTitle,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeClassTitle
+denoms,,,STRUCT,Denom[],,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.denoms
+OutcomeClassDenom,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeClassDenomList/OutcomeClassDenom
+units,,,TEXT,text ✓ (stats),Number of Units Analyzed,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.denoms.units
+OutcomeClassDenomUnits,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeClassDenomList/OutcomeClassDenom/OutcomeClassDenomUnits
+counts,,,STRUCT,DenomCount[],,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.denoms.counts
+OutcomeClassDenomCount,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeClassDenomList/OutcomeClassDenom/OutcomeClassDenomCountList/OutcomeClassDenomCount
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.denoms.counts.groupId
+OutcomeClassDenomCountGroupId,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeClassDenomList/OutcomeClassDenom/OutcomeClassDenomCountList/OutcomeClassDenomCount/OutcomeClassDenomCountGroupId
+value,,,TEXT,text ✓ (stats),Number of Participants Analyzed,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.denoms.counts.value
+OutcomeClassDenomCountValue,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeClassDenomList/OutcomeClassDenom/OutcomeClassDenomCountList/OutcomeClassDenomCount/OutcomeClassDenomCountValue
+categories,,,STRUCT,MeasureCategory[],,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories
+OutcomeCategory,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory
+title,,,TEXT,text ✓ (stats),Category or Row Title,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.title
+OutcomeCategoryTitle,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/OutcomeCategoryTitle
+measurements,,,STRUCT,Measurement[],Outcome Measure Data Table,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.measurements
+OutcomeMeasurement,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/OutcomeMeasurementList/OutcomeMeasurement
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.measurements.groupId
+OutcomeMeasurementGroupId,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/OutcomeMeasurementList/OutcomeMeasurement/OutcomeMeasurementGroupId
+value,,,TEXT,text ✓ (stats),Outcome Measure Data,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.measurements.value
+OutcomeMeasurementValue,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/OutcomeMeasurementList/OutcomeMeasurement/OutcomeMeasurementValue
+spread,,,TEXT,text ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.measurements.spread
+OutcomeMeasurementSpread,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/OutcomeMeasurementList/OutcomeMeasurement/OutcomeMeasurementSpread
+lowerLimit,,,TEXT,text ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.measurements.lowerLimit
+OutcomeMeasurementLowerLimit,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/OutcomeMeasurementList/OutcomeMeasurement/OutcomeMeasurementLowerLimit
+upperLimit,,,TEXT,text ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.measurements.upperLimit
+OutcomeMeasurementUpperLimit,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/OutcomeMeasurementList/OutcomeMeasurement/OutcomeMeasurementUpperLimit
+comment,,,MARKUP,markup ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.measurements.comment
+OutcomeMeasurementComment,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/OutcomeMeasurementList/OutcomeMeasurement/OutcomeMeasurementComment
+numOutcomeMeasurements ✗,,,FUNC NOccrs(OutcomeMeasurement),short (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.categories.numOutcomeMeasurements
+NumOutcomeMeasurements,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/OutcomeCategoryList/OutcomeCategory/NumOutcomeMeasurements
+numOutcomeCategories ✗,,,FUNC NOccrs(OutcomeCategory),short (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.classes.numOutcomeCategories
+NumOutcomeCategories,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeClassList/OutcomeClass/NumOutcomeCategories
+numOutcomeClasses ✗,,,FUNC NOccrs(OutcomeClass),short (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.numOutcomeClasses
+NumOutcomeClasses,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/NumOutcomeClasses
+analyses,,,STRUCT,MeasureAnalysis[],,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses
+OutcomeAnalysis,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis
+paramType,,,TEXT,text ✓ (stats),Estimation Parameter,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.paramType
+OutcomeAnalysisParamType,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisParamType
+paramValue,,,TEXT,text ✓ (stats),Estimated Value,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.paramValue
+OutcomeAnalysisParamValue,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisParamValue
+dispersionType,,,TEXT,enum AnalysisDispersionType (stats),Parameter Dispersion Type,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.dispersionType
+OutcomeAnalysisDispersionType,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisDispersionType
+dispersionValue,,,TEXT,text ✓ (stats),Dispersion Value,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.dispersionValue
+OutcomeAnalysisDispersionValue,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisDispersionValue
+statisticalMethod,,,TEXT,text ✓ (stats),Method,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.statisticalMethod
+OutcomeAnalysisStatisticalMethod,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisStatisticalMethod
+statisticalComment,,,MARKUP,markup ✓ (stats),Comments,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.statisticalComment
+OutcomeAnalysisStatisticalComment,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisStatisticalComment
+pValue,,,TEXT,text ✓ (stats),P-Value,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.pValue
+OutcomeAnalysisPValue,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisPValue
+pValueComment,,,MARKUP,markup ✓ (stats),Comments,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.pValueComment
+OutcomeAnalysisPValueComment,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisPValueComment
+ciNumSides,,,TEXT,enum ConfidenceIntervalNumSides (stats),Number of Sides,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.ciNumSides
+OutcomeAnalysisCINumSides,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisCINumSides
+ciPctValue,,,TEXT,text ✓ (stats),Level,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.ciPctValue
+OutcomeAnalysisCIPctValue,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisCIPctValue
+ciLowerLimit,,,TEXT,text ✓ (stats),Lower Limit,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.ciLowerLimit
+OutcomeAnalysisCILowerLimit,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisCILowerLimit
+ciUpperLimit,,,TEXT,text ✓ (stats),Upper Limit,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.ciUpperLimit
+OutcomeAnalysisCIUpperLimit,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisCIUpperLimit
+ciLowerLimitComment,,,MARKUP,markup ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.ciLowerLimitComment
+OutcomeAnalysisCILowerLimitComment,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisCILowerLimitComment
+ciUpperLimitComment,,,MARKUP,markup ✓ (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.ciUpperLimitComment
+OutcomeAnalysisCIUpperLimitComment,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisCIUpperLimitComment
+estimateComment,,,MARKUP,markup ✓ (stats),Estimation Comments,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.estimateComment
+OutcomeAnalysisEstimateComment,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisEstimateComment
+testedNonInferiority,,,BOOLEAN,boolean (stats),Type of Statistical Test,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.testedNonInferiority
+OutcomeAnalysisTestedNonInferiority,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisTestedNonInferiority
+nonInferiorityType,,,TEXT,enum NonInferiorityType (stats),Type of Statistical Test,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.nonInferiorityType
+OutcomeAnalysisNonInferiorityType,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisNonInferiorityType
+nonInferiorityComment,,,MARKUP,markup ✓ (stats),Comments,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.nonInferiorityComment
+OutcomeAnalysisNonInferiorityComment,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisNonInferiorityComment
+otherAnalysisDescription,,,MARKUP,markup ✓ (stats),Other Statistical Analysis,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.otherAnalysisDescription
+OutcomeAnalysisOtherAnalysisDescription,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisOtherAnalysisDescription
+groupDescription,,,MARKUP,markup ✓ (stats),Comments,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.groupDescription
+OutcomeAnalysisGroupDescription,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisGroupDescription
+groupIds,,,TEXT,text[] ✓ (stats),Comparison Group Selection,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.groupIds
+OutcomeAnalysisGroupId,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/OutcomeAnalysisGroupIdList/OutcomeAnalysisGroupId
+numOutcomeAnalysisGroupIds ✗,,,FUNC NOccrs(OutcomeAnalysisGroupId),short (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.analyses.numOutcomeAnalysisGroupIds
+NumOutcomeAnalysisGroupIds,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/OutcomeAnalysisList/OutcomeAnalysis/NumOutcomeAnalysisGroupIds
+numOutcomeAnalyses ✗,,,FUNC NOccrs(OutcomeAnalysis),short (stats),,,,resultsSection.outcomeMeasuresModule.outcomeMeasures.numOutcomeAnalyses
+NumOutcomeAnalyses,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/OutcomeMeasureList/OutcomeMeasure/NumOutcomeAnalyses
+numOutcomeMeasures ✗,,,FUNC NOccrs(OutcomeMeasure),short (stats),,,,resultsSection.outcomeMeasuresModule.numOutcomeMeasures
+NumOutcomeMeasures,,,,,,,,/Study/ResultsSection/OutcomeMeasuresModule/NumOutcomeMeasures
+adverseEventsModule,,,STRUCT,AdverseEventsModule,Adverse Event Information,,,resultsSection.adverseEventsModule
+AdverseEventsModule,,,,,,,,/Study/ResultsSection/AdverseEventsModule
+frequencyThreshold,,,TEXT,text ✓ (stats),Frequency Threshold for Reporting Other (Not Including Serious) Adverse Events,,,resultsSection.adverseEventsModule.frequencyThreshold
+EventsFrequencyThreshold,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventsFrequencyThreshold
+timeFrame,,,TEXT,text ✓ (stats),Time Frame,,,resultsSection.adverseEventsModule.timeFrame
+EventsTimeFrame,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventsTimeFrame
+description,,,MARKUP,markup ✓ (stats),Adverse Event Reporting Description,,,resultsSection.adverseEventsModule.description
+EventsDescription,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventsDescription
+allCauseMortalityComment,,,MARKUP,markup ✓ (stats),,,,resultsSection.adverseEventsModule.allCauseMortalityComment
+EventsAllCauseMortalityComment,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventsAllCauseMortalityComment
+eventGroups,,,STRUCT,EventGroup[],Arm/Group Information,,,resultsSection.adverseEventsModule.eventGroups
+EventGroup,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup
+id,,,TEXT,text ✓ (stats),,,,resultsSection.adverseEventsModule.eventGroups.id
+EventGroupId,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupId
+title,,,TEXT,text ✓ (stats),Arm/Group Title,,,resultsSection.adverseEventsModule.eventGroups.title
+EventGroupTitle,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupTitle
+description,,,MARKUP,markup ✓ (stats),Arm/Group Description,,,resultsSection.adverseEventsModule.eventGroups.description
+EventGroupDescription,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupDescription
+deathsNumAffected,,,TEXT,integer (stats),Total Number Affected by All-Cause Mortality,,,resultsSection.adverseEventsModule.eventGroups.deathsNumAffected
+EventGroupDeathsNumAffected,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupDeathsNumAffected
+deathsNumAtRisk,,,TEXT,integer (stats),Total Number at Risk for All-Cause Mortality,,,resultsSection.adverseEventsModule.eventGroups.deathsNumAtRisk
+EventGroupDeathsNumAtRisk,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupDeathsNumAtRisk
+seriousNumAffected,,,TEXT,integer (stats),Total Number Affected by Any Serious Adverse Event,,,resultsSection.adverseEventsModule.eventGroups.seriousNumAffected
+EventGroupSeriousNumAffected,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupSeriousNumAffected
+seriousNumAtRisk,,,TEXT,integer (stats),Total Number at Risk for Serious Adverse Events,,,resultsSection.adverseEventsModule.eventGroups.seriousNumAtRisk
+EventGroupSeriousNumAtRisk,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupSeriousNumAtRisk
+otherNumAffected,,,TEXT,integer (stats),Total Number Affected by Any Other (Not Including Serious) Adverse Events Above the Frequency Threshold,,,resultsSection.adverseEventsModule.eventGroups.otherNumAffected
+EventGroupOtherNumAffected,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupOtherNumAffected
+otherNumAtRisk,,,TEXT,integer (stats),Total Number at Risk for Other (Not Including Serious) Adverse Events,,,resultsSection.adverseEventsModule.eventGroups.otherNumAtRisk
+EventGroupOtherNumAtRisk,,,,,,,,/Study/ResultsSection/AdverseEventsModule/EventGroupList/EventGroup/EventGroupOtherNumAtRisk
+numEventGroups ✗,,,FUNC NOccrs(EventGroup),short (stats),,,,resultsSection.adverseEventsModule.numEventGroups
+NumEventGroups,,,,,,,,/Study/ResultsSection/AdverseEventsModule/NumEventGroups
+seriousEvents,,,STRUCT,AdverseEvent[],,,,resultsSection.adverseEventsModule.seriousEvents
+SeriousEvent,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent
+term,,,TEXT,text ✓ (stats),Adverse Event Term,,,resultsSection.adverseEventsModule.seriousEvents.term
+SeriousEventTerm,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventTerm
+organSystem,,,TEXT,text ✓ (stats),Organ System,,,resultsSection.adverseEventsModule.seriousEvents.organSystem
+SeriousEventOrganSystem,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventOrganSystem
+sourceVocabulary,,,TEXT,text ✓ (stats),Source Vocabulary Name,,,resultsSection.adverseEventsModule.seriousEvents.sourceVocabulary
+SeriousEventSourceVocabulary,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventSourceVocabulary
+assessmentType,,,TEXT,enum EventAssessment (stats),Collection Approach,,,resultsSection.adverseEventsModule.seriousEvents.assessmentType
+SeriousEventAssessmentType,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventAssessmentType
+notes,,,MARKUP,markup ✓ (stats),Adverse Event Term Additional Description,,,resultsSection.adverseEventsModule.seriousEvents.notes
+SeriousEventNotes,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventNotes
+stats,,,STRUCT,EventStats[],,,,resultsSection.adverseEventsModule.seriousEvents.stats
+SeriousEventStats,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventStatsList/SeriousEventStats
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.adverseEventsModule.seriousEvents.stats.groupId
+SeriousEventStatsGroupId,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventStatsList/SeriousEventStats/SeriousEventStatsGroupId
+numEvents,,,TEXT,integer (stats),Number of Events,,,resultsSection.adverseEventsModule.seriousEvents.stats.numEvents
+SeriousEventStatsNumEvents,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventStatsList/SeriousEventStats/SeriousEventStatsNumEvents
+numAffected,,,TEXT,integer (stats),Number of Participants Affected,,,resultsSection.adverseEventsModule.seriousEvents.stats.numAffected
+SeriousEventStatsNumAffected,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventStatsList/SeriousEventStats/SeriousEventStatsNumAffected
+numAtRisk,,,TEXT,integer (stats),Number of Participants at Risk,,,resultsSection.adverseEventsModule.seriousEvents.stats.numAtRisk
+SeriousEventStatsNumAtRisk,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/SeriousEventStatsList/SeriousEventStats/SeriousEventStatsNumAtRisk
+numSeriousEventStatss ✗,,,FUNC NOccrs(SeriousEventStats),short (stats),,,,resultsSection.adverseEventsModule.seriousEvents.numSeriousEventStatss
+NumSeriousEventStatss,,,,,,,,/Study/ResultsSection/AdverseEventsModule/SeriousEventList/SeriousEvent/NumSeriousEventStatss
+numSeriousEvents ✗,,,FUNC NOccrs(SeriousEvent),short (stats),,,,resultsSection.adverseEventsModule.numSeriousEvents
+NumSeriousEvents,,,,,,,,/Study/ResultsSection/AdverseEventsModule/NumSeriousEvents
+otherEvents,,,STRUCT,AdverseEvent[],,,,resultsSection.adverseEventsModule.otherEvents
+OtherEvent,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent
+term,,,TEXT,text ✓ (stats),Adverse Event Term,,,resultsSection.adverseEventsModule.otherEvents.term
+OtherEventTerm,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventTerm
+organSystem,,,TEXT,text ✓ (stats),Organ System,,,resultsSection.adverseEventsModule.otherEvents.organSystem
+OtherEventOrganSystem,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventOrganSystem
+sourceVocabulary,,,TEXT,text ✓ (stats),Source Vocabulary Name,,,resultsSection.adverseEventsModule.otherEvents.sourceVocabulary
+OtherEventSourceVocabulary,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventSourceVocabulary
+assessmentType,,,TEXT,enum EventAssessment (stats),Collection Approach,,,resultsSection.adverseEventsModule.otherEvents.assessmentType
+OtherEventAssessmentType,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventAssessmentType
+notes,,,MARKUP,markup ✓ (stats),Adverse Event Term Additional Description,,,resultsSection.adverseEventsModule.otherEvents.notes
+OtherEventNotes,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventNotes
+stats,,,STRUCT,EventStats[],,,,resultsSection.adverseEventsModule.otherEvents.stats
+OtherEventStats,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventStatsList/OtherEventStats
+groupId,,,TEXT,text ✓ (stats),,,,resultsSection.adverseEventsModule.otherEvents.stats.groupId
+OtherEventStatsGroupId,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventStatsList/OtherEventStats/OtherEventStatsGroupId
+numEvents,,,TEXT,integer (stats),Number of Events,,,resultsSection.adverseEventsModule.otherEvents.stats.numEvents
+OtherEventStatsNumEvents,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventStatsList/OtherEventStats/OtherEventStatsNumEvents
+numAffected,,,TEXT,integer (stats),Number of Participants Affected,,,resultsSection.adverseEventsModule.otherEvents.stats.numAffected
+OtherEventStatsNumAffected,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventStatsList/OtherEventStats/OtherEventStatsNumAffected
+numAtRisk,,,TEXT,integer (stats),Number of Participants at Risk,,,resultsSection.adverseEventsModule.otherEvents.stats.numAtRisk
+OtherEventStatsNumAtRisk,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/OtherEventStatsList/OtherEventStats/OtherEventStatsNumAtRisk
+numOtherEventStatss ✗,,,FUNC NOccrs(OtherEventStats),short (stats),,,,resultsSection.adverseEventsModule.otherEvents.numOtherEventStatss
+NumOtherEventStatss,,,,,,,,/Study/ResultsSection/AdverseEventsModule/OtherEventList/OtherEvent/NumOtherEventStatss
+numOtherEvents ✗,,,FUNC NOccrs(OtherEvent),short (stats),,,,resultsSection.adverseEventsModule.numOtherEvents
+NumOtherEvents,,,,,,,,/Study/ResultsSection/AdverseEventsModule/NumOtherEvents
+numEvents ✗,,,"FUNC NOccrs(SeriousEvent, OtherEvent)",short (stats),,,,resultsSection.adverseEventsModule.numEvents
+NumEvents,,,,,,,,/Study/ResultsSection/AdverseEventsModule/NumEvents
+moreInfoModule,,,STRUCT,MoreInfoModule,,,,resultsSection.moreInfoModule
+MoreInfoModule,,,,,,,,/Study/ResultsSection/MoreInfoModule
+limitationsAndCaveats,,,STRUCT,LimitationsAndCaveats,Limitations and Caveats,,,resultsSection.moreInfoModule.limitationsAndCaveats
+LimitationsAndCaveats,,,,,,,,/Study/ResultsSection/MoreInfoModule/LimitationsAndCaveats
+description,,,MARKUP,markup ✓ (stats),Overall Limitations and Caveats,,,resultsSection.moreInfoModule.limitationsAndCaveats.description
+LimitationsAndCaveatsDescription,,,,,,,,/Study/ResultsSection/MoreInfoModule/LimitationsAndCaveats/LimitationsAndCaveatsDescription
+certainAgreement,,,STRUCT,CertainAgreement,Certain Agreements,,,resultsSection.moreInfoModule.certainAgreement
+CertainAgreement,,,,,,,,/Study/ResultsSection/MoreInfoModule/CertainAgreement
+piSponsorEmployee,,,BOOLEAN,boolean (stats),Are all PIs Employees of Sponsor?,,,resultsSection.moreInfoModule.certainAgreement.piSponsorEmployee
+AgreementPISponsorEmployee,,,,,,,,/Study/ResultsSection/MoreInfoModule/CertainAgreement/AgreementPISponsorEmployee
+restrictionType,,,TEXT,enum AgreementRestrictionType (stats),PI Disclosure Restriction Type,,,resultsSection.moreInfoModule.certainAgreement.restrictionType
+AgreementRestrictionType,,,,,,,,/Study/ResultsSection/MoreInfoModule/CertainAgreement/AgreementRestrictionType
+restrictiveAgreement,,,BOOLEAN,boolean (stats),Results Disclosure Restriction on PI(s)?,,,resultsSection.moreInfoModule.certainAgreement.restrictiveAgreement
+AgreementRestrictiveAgreement,,,,,,,,/Study/ResultsSection/MoreInfoModule/CertainAgreement/AgreementRestrictiveAgreement
+otherDetails,,,MARKUP,markup ✓ (stats),Other Disclosure Restriction Description,,,resultsSection.moreInfoModule.certainAgreement.otherDetails
+AgreementOtherDetails,,,,,,,,/Study/ResultsSection/MoreInfoModule/CertainAgreement/AgreementOtherDetails
+pointOfContact,,,STRUCT,PointOfContact,Results Point of Contact,,,resultsSection.moreInfoModule.pointOfContact
+PointOfContact,,,,,,,,/Study/ResultsSection/MoreInfoModule/PointOfContact
+title,,,TEXT,text ✓ (stats),Name or Official Title,,,resultsSection.moreInfoModule.pointOfContact.title
+PointOfContactTitle,,,,,,,,/Study/ResultsSection/MoreInfoModule/PointOfContact/PointOfContactTitle
+organization,,,TEXT,text (stats),Organization Name,,,resultsSection.moreInfoModule.pointOfContact.organization
+PointOfContactOrganization,,,,,,,,/Study/ResultsSection/MoreInfoModule/PointOfContact/PointOfContactOrganization
+email,,,TEXT,text (stats),Email,,,resultsSection.moreInfoModule.pointOfContact.email
+PointOfContactEMail,,,,,,,,/Study/ResultsSection/MoreInfoModule/PointOfContact/PointOfContactEMail
+phone,,,TEXT,text (stats),Phone,,,resultsSection.moreInfoModule.pointOfContact.phone
+PointOfContactPhone,,,,,,,,/Study/ResultsSection/MoreInfoModule/PointOfContact/PointOfContactPhone
+phoneExt,,,TEXT,text (stats),Extension (Ext.),,,resultsSection.moreInfoModule.pointOfContact.phoneExt
+PointOfContactPhoneExt,,,,,,,,/Study/ResultsSection/MoreInfoModule/PointOfContact/PointOfContactPhoneExt

@@ -1,0 +1,474 @@
+﻿Field Name,Field Title,Alt Piece Names,Classic Type,Data Type,Definition,Description,Notes,Index Field
+Piece Name,,,,,,,,Classic XPath
+protocolSection,Protocol Section,,STRUCT,ProtocolSection,Study Protocol,,,protocolSection
+ProtocolSection,,,,,,,,/Study/ProtocolSection
+identificationModule,,,STRUCT,IdentificationModule,Study Identification,,,protocolSection.identificationModule
+IdentificationModule,,,,,,,,/Study/ProtocolSection/IdentificationModule
+nctId,,NCT-ID,TEXT,text (stats),,,,protocolSection.identificationModule.nctId
+NCTId,,,,,,,,/Study/ProtocolSection/IdentificationModule/NCTId
+nctIdAliases,,,TEXT,text[] ✓ (stats),,,,protocolSection.identificationModule.nctIdAliases
+NCTIdAlias,,,,,,,,/Study/ProtocolSection/IdentificationModule/NCTIdAliasList/NCTIdAlias
+numNctAliases ✗,,,FUNC NOccrs(NCTIdAlias),short (stats),,,,protocolSection.identificationModule.numNctAliases
+NumNCTAliases,,,,,,,,/Study/ProtocolSection/IdentificationModule/NumNCTAliases
+orgStudyIdInfo,,,STRUCT,OrgStudyIdInfo,,,,protocolSection.identificationModule.orgStudyIdInfo
+OrgStudyIdInfo,,,,,,,,/Study/ProtocolSection/IdentificationModule/OrgStudyIdInfo
+id,,ORGANIZATION-STUDY-ID,TEXT,text ✓ (stats),Unique Protocol Identification Number,,,protocolSection.identificationModule.orgStudyIdInfo.id
+OrgStudyId,,,,,,,,/Study/ProtocolSection/IdentificationModule/OrgStudyIdInfo/OrgStudyId
+type,,ORGANIZATION-STUDY-ID-TYPE,TEXT,enum OrgStudyIdType (stats),,,,protocolSection.identificationModule.orgStudyIdInfo.type
+OrgStudyIdType,,,,,,,,/Study/ProtocolSection/IdentificationModule/OrgStudyIdInfo/OrgStudyIdType
+link,,,TEXT,text (stats),,,,protocolSection.identificationModule.orgStudyIdInfo.link
+OrgStudyIdLink,,,,,,,,/Study/ProtocolSection/IdentificationModule/OrgStudyIdInfo/OrgStudyIdLink
+secondaryIdInfos,,,STRUCT,SecondaryIdInfo[],,,,protocolSection.identificationModule.secondaryIdInfos
+SecondaryIdInfo,,,,,,,,/Study/ProtocolSection/IdentificationModule/SecondaryIdInfoList/SecondaryIdInfo
+id,,SECONDARY-ID,TEXT,text ✓ (stats),Secondary IDs,,,protocolSection.identificationModule.secondaryIdInfos.id
+SecondaryId,,,,,,,,/Study/ProtocolSection/IdentificationModule/SecondaryIdInfoList/SecondaryIdInfo/SecondaryId
+type,,SECONDARY-ID-TYPE,TEXT,enum SecondaryIdType (stats),Secondary ID Type,,,protocolSection.identificationModule.secondaryIdInfos.type
+SecondaryIdType,,,,,,,,/Study/ProtocolSection/IdentificationModule/SecondaryIdInfoList/SecondaryIdInfo/SecondaryIdType
+domain,,SECONDARY-ID-DOMAIN,TEXT,text ✓ (stats),Description,,,protocolSection.identificationModule.secondaryIdInfos.domain
+SecondaryIdDomain,,,,,,,,/Study/ProtocolSection/IdentificationModule/SecondaryIdInfoList/SecondaryIdInfo/SecondaryIdDomain
+link,,,TEXT,text (stats),,,,protocolSection.identificationModule.secondaryIdInfos.link
+SecondaryIdLink,,,,,,,,/Study/ProtocolSection/IdentificationModule/SecondaryIdInfoList/SecondaryIdInfo/SecondaryIdLink
+numSecondaryIds ✗,,NUMBER-OF-SECONDARY_IDS,FUNC NOccrs(SecondaryId),short (stats),,,,protocolSection.identificationModule.numSecondaryIds
+NumSecondaryIds,,,,,,,,/Study/ProtocolSection/IdentificationModule/NumSecondaryIds
+briefTitle,,BRIEF-TITLE,TEXT,text ✓ (stats),Brief Title,,,protocolSection.identificationModule.briefTitle
+BriefTitle,,,,,,,,/Study/ProtocolSection/IdentificationModule/BriefTitle
+officialTitle,,OFFICIAL-TITLE,TEXT,text ✓ (stats),Official Title,,,protocolSection.identificationModule.officialTitle
+OfficialTitle,,,,,,,,/Study/ProtocolSection/IdentificationModule/OfficialTitle
+acronym,,ACRONYM,TEXT,text ✓ (stats),Acronym,,,protocolSection.identificationModule.acronym
+Acronym,,,,,,,,/Study/ProtocolSection/IdentificationModule/Acronym
+organization,,,STRUCT,Organization,,,,protocolSection.identificationModule.organization
+Organization,,,,,,,,/Study/ProtocolSection/IdentificationModule/Organization
+fullName,,ORGANIZATION-FULLNAME,TEXT,text (stats),,,,protocolSection.identificationModule.organization.fullName
+OrgFullName,,,,,,,,/Study/ProtocolSection/IdentificationModule/Organization/OrgFullName
+class,,ORGANIZATION-CLASS,TEXT,enum AgencyClass (stats),,,,protocolSection.identificationModule.organization.class
+OrgClass,,,,,,,,/Study/ProtocolSection/IdentificationModule/Organization/OrgClass
+statusModule,,,STRUCT,StatusModule,Study Status,,,protocolSection.statusModule
+StatusModule,,,,,,,,/Study/ProtocolSection/StatusModule
+statusVerifiedDate,,VERIFICATION-DATE,DATE,PartialDate (stats),Record Verification Date,,,protocolSection.statusModule.statusVerifiedDate
+StatusVerifiedDate,,,,,,,,/Study/ProtocolSection/StatusModule/StatusVerifiedDate
+overallStatus,,OVERALL-STATUS,TEXT,enum Status (stats),Overall Recruitment Status,,,protocolSection.statusModule.overallStatus
+OverallStatus,,,,,,,,/Study/ProtocolSection/StatusModule/OverallStatus
+lastKnownStatus,,LAST-KNOWN-STATUS,TEXT,enum Status (stats),,,,protocolSection.statusModule.lastKnownStatus
+LastKnownStatus,,,,,,,,/Study/ProtocolSection/StatusModule/LastKnownStatus
+delayedPosting,,DELAYED,BOOLEAN,boolean (stats),Post Prior to U.S. FDA Approval or Clearance,,,protocolSection.statusModule.delayedPosting
+DelayedPosting,,,,,,,,/Study/ProtocolSection/StatusModule/DelayedPosting
+whyStopped,,WHY-STOPPED,MARKUP,markup ✓ (stats),Why Study Stopped,,,protocolSection.statusModule.whyStopped
+WhyStopped,,,,,,,,/Study/ProtocolSection/StatusModule/WhyStopped
+expandedAccessInfo,,,STRUCT,ExpandedAccessInfo,,,,protocolSection.statusModule.expandedAccessInfo
+ExpandedAccessInfo,,,,,,,,/Study/ProtocolSection/StatusModule/ExpandedAccessInfo
+hasExpandedAccess,,HAS-EXPANDED-ACCESS,TEXT,boolean (stats),Availability of Expanded Access,,,protocolSection.statusModule.expandedAccessInfo.hasExpandedAccess
+HasExpandedAccess,,,,,,,,/Study/ProtocolSection/StatusModule/ExpandedAccessInfo/HasExpandedAccess
+nctId,,HAS-EXPANDED-ACCESS-NCT,TEXT,text ✓ (stats),Expanded Access Record NCT Number,,,protocolSection.statusModule.expandedAccessInfo.nctId
+ExpandedAccessNCTId,,,,,,,,/Study/ProtocolSection/StatusModule/ExpandedAccessInfo/ExpandedAccessNCTId
+statusForNctId,,,TEXT,enum ExpandedAccessStatus (stats),,,,protocolSection.statusModule.expandedAccessInfo.statusForNctId
+ExpandedAccessStatusForNCTId,,,,,,,,/Study/ProtocolSection/StatusModule/ExpandedAccessInfo/ExpandedAccessStatusForNCTId
+startDateStruct,,,STRUCT,PartialDateStruct,,,,protocolSection.statusModule.startDateStruct
+StartDateStruct,,,,,,,,/Study/ProtocolSection/StatusModule/StartDateStruct
+date,,START-DATE,DATE,PartialDate (stats),Study Start Date,,,protocolSection.statusModule.startDateStruct.date
+StartDate,,,,,,,,/Study/ProtocolSection/StatusModule/StartDateStruct/StartDate
+type,,,TEXT,enum DateType (stats),,,,protocolSection.statusModule.startDateStruct.type
+StartDateType,,,,,,,,/Study/ProtocolSection/StatusModule/StartDateStruct/StartDateType
+primaryCompletionDateStruct,,,STRUCT,PartialDateStruct,,,,protocolSection.statusModule.primaryCompletionDateStruct
+PrimaryCompletionDateStruct,,,,,,,,/Study/ProtocolSection/StatusModule/PrimaryCompletionDateStruct
+date,,COMPLETION-DATE-PRIMARY,DATE,PartialDate (stats),Primary Completion Date,,,protocolSection.statusModule.primaryCompletionDateStruct.date
+PrimaryCompletionDate,,,,,,,,/Study/ProtocolSection/StatusModule/PrimaryCompletionDateStruct/PrimaryCompletionDate
+type,,,TEXT,enum DateType (stats),Primary Completion Date,,,protocolSection.statusModule.primaryCompletionDateStruct.type
+PrimaryCompletionDateType,,,,,,,,/Study/ProtocolSection/StatusModule/PrimaryCompletionDateStruct/PrimaryCompletionDateType
+completionDateStruct,,,STRUCT,PartialDateStruct,,,,protocolSection.statusModule.completionDateStruct
+CompletionDateStruct,,,,,,,,/Study/ProtocolSection/StatusModule/CompletionDateStruct
+date,,COMPLETION-DATE,DATE,PartialDate (stats),Study Completion Date,,,protocolSection.statusModule.completionDateStruct.date
+CompletionDate,,,,,,,,/Study/ProtocolSection/StatusModule/CompletionDateStruct/CompletionDate
+type,,,TEXT,enum DateType (stats),Study Completion Date,,,protocolSection.statusModule.completionDateStruct.type
+CompletionDateType,,,,,,,,/Study/ProtocolSection/StatusModule/CompletionDateStruct/CompletionDateType
+studyFirstSubmitDate,,STUDY-FIRST-SUBMITTED,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.studyFirstSubmitDate
+StudyFirstSubmitDate,,FIRST-RECEIVED-DATE,,,,,,/Study/ProtocolSection/StatusModule/StudyFirstSubmitDate
+studyFirstSubmitYear ✗,,,FUNC MinYear(StudyFirstSubmitDate),short (stats),,,,protocolSection.statusModule.studyFirstSubmitYear
+StudyFirstSubmitYear,,,,,,,,/Study/ProtocolSection/StatusModule/StudyFirstSubmitYear
+studyFirstSubmitQcDate,,STUDY-FIRST-SUBMITTED-QC,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.studyFirstSubmitQcDate
+StudyFirstSubmitQCDate,,,,,,,,/Study/ProtocolSection/StatusModule/StudyFirstSubmitQCDate
+studyFirstPostDateStruct,,,STRUCT,DateStruct,,,,protocolSection.statusModule.studyFirstPostDateStruct
+StudyFirstPostDateStruct,,,,,,,,/Study/ProtocolSection/StatusModule/StudyFirstPostDateStruct
+date,,STUDY-FIRST-POSTED,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.studyFirstPostDateStruct.date
+StudyFirstPostDate,,,,,,,,/Study/ProtocolSection/StatusModule/StudyFirstPostDateStruct/StudyFirstPostDate
+studyFirstPostYear ✗,,,FUNC MinYear(StudyFirstPostDate),short (stats),,,,protocolSection.statusModule.studyFirstPostDateStruct.studyFirstPostYear
+StudyFirstPostYear,,,,,,,,/Study/ProtocolSection/StatusModule/StudyFirstPostDateStruct/StudyFirstPostYear
+type,,,TEXT,enum DateType (stats),,,,protocolSection.statusModule.studyFirstPostDateStruct.type
+StudyFirstPostDateType,,,,,,,,/Study/ProtocolSection/StatusModule/StudyFirstPostDateStruct/StudyFirstPostDateType
+resultsWaived,,,BOOLEAN,boolean (stats),,,,protocolSection.statusModule.resultsWaived
+ResultsWaived,,,,,,,,/Study/ProtocolSection/StatusModule/ResultsWaived
+resultsFirstSubmitDate,Results First Submitted Date,RESULTS-FIRST-SUBMITTED,DATE,NormalizedDate (stats),,The date on which the study sponsor or investigator first submits a study record with summary results information. There is typically a delay between the results first submitted date and when summary results information becomes available on ClinicalTrials.gov (the results first posted date).,System generated,protocolSection.statusModule.resultsFirstSubmitDate
+ResultsFirstSubmitDate,,FIRST-RECEIVED-RESULTS-DATE,,,,,,/Study/ProtocolSection/StatusModule/ResultsFirstSubmitDate
+resultsFirstSubmitYear ✗,,,FUNC MinYear(ResultsFirstSubmitDate),short (stats),,,,protocolSection.statusModule.resultsFirstSubmitYear
+ResultsFirstSubmitYear,,,,,,,,/Study/ProtocolSection/StatusModule/ResultsFirstSubmitYear
+resultsFirstSubmitQcDate,,RESULTS-FIRST-SUBMITTED-QC,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.resultsFirstSubmitQcDate
+ResultsFirstSubmitQCDate,,,,,,,,/Study/ProtocolSection/StatusModule/ResultsFirstSubmitQCDate
+resultsFirstPostDateStruct,,,STRUCT,DateStruct,,,,protocolSection.statusModule.resultsFirstPostDateStruct
+ResultsFirstPostDateStruct,,,,,,,,/Study/ProtocolSection/StatusModule/ResultsFirstPostDateStruct
+date,,RESULTS-FIRST-POSTED,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.resultsFirstPostDateStruct.date
+ResultsFirstPostDate,,,,,,,,/Study/ProtocolSection/StatusModule/ResultsFirstPostDateStruct/ResultsFirstPostDate
+resultsFirstPostYear ✗,,,FUNC MinYear(ResultsFirstPostDate),short (stats),,,,protocolSection.statusModule.resultsFirstPostDateStruct.resultsFirstPostYear
+ResultsFirstPostYear,,,,,,,,/Study/ProtocolSection/StatusModule/ResultsFirstPostDateStruct/ResultsFirstPostYear
+type,,,TEXT,enum DateType (stats),,,,protocolSection.statusModule.resultsFirstPostDateStruct.type
+ResultsFirstPostDateType,,,,,,,,/Study/ProtocolSection/StatusModule/ResultsFirstPostDateStruct/ResultsFirstPostDateType
+dispFirstSubmitDate,,DISPOSITION-FIRST-SUBMITTED,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.dispFirstSubmitDate
+DispFirstSubmitDate,,FIRST-RECEIVED-DISPOSITION-DATE,,,,,,/Study/ProtocolSection/StatusModule/DispFirstSubmitDate
+dispFirstSubmitYear ✗,,,FUNC MinYear(DispFirstSubmitDate),short (stats),,,,protocolSection.statusModule.dispFirstSubmitYear
+DispFirstSubmitYear,,,,,,,,/Study/ProtocolSection/StatusModule/DispFirstSubmitYear
+dispFirstSubmitQcDate,,DISPOSITION-FIRST-SUBMITTED-QC,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.dispFirstSubmitQcDate
+DispFirstSubmitQCDate,,,,,,,,/Study/ProtocolSection/StatusModule/DispFirstSubmitQCDate
+dispFirstPostDateStruct,,,STRUCT,DateStruct,,,,protocolSection.statusModule.dispFirstPostDateStruct
+DispFirstPostDateStruct,,,,,,,,/Study/ProtocolSection/StatusModule/DispFirstPostDateStruct
+date,,DISPOSITION-FIRST-POSTED,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.dispFirstPostDateStruct.date
+DispFirstPostDate,,,,,,,,/Study/ProtocolSection/StatusModule/DispFirstPostDateStruct/DispFirstPostDate
+dispFirstPostYear ✗,,,FUNC MinYear(DispFirstPostDate),short (stats),,,,protocolSection.statusModule.dispFirstPostDateStruct.dispFirstPostYear
+DispFirstPostYear,,,,,,,,/Study/ProtocolSection/StatusModule/DispFirstPostDateStruct/DispFirstPostYear
+type,,,TEXT,enum DateType (stats),,,,protocolSection.statusModule.dispFirstPostDateStruct.type
+DispFirstPostDateType,,,,,,,,/Study/ProtocolSection/StatusModule/DispFirstPostDateStruct/DispFirstPostDateType
+lastUpdateSubmitDate,,LAST-UPDATE-SUBMITTED,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.lastUpdateSubmitDate
+LastUpdateSubmitDate,,LAST-RELEASE-DATE,,,,,,/Study/ProtocolSection/StatusModule/LastUpdateSubmitDate
+lastUpdateSubmitYear ✗,,,FUNC MinYear(LastUpdateSubmitDate),short (stats),,,,protocolSection.statusModule.lastUpdateSubmitYear
+LastUpdateSubmitYear,,,,,,,,/Study/ProtocolSection/StatusModule/LastUpdateSubmitYear
+lastUpdatePostDateStruct,,,STRUCT,DateStruct,,,,protocolSection.statusModule.lastUpdatePostDateStruct
+LastUpdatePostDateStruct,,,,,,,,/Study/ProtocolSection/StatusModule/LastUpdatePostDateStruct
+date,,LAST-UPDATE-POSTED,DATE,NormalizedDate (stats),,,,protocolSection.statusModule.lastUpdatePostDateStruct.date
+LastUpdatePostDate,,,,,,,,/Study/ProtocolSection/StatusModule/LastUpdatePostDateStruct/LastUpdatePostDate
+lastUpdatePostYear ✗,,,FUNC MinYear(LastUpdatePostDate),short (stats),,,,protocolSection.statusModule.lastUpdatePostDateStruct.lastUpdatePostYear
+LastUpdatePostYear,,,,,,,,/Study/ProtocolSection/StatusModule/LastUpdatePostDateStruct/LastUpdatePostYear
+type,,,TEXT,enum DateType (stats),,,,protocolSection.statusModule.lastUpdatePostDateStruct.type
+LastUpdatePostDateType,,,,,,,,/Study/ProtocolSection/StatusModule/LastUpdatePostDateStruct/LastUpdatePostDateType
+sponsorCollaboratorsModule,,,STRUCT,SponsorCollaboratorsModule,Sponsor/Collaborators,,,protocolSection.sponsorCollaboratorsModule
+SponsorCollaboratorsModule,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule
+responsibleParty,,,STRUCT,ResponsibleParty,Investigator Information,,,protocolSection.sponsorCollaboratorsModule.responsibleParty
+ResponsibleParty,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/ResponsibleParty
+type,,RESPONSIBLE-PARTY-TYPE,TEXT,enum ResponsiblePartyType (stats),"Responsible Party, by Official Title",,,protocolSection.sponsorCollaboratorsModule.responsibleParty.type
+ResponsiblePartyType,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/ResponsibleParty/ResponsiblePartyType
+investigatorFullName,,,TEXT,text ✓ (stats),Investigator Name,,,protocolSection.sponsorCollaboratorsModule.responsibleParty.investigatorFullName
+ResponsiblePartyInvestigatorFullName,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/ResponsibleParty/ResponsiblePartyInvestigatorFullName
+investigatorTitle,,,TEXT,text ✓ (stats),Investigator Official Title,,,protocolSection.sponsorCollaboratorsModule.responsibleParty.investigatorTitle
+ResponsiblePartyInvestigatorTitle,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/ResponsibleParty/ResponsiblePartyInvestigatorTitle
+investigatorAffiliation,,,TEXT,text ✓ (stats),Investigator Affiliation,,,protocolSection.sponsorCollaboratorsModule.responsibleParty.investigatorAffiliation
+ResponsiblePartyInvestigatorAffiliation,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/ResponsibleParty/ResponsiblePartyInvestigatorAffiliation
+oldNameTitle,,,TEXT,text ✓ (stats),Investigator Name,,,protocolSection.sponsorCollaboratorsModule.responsibleParty.oldNameTitle
+ResponsiblePartyOldNameTitle,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/ResponsibleParty/ResponsiblePartyOldNameTitle
+oldOrganization,,,TEXT,text ✓ (stats),Investigator Affiliation,,,protocolSection.sponsorCollaboratorsModule.responsibleParty.oldOrganization
+ResponsiblePartyOldOrganization,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/ResponsibleParty/ResponsiblePartyOldOrganization
+leadSponsor,,,STRUCT,Sponsor,,,,protocolSection.sponsorCollaboratorsModule.leadSponsor
+LeadSponsor,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/LeadSponsor
+name,,SPONSOR,TEXT,text (stats),Name of the Sponsor,,,protocolSection.sponsorCollaboratorsModule.leadSponsor.name
+LeadSponsorName,,LEAD-SPONSOR,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/LeadSponsor/LeadSponsorName
+class,,LEAD-SPONSOR-CLASS,TEXT,enum AgencyClass (stats),,,,protocolSection.sponsorCollaboratorsModule.leadSponsor.class
+LeadSponsorClass,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/LeadSponsor/LeadSponsorClass
+collaborators,,,STRUCT,Sponsor[],,,,protocolSection.sponsorCollaboratorsModule.collaborators
+Collaborator,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/CollaboratorList/Collaborator
+name,,COLLABORATOR,TEXT,text (stats),Collaborators,,,protocolSection.sponsorCollaboratorsModule.collaborators.name
+CollaboratorName,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/CollaboratorList/Collaborator/CollaboratorName
+class,,COLLABORATOR-CLASS,TEXT,enum AgencyClass (stats),,,,protocolSection.sponsorCollaboratorsModule.collaborators.class
+CollaboratorClass,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/CollaboratorList/Collaborator/CollaboratorClass
+numCollaborators ✗,,,FUNC NOccrs(Collaborator),short (stats),,,,protocolSection.sponsorCollaboratorsModule.numCollaborators
+NumCollaborators,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/NumCollaborators
+numCollaboratorsPlusLead ✗,,,"FUNC NOccrs(LeadSponsor, Collaborator)",short (stats),,,,protocolSection.sponsorCollaboratorsModule.numCollaboratorsPlusLead
+NumCollaboratorsPlusLead,,,,,,,,/Study/ProtocolSection/SponsorCollaboratorsModule/NumCollaboratorsPlusLead
+oversightModule,,,STRUCT,OversightModule,Oversight,,,protocolSection.oversightModule
+OversightModule,,,,,,,,/Study/ProtocolSection/OversightModule
+oversightHasDmc,,HAS-DMC,BOOLEAN,boolean (stats),Data Monitoring Committee,,,protocolSection.oversightModule.oversightHasDmc
+OversightHasDMC,,,,,,,,/Study/ProtocolSection/OversightModule/OversightHasDMC
+isFdaRegulatedDrug,,,BOOLEAN,boolean (stats),Studies a U.S. FDA-regulated Drug Product,,,protocolSection.oversightModule.isFdaRegulatedDrug
+IsFDARegulatedDrug,,,,,,,,/Study/ProtocolSection/OversightModule/IsFDARegulatedDrug
+isFdaRegulatedDevice,,,BOOLEAN,boolean (stats),Studies a U.S. FDA-regulated Device Product,,,protocolSection.oversightModule.isFdaRegulatedDevice
+IsFDARegulatedDevice,,,,,,,,/Study/ProtocolSection/OversightModule/IsFDARegulatedDevice
+isUnapprovedDevice,,,BOOLEAN,boolean (stats),Device Product Not Approved or Cleared by U.S. FDA,,,protocolSection.oversightModule.isUnapprovedDevice
+IsUnapprovedDevice,,,,,,,,/Study/ProtocolSection/OversightModule/IsUnapprovedDevice
+isPpsd,,,BOOLEAN,boolean (stats),Pediatric Postmarket Surveillance of a Device Product,,,protocolSection.oversightModule.isPpsd
+IsPPSD,,,,,,,,/Study/ProtocolSection/OversightModule/IsPPSD
+isUsExport,,,BOOLEAN,boolean (stats),Product Manufactured in and Exported from the U.S.,,,protocolSection.oversightModule.isUsExport
+IsUSExport,,,,,,,,/Study/ProtocolSection/OversightModule/IsUSExport
+fdaaa801Violation,,,BOOLEAN,boolean (stats),,,,protocolSection.oversightModule.fdaaa801Violation
+FDAAA801Violation,,,,,,,,/Study/ProtocolSection/OversightModule/FDAAA801Violation
+descriptionModule,,,STRUCT,DescriptionModule,Study Description,,,protocolSection.descriptionModule
+DescriptionModule,,,,,,,,/Study/ProtocolSection/DescriptionModule
+briefSummary,,,MARKUP,markup ✓ (stats),Brief Summary,,,protocolSection.descriptionModule.briefSummary
+BriefSummary,,,,,,,,/Study/ProtocolSection/DescriptionModule/BriefSummary
+detailedDescription,,,MARKUP,markup ✓ (stats),Detailed Description,,,protocolSection.descriptionModule.detailedDescription
+DetailedDescription,,,,,,,,/Study/ProtocolSection/DescriptionModule/DetailedDescription
+conditionsModule,,,STRUCT,ConditionsModule,Conditions and Keywords,,,protocolSection.conditionsModule
+ConditionsModule,,,,,,,,/Study/ProtocolSection/ConditionsModule
+conditions,,CONDITIONS,TEXT,text[] ✓ (stats),"Primary Disease or Condition Being Studied in the Trial, or the Focus of the Study",,,protocolSection.conditionsModule.conditions
+Condition,,,,,,,,/Study/ProtocolSection/ConditionsModule/ConditionList/Condition
+numConditions ✗,,NUMBER-OF-CONDITIONS,FUNC NOccrs(Condition),short (stats),,,,protocolSection.conditionsModule.numConditions
+NumConditions,,,,,,,,/Study/ProtocolSection/ConditionsModule/NumConditions
+keywords,,KEYWORDS,TEXT,text[] ✓ (stats),Keywords,,,protocolSection.conditionsModule.keywords
+Keyword,,,,,,,,/Study/ProtocolSection/ConditionsModule/KeywordList/Keyword
+numKeywords ✗,,NUMBER-OF-KEYWORDS,FUNC NOccrs(Keyword),short (stats),,,,protocolSection.conditionsModule.numKeywords
+NumKeywords,,,,,,,,/Study/ProtocolSection/ConditionsModule/NumKeywords
+designModule,,,STRUCT,DesignModule,Study Design,,,protocolSection.designModule
+DesignModule,,,,,,,,/Study/ProtocolSection/DesignModule
+studyType,,STUDY-TYPE,TEXT,enum StudyType (stats),Study Type,,,protocolSection.designModule.studyType
+StudyType,,STUDY-TYPES,,,,,,/Study/ProtocolSection/DesignModule/StudyType
+nPtrsToThisExpAccNctId,,,NUMERIC,number (stats),,,,protocolSection.designModule.nPtrsToThisExpAccNctId
+NPtrsToThisExpAccNCTId,,,,,,,,/Study/ProtocolSection/DesignModule/NPtrsToThisExpAccNCTId
+expandedAccessTypes,,,STRUCT,ExpandedAccessTypes,,,,protocolSection.designModule.expandedAccessTypes
+ExpandedAccessTypes,,,,,,,,/Study/ProtocolSection/DesignModule/ExpandedAccessTypes
+individual,,,BOOLEAN,boolean (stats),,,,protocolSection.designModule.expandedAccessTypes.individual
+ExpAccTypeIndividual,,,,,,,,/Study/ProtocolSection/DesignModule/ExpandedAccessTypes/ExpAccTypeIndividual
+intermediate,,,BOOLEAN,boolean (stats),,,,protocolSection.designModule.expandedAccessTypes.intermediate
+ExpAccTypeIntermediate,,,,,,,,/Study/ProtocolSection/DesignModule/ExpandedAccessTypes/ExpAccTypeIntermediate
+treatment,,,BOOLEAN,boolean (stats),,,,protocolSection.designModule.expandedAccessTypes.treatment
+ExpAccTypeTreatment,,,,,,,,/Study/ProtocolSection/DesignModule/ExpandedAccessTypes/ExpAccTypeTreatment
+patientRegistry,,PATIENT-REGISTRY,BOOLEAN,boolean (stats),,,,protocolSection.designModule.patientRegistry
+PatientRegistry,,,,,,,,/Study/ProtocolSection/DesignModule/PatientRegistry
+targetDuration,,,TIME,NormalizedTime (stats),Target Follow-Up Duration,,,protocolSection.designModule.targetDuration
+TargetDuration,,,,,,,,/Study/ProtocolSection/DesignModule/TargetDuration
+phases,,PHASE,TEXT,enum Phase[] (stats),Study Phase,,,protocolSection.designModule.phases
+Phase,,,,,,,,/Study/ProtocolSection/DesignModule/PhaseList/Phase
+numPhases ✗,,,FUNC NOccrs(Phase),short (stats),,,,protocolSection.designModule.numPhases
+NumPhases,,,,,,,,/Study/ProtocolSection/DesignModule/NumPhases
+designInfo,,,STRUCT,DesignInfo,Interventional Study Design,,,protocolSection.designModule.designInfo
+DesignInfo,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo
+allocation,,DESIGN-ALLOCATION,TEXT,enum DesignAllocation (stats),Allocation,,,protocolSection.designModule.designInfo.allocation
+DesignAllocation,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignAllocation
+interventionModel,,DESIGN-INTERVENTION-MODEL,TEXT,enum InterventionalAssignment (stats),Interventional Study Model,,,protocolSection.designModule.designInfo.interventionModel
+DesignInterventionModel,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignInterventionModel
+interventionModelDescription,,DESIGN-INTERVENTION-MODEL-DESCRIPTION,MARKUP,markup ✓ (stats),Model Description,,,protocolSection.designModule.designInfo.interventionModelDescription
+DesignInterventionModelDescription,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignInterventionModelDescription
+primaryPurpose,,DESIGN-PRIMARY-PURPOSE,TEXT,enum PrimaryPurpose (stats),Primary Purpose,,,protocolSection.designModule.designInfo.primaryPurpose
+DesignPrimaryPurpose,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignPrimaryPurpose
+observationalModel,,DESIGN-OBSERVATIONAL-MODEL,TEXT,enum ObservationalModel (stats),Observational Study Model,,,protocolSection.designModule.designInfo.observationalModel
+DesignObservationalModel,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignObservationalModel
+timePerspective,,DESIGN-TIME-PERSPECTIVE,TEXT,enum DesignTimePerspective (stats),Time Perspective,,,protocolSection.designModule.designInfo.timePerspective
+DesignTimePerspective,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignTimePerspective
+maskingInfo,,,STRUCT,MaskingBlock,,,,protocolSection.designModule.designInfo.maskingInfo
+DesignMaskingInfo,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignMaskingInfo
+masking,,DESIGN-MASKING,TEXT,enum DesignMasking (stats),Masking,,,protocolSection.designModule.designInfo.maskingInfo.masking
+DesignMasking,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignMaskingInfo/DesignMasking
+maskingDescription,,,MARKUP,markup ✓ (stats),Masking Description,,,protocolSection.designModule.designInfo.maskingInfo.maskingDescription
+DesignMaskingDescription,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignMaskingInfo/DesignMaskingDescription
+whoMasked,,DESIGN-WHO-MASKED,TEXT,enum WhoMasked[] (stats),Masking,,,protocolSection.designModule.designInfo.maskingInfo.whoMasked
+DesignWhoMasked,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignMaskingInfo/DesignWhoMaskedList/DesignWhoMasked
+numDesignWhoMaskeds ✗,,,FUNC NOccrs(DesignWhoMasked),short (stats),,,,protocolSection.designModule.designInfo.maskingInfo.numDesignWhoMaskeds
+NumDesignWhoMaskeds,,,,,,,,/Study/ProtocolSection/DesignModule/DesignInfo/DesignMaskingInfo/NumDesignWhoMaskeds
+bioSpec,,,STRUCT,BioSpec,,,,protocolSection.designModule.bioSpec
+BioSpec,,,,,,,,/Study/ProtocolSection/DesignModule/BioSpec
+retention,,BIOSPECIMEN-RETENTION,TEXT,enum BioSpecRetention (stats),Biospecimen Retention,,,protocolSection.designModule.bioSpec.retention
+BioSpecRetention,,,,,,,,/Study/ProtocolSection/DesignModule/BioSpec/BioSpecRetention
+description,,BIOSPECIMEN-DESCRIPTION,MARKUP,markup ✓ (stats),Biospecimen Description,,,protocolSection.designModule.bioSpec.description
+BioSpecDescription,,,,,,,,/Study/ProtocolSection/DesignModule/BioSpec/BioSpecDescription
+enrollmentInfo,,,STRUCT,EnrollmentInfo,,,,protocolSection.designModule.enrollmentInfo
+EnrollmentInfo,,,,,,,,/Study/ProtocolSection/DesignModule/EnrollmentInfo
+count,,ENROLLMENT,NUMERIC,integer (stats),Enrollment,,,protocolSection.designModule.enrollmentInfo.count
+EnrollmentCount,,,,,,,,/Study/ProtocolSection/DesignModule/EnrollmentInfo/EnrollmentCount
+type,,,TEXT,enum EnrollmentType (stats),Enrollment,,,protocolSection.designModule.enrollmentInfo.type
+EnrollmentType,,,,,,,,/Study/ProtocolSection/DesignModule/EnrollmentInfo/EnrollmentType
+armsInterventionsModule,,,STRUCT,ArmsInterventionsModule,"Arms, Groups, and Interventions",,,protocolSection.armsInterventionsModule
+ArmsInterventionsModule,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule
+armGroups,,,STRUCT,ArmGroup[],Arm Information,,,protocolSection.armsInterventionsModule.armGroups
+ArmGroup,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/ArmGroupList/ArmGroup
+label,,ARM-GROUP-LABEL,TEXT,text ✓ (stats),Arm Title,,,protocolSection.armsInterventionsModule.armGroups.label
+ArmGroupLabel,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/ArmGroupList/ArmGroup/ArmGroupLabel
+type,,ARM-GROUP-TYPE,TEXT,enum ArmGroupType (stats),Arm Type,,,protocolSection.armsInterventionsModule.armGroups.type
+ArmGroupType,,ARM-GROUP-TYPES,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/ArmGroupList/ArmGroup/ArmGroupType
+description,,ARM-GROUP-DESCRIPTION,MARKUP,markup ✓ (stats),Arm Description,,,protocolSection.armsInterventionsModule.armGroups.description
+ArmGroupDescription,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/ArmGroupList/ArmGroup/ArmGroupDescription
+interventionNames,,ARM-GROUP-INTERVENTION,TEXT,text[] ✓ (stats),Arm/Group Intervention Name(s),,,protocolSection.armsInterventionsModule.armGroups.interventionNames
+ArmGroupInterventionName,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/ArmGroupList/ArmGroup/ArmGroupInterventionNameList/ArmGroupInterventionName
+numArmGroupInterventionNames ✗,,,FUNC NOccrs(ArmGroupInterventionName),short (stats),,,,protocolSection.armsInterventionsModule.armGroups.numArmGroupInterventionNames
+NumArmGroupInterventionNames,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/ArmGroupList/ArmGroup/NumArmGroupInterventionNames
+numArmGroups ✗,,NUMBER-OF-ARM-GROUPS,FUNC NOccrs(ArmGroup),short (stats),Number of Arms,,,protocolSection.armsInterventionsModule.numArmGroups
+NumArmGroups,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/NumArmGroups
+interventions,,,STRUCT,Intervention[],Interventions,,,protocolSection.armsInterventionsModule.interventions
+Intervention,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/InterventionList/Intervention
+type,,INTERVENTION-TYPE,TEXT,enum InterventionType (stats),Intervention Type,,,protocolSection.armsInterventionsModule.interventions.type
+InterventionType,,INTERVENTION-TYPES,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/InterventionList/Intervention/InterventionType
+name,,INTERVENTION,TEXT,text ✓ (stats),Intervention Name(s),,,protocolSection.armsInterventionsModule.interventions.name
+InterventionName,,INTERVENTIONS,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/InterventionList/Intervention/InterventionName
+,,INTERVENTION-NAME,,,,,,
+description,,INTERVENTION-DESCRIPTION,MARKUP,markup ✓ (stats),Intervention Description,,,protocolSection.armsInterventionsModule.interventions.description
+InterventionDescription,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/InterventionList/Intervention/InterventionDescription
+armGroupLabels,,,TEXT,text[] ✓ (stats),,,,protocolSection.armsInterventionsModule.interventions.armGroupLabels
+InterventionArmGroupLabel,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/InterventionList/Intervention/InterventionArmGroupLabelList/InterventionArmGroupLabel
+numInterventionArmGroupLabels ✗,,,FUNC NOccrs(InterventionArmGroupLabel),short (stats),,,,protocolSection.armsInterventionsModule.interventions.numInterventionArmGroupLabels
+NumInterventionArmGroupLabels,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/InterventionList/Intervention/NumInterventionArmGroupLabels
+otherNames,,INTERVENTION-OTHER-NAME,TEXT,text[] ✓ (stats),Other Intervention Name(s),,,protocolSection.armsInterventionsModule.interventions.otherNames
+InterventionOtherName,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/InterventionList/Intervention/InterventionOtherNameList/InterventionOtherName
+numInterventionOtherNames ✗,,,FUNC NOccrs(InterventionOtherName),short (stats),,,,protocolSection.armsInterventionsModule.interventions.numInterventionOtherNames
+NumInterventionOtherNames,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/InterventionList/Intervention/NumInterventionOtherNames
+numInterventions ✗,,NUMBER-OF-INTERVENTIONS,FUNC NOccrs(Intervention),short (stats),,,,protocolSection.armsInterventionsModule.numInterventions
+NumInterventions,,,,,,,,/Study/ProtocolSection/ArmsInterventionsModule/NumInterventions
+outcomesModule,,,STRUCT,OutcomesModule,Outcome Measures,,,protocolSection.outcomesModule
+OutcomesModule,,,,,,,,/Study/ProtocolSection/OutcomesModule
+primaryOutcomes,,,STRUCT,Outcome[],Primary Outcome Measure Information,,,protocolSection.outcomesModule.primaryOutcomes
+PrimaryOutcome,,,,,,,,/Study/ProtocolSection/OutcomesModule/PrimaryOutcomeList/PrimaryOutcome
+measure,,PRIMARY-OUTCOME-MEASURE,TEXT,text ✓ (stats),Title,,,protocolSection.outcomesModule.primaryOutcomes.measure
+PrimaryOutcomeMeasure,,,,,,,,/Study/ProtocolSection/OutcomesModule/PrimaryOutcomeList/PrimaryOutcome/PrimaryOutcomeMeasure
+description,,,MARKUP,markup ✓ (stats),Description,,,protocolSection.outcomesModule.primaryOutcomes.description
+PrimaryOutcomeDescription,,,,,,,,/Study/ProtocolSection/OutcomesModule/PrimaryOutcomeList/PrimaryOutcome/PrimaryOutcomeDescription
+timeFrame,,,TEXT,text ✓ (stats),Time Frame,,,protocolSection.outcomesModule.primaryOutcomes.timeFrame
+PrimaryOutcomeTimeFrame,,,,,,,,/Study/ProtocolSection/OutcomesModule/PrimaryOutcomeList/PrimaryOutcome/PrimaryOutcomeTimeFrame
+numPrimaryOutcomes ✗,,NUMBER-OF-PRIMARY-OMS,FUNC NOccrs(PrimaryOutcome),short (stats),,,,protocolSection.outcomesModule.numPrimaryOutcomes
+NumPrimaryOutcomes,,,,,,,,/Study/ProtocolSection/OutcomesModule/NumPrimaryOutcomes
+secondaryOutcomes,,,STRUCT,Outcome[],Secondary Outcome Measure Information,,,protocolSection.outcomesModule.secondaryOutcomes
+SecondaryOutcome,,,,,,,,/Study/ProtocolSection/OutcomesModule/SecondaryOutcomeList/SecondaryOutcome
+measure,,SECONDARY-OUTCOME-MEASURE,TEXT,text ✓ (stats),Title,,,protocolSection.outcomesModule.secondaryOutcomes.measure
+SecondaryOutcomeMeasure,,,,,,,,/Study/ProtocolSection/OutcomesModule/SecondaryOutcomeList/SecondaryOutcome/SecondaryOutcomeMeasure
+description,,,MARKUP,markup ✓ (stats),Description,,,protocolSection.outcomesModule.secondaryOutcomes.description
+SecondaryOutcomeDescription,,,,,,,,/Study/ProtocolSection/OutcomesModule/SecondaryOutcomeList/SecondaryOutcome/SecondaryOutcomeDescription
+timeFrame,,,TEXT,text ✓ (stats),Time Frame,,,protocolSection.outcomesModule.secondaryOutcomes.timeFrame
+SecondaryOutcomeTimeFrame,,,,,,,,/Study/ProtocolSection/OutcomesModule/SecondaryOutcomeList/SecondaryOutcome/SecondaryOutcomeTimeFrame
+numSecondaryOutcomes ✗,,NUMBER-OF-SECONDARY-OMS,FUNC NOccrs(SecondaryOutcome),short (stats),,,,protocolSection.outcomesModule.numSecondaryOutcomes
+NumSecondaryOutcomes,,,,,,,,/Study/ProtocolSection/OutcomesModule/NumSecondaryOutcomes
+otherOutcomes,,,STRUCT,Outcome[],Other Pre-specified Outcome Measures,,,protocolSection.outcomesModule.otherOutcomes
+OtherOutcome,,,,,,,,/Study/ProtocolSection/OutcomesModule/OtherOutcomeList/OtherOutcome
+measure,,,TEXT,text ✓ (stats),Title,,,protocolSection.outcomesModule.otherOutcomes.measure
+OtherOutcomeMeasure,,,,,,,,/Study/ProtocolSection/OutcomesModule/OtherOutcomeList/OtherOutcome/OtherOutcomeMeasure
+description,,,MARKUP,markup ✓ (stats),Description,,,protocolSection.outcomesModule.otherOutcomes.description
+OtherOutcomeDescription,,,,,,,,/Study/ProtocolSection/OutcomesModule/OtherOutcomeList/OtherOutcome/OtherOutcomeDescription
+timeFrame,,,TEXT,text ✓ (stats),Time Frame,,,protocolSection.outcomesModule.otherOutcomes.timeFrame
+OtherOutcomeTimeFrame,,,,,,,,/Study/ProtocolSection/OutcomesModule/OtherOutcomeList/OtherOutcome/OtherOutcomeTimeFrame
+numOtherOutcomes ✗,,,FUNC NOccrs(OtherOutcome),short (stats),,,,protocolSection.outcomesModule.numOtherOutcomes
+NumOtherOutcomes,,,,,,,,/Study/ProtocolSection/OutcomesModule/NumOtherOutcomes
+numOutcomes ✗,,,"FUNC NOccrs(PrimaryOutcome, SecondaryOutcome, OtherOutcome)",short (stats),,,,protocolSection.outcomesModule.numOutcomes
+NumOutcomes,,,,,,,,/Study/ProtocolSection/OutcomesModule/NumOutcomes
+eligibilityModule,,,STRUCT,EligibilityModule,Eligibility,,,protocolSection.eligibilityModule
+EligibilityModule,,,,,,,,/Study/ProtocolSection/EligibilityModule
+eligibilityCriteria,,,MARKUP,markup ✓ (stats),Eligibility Criteria,,,protocolSection.eligibilityModule.eligibilityCriteria
+EligibilityCriteria,,,,,,,,/Study/ProtocolSection/EligibilityModule/EligibilityCriteria
+healthyVolunteers,,HEALTHY-VOLUNTEERS,BOOLEAN,boolean (stats),Accepts Healthy Volunteers,,,protocolSection.eligibilityModule.healthyVolunteers
+HealthyVolunteers,,,,,,,,/Study/ProtocolSection/EligibilityModule/HealthyVolunteers
+sex,,Gender,TEXT,enum Sex (stats),Sex/Gender,,,protocolSection.eligibilityModule.sex
+Sex,,GENDER,,,,,,/Study/ProtocolSection/EligibilityModule/Sex
+genderBased,,,BOOLEAN,boolean (stats),Gender Based,,,protocolSection.eligibilityModule.genderBased
+GenderBased,,,,,,,,/Study/ProtocolSection/EligibilityModule/GenderBased
+genderDescription,,,MARKUP,markup ✓ (stats),Gender Eligibility Description,,,protocolSection.eligibilityModule.genderDescription
+GenderDescription,,,,,,,,/Study/ProtocolSection/EligibilityModule/GenderDescription
+minimumAge,,MINIMUM-AGE,TIME,NormalizedTime (stats),Minimum Age,,,protocolSection.eligibilityModule.minimumAge
+MinimumAge,,,,,,,,/Study/ProtocolSection/EligibilityModule/MinimumAge
+maximumAge,,MAXIMUM-AGE,TIME,NormalizedTime (stats),Maximum Age,,,protocolSection.eligibilityModule.maximumAge
+MaximumAge,,,,,,,,/Study/ProtocolSection/EligibilityModule/MaximumAge
+stdAges,,AGE-GROUP,TEXT,enum StandardAge[] (stats),,,,protocolSection.eligibilityModule.stdAges
+StdAge,,,,,,,,/Study/ProtocolSection/EligibilityModule/StdAgeList/StdAge
+numStdAges ✗,,,FUNC NOccrs(StdAge),short (stats),,,,protocolSection.eligibilityModule.numStdAges
+NumStdAges,,,,,,,,/Study/ProtocolSection/EligibilityModule/NumStdAges
+studyPopulation,,,MARKUP,markup ✓ (stats),Study Population Description (For observational studies only),,,protocolSection.eligibilityModule.studyPopulation
+StudyPopulation,,,,,,,,/Study/ProtocolSection/EligibilityModule/StudyPopulation
+samplingMethod,,,TEXT,enum SamplingMethod (stats),Sampling Method (For observational studies only),,,protocolSection.eligibilityModule.samplingMethod
+SamplingMethod,,,,,,,,/Study/ProtocolSection/EligibilityModule/SamplingMethod
+contactsLocationsModule,,,STRUCT,ContactsLocationsModule,"Contacts, Locations, and Investigator Information",,,protocolSection.contactsLocationsModule
+ContactsLocationsModule,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule
+centralContacts,,,STRUCT,Contact[],Central Contact Person or Optional Central Contact Backup,,,protocolSection.contactsLocationsModule.centralContacts
+CentralContact,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/CentralContactList/CentralContact
+name,,,TEXT,text (stats),First Name & Middle Initial & Last Name or Official Title & Degree,,,protocolSection.contactsLocationsModule.centralContacts.name
+CentralContactName,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/CentralContactList/CentralContact/CentralContactName
+role,,,TEXT,enum ContactRole (stats),,,,protocolSection.contactsLocationsModule.centralContacts.role
+CentralContactRole,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/CentralContactList/CentralContact/CentralContactRole
+phone,,,TEXT,text (stats),Phone,,,protocolSection.contactsLocationsModule.centralContacts.phone
+CentralContactPhone,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/CentralContactList/CentralContact/CentralContactPhone
+phoneExt,,,TEXT,text (stats),Ext,,,protocolSection.contactsLocationsModule.centralContacts.phoneExt
+CentralContactPhoneExt,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/CentralContactList/CentralContact/CentralContactPhoneExt
+email,,,TEXT,text (stats),Email,,,protocolSection.contactsLocationsModule.centralContacts.email
+CentralContactEMail,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/CentralContactList/CentralContact/CentralContactEMail
+numCentralContacts ✗,,,FUNC NOccrs(CentralContact),short (stats),,,,protocolSection.contactsLocationsModule.numCentralContacts
+NumCentralContacts,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/NumCentralContacts
+overallOfficials,,,STRUCT,Official[],Overall Study Officials,,,protocolSection.contactsLocationsModule.overallOfficials
+OverallOfficial,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/OverallOfficialList/OverallOfficial
+name,,,TEXT,text (stats),First Name & Middle Initial & Last Name & Degree,,,protocolSection.contactsLocationsModule.overallOfficials.name
+OverallOfficialName,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/OverallOfficialList/OverallOfficial/OverallOfficialName
+affiliation,,,TEXT,text (stats),Organizational Affiliation,,,protocolSection.contactsLocationsModule.overallOfficials.affiliation
+OverallOfficialAffiliation,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/OverallOfficialList/OverallOfficial/OverallOfficialAffiliation
+role,,,TEXT,enum OfficialRole (stats),Official's Role,,,protocolSection.contactsLocationsModule.overallOfficials.role
+OverallOfficialRole,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/OverallOfficialList/OverallOfficial/OverallOfficialRole
+numOverallOfficials ✗,,,FUNC NOccrs(OverallOfficial),short (stats),,,,protocolSection.contactsLocationsModule.numOverallOfficials
+NumOverallOfficials,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/NumOverallOfficials
+locations ⤷,,,STRUCT,Location[],Facility Information,,,protocolSection.contactsLocationsModule.locations
+Location,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location
+facility,,LOCATION-NAME,TEXT,text (stats),Facility Name,,,protocolSection.contactsLocationsModule.locations.facility
+LocationFacility,,FACILITY,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationFacility
+status,,LOCATION-STATUS,TEXT,enum RecruitmentStatus (stats),Individual Site Status,,,protocolSection.contactsLocationsModule.locations.status
+LocationStatus,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationStatus
+city,,LOCATION-CITY,TEXT,text (stats),City,,,protocolSection.contactsLocationsModule.locations.city
+LocationCity,,CITY,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationCity
+state,,LOCATION-STATE,TEXT,text (stats),State/Province,,,protocolSection.contactsLocationsModule.locations.state
+LocationState,,STATE,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationState
+zip,,LOCATION-ZIP,TEXT,text (stats),ZIP/Postal Code,,,protocolSection.contactsLocationsModule.locations.zip
+LocationZip,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationZip
+country,,LOCATION-COUNTRY,TEXT,text (stats),Country,,,protocolSection.contactsLocationsModule.locations.country
+LocationCountry,,COUNTRY,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationCountry
+,,COUNTRIES,,,,,,
+contacts,,,STRUCT,Contact[],Facility Contact or Facility Contact Backup,,,protocolSection.contactsLocationsModule.locations.contacts
+LocationContact,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationContactList/LocationContact
+name,,,TEXT,text (stats),First Name & Middle Initial & Last Name & Degree,,,protocolSection.contactsLocationsModule.locations.contacts.name
+LocationContactName,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationContactList/LocationContact/LocationContactName
+role,,,TEXT,enum ContactRole (stats),Investigators,,,protocolSection.contactsLocationsModule.locations.contacts.role
+LocationContactRole,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationContactList/LocationContact/LocationContactRole
+phone,,,TEXT,text (stats),Phone,,,protocolSection.contactsLocationsModule.locations.contacts.phone
+LocationContactPhone,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationContactList/LocationContact/LocationContactPhone
+phoneExt,,,TEXT,text (stats),Ext,,,protocolSection.contactsLocationsModule.locations.contacts.phoneExt
+LocationContactPhoneExt,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationContactList/LocationContact/LocationContactPhoneExt
+email,,,TEXT,text (stats),Email,,,protocolSection.contactsLocationsModule.locations.contacts.email
+LocationContactEMail,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationContactList/LocationContact/LocationContactEMail
+numLocationContacts ✗,,,FUNC NOccrs(LocationContact),short (stats),,,,protocolSection.contactsLocationsModule.locations.numLocationContacts
+NumLocationContacts,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/NumLocationContacts
+countryCode ✗,ISO Country Code,,FUNC CountryCode(LocationCountry),keyword (stats),,,,protocolSection.contactsLocationsModule.locations.countryCode
+LocationCountryCode,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationCountryCode
+geoPoint,,,"FUNC GeoPoint(LocationCity, LocationState, LocationZip, LocationCountry, LocationLatitude, LocationLongitude, OverallStatus, LastUpdatePostDate)",GeoPoint (stats),,,,protocolSection.contactsLocationsModule.locations.geoPoint
+LocationGeoPoint,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/LocationList/Location/LocationGeoPoint
+numLocations ✗,,NUMBER-OF-LOCATIONS,FUNC NOccrs(Location),short (stats),,,,protocolSection.contactsLocationsModule.numLocations
+NumLocations,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/NumLocations
+numUniqueLocationCountries ✗,,NUMBER-OF-COUNTRIES,FUNC NUniq(LocationCountry),short (stats),,,,protocolSection.contactsLocationsModule.numUniqueLocationCountries
+NumUniqueLocationCountries,,,,,,,,/Study/ProtocolSection/ContactsLocationsModule/NumUniqueLocationCountries
+referencesModule,,,STRUCT,ReferencesModule,References,,,protocolSection.referencesModule
+ReferencesModule,,,,,,,,/Study/ProtocolSection/ReferencesModule
+references,,,STRUCT,Reference[],Citations,,,protocolSection.referencesModule.references
+Reference,,,,,,,,/Study/ProtocolSection/ReferencesModule/ReferenceList/Reference
+pmid,,PUBMED-IDS,TEXT,text (stats),PubMed Identifier,,,protocolSection.referencesModule.references.pmid
+ReferencePMID,,,,,,,,/Study/ProtocolSection/ReferencesModule/ReferenceList/Reference/ReferencePMID
+type,,,TEXT,enum ReferenceType (stats),Results Reference,,,protocolSection.referencesModule.references.type
+ReferenceType,,,,,,,,/Study/ProtocolSection/ReferencesModule/ReferenceList/Reference/ReferenceType
+citation,,CITATIONS,TEXT,text ✓ (stats),Citation,,,protocolSection.referencesModule.references.citation
+ReferenceCitation,,,,,,,,/Study/ProtocolSection/ReferencesModule/ReferenceList/Reference/ReferenceCitation
+retractions,,,STRUCT,Retraction[],,,,protocolSection.referencesModule.references.retractions
+Retraction,,,,,,,,/Study/ProtocolSection/ReferencesModule/ReferenceList/Reference/RetractionList/Retraction
+pmid,,,TEXT,text (stats),,,,protocolSection.referencesModule.references.retractions.pmid
+RetractionPMID,,,,,,,,/Study/ProtocolSection/ReferencesModule/ReferenceList/Reference/RetractionList/Retraction/RetractionPMID
+source,,,TEXT,text ✓ (stats),,,,protocolSection.referencesModule.references.retractions.source
+RetractionSource,,,,,,,,/Study/ProtocolSection/ReferencesModule/ReferenceList/Reference/RetractionList/Retraction/RetractionSource
+numRetractionsForRef ✗,,,FUNC NOccrs(Retraction),short (stats),,,,protocolSection.referencesModule.references.numRetractionsForRef
+NumRetractionsForRef,,,,,,,,/Study/ProtocolSection/ReferencesModule/ReferenceList/Reference/NumRetractionsForRef
+numReferences ✗,,NUMBER-OF-CITATIONS,FUNC NOccrs(Reference),short (stats),,,,protocolSection.referencesModule.numReferences
+NumReferences,,,,,,,,/Study/ProtocolSection/ReferencesModule/NumReferences
+numRetractionsAllRefs ✗,,,FUNC NOccrs(Retraction),short (stats),,,,protocolSection.referencesModule.numRetractionsAllRefs
+NumRetractionsAllRefs,,,,,,,,/Study/ProtocolSection/ReferencesModule/NumRetractionsAllRefs
+seeAlsoLinks,,,STRUCT,SeeAlsoLink[],Links,,,protocolSection.referencesModule.seeAlsoLinks
+SeeAlsoLink,,,,,,,,/Study/ProtocolSection/ReferencesModule/SeeAlsoLinkList/SeeAlsoLink
+label,,LINK-LABELS,MARKUP,markup ✓ (stats),Description,,,protocolSection.referencesModule.seeAlsoLinks.label
+SeeAlsoLinkLabel,,,,,,,,/Study/ProtocolSection/ReferencesModule/SeeAlsoLinkList/SeeAlsoLink/SeeAlsoLinkLabel
+url,,LINKS,TEXT,text (stats),URL,,,protocolSection.referencesModule.seeAlsoLinks.url
+SeeAlsoLinkURL,,,,,,,,/Study/ProtocolSection/ReferencesModule/SeeAlsoLinkList/SeeAlsoLink/SeeAlsoLinkURL
+numSeeAlsoLinks ✗,,,FUNC NOccrs(SeeAlsoLink),short (stats),,,,protocolSection.referencesModule.numSeeAlsoLinks
+NumSeeAlsoLinks,,,,,,,,/Study/ProtocolSection/ReferencesModule/NumSeeAlsoLinks
+availIpds,,,STRUCT,AvailIpd[],,,,protocolSection.referencesModule.availIpds
+AvailIPD,,,,,,,,/Study/ProtocolSection/ReferencesModule/AvailIPDList/AvailIPD
+id,,,TEXT,text ✓ (stats),Available IPD/Information Identifier,,,protocolSection.referencesModule.availIpds.id
+AvailIPDId,,,,,,,,/Study/ProtocolSection/ReferencesModule/AvailIPDList/AvailIPD/AvailIPDId
+type,,,TEXT,text ✓ (stats),Available IPD/Information Type,,,protocolSection.referencesModule.availIpds.type
+AvailIPDType,,,,,,,,/Study/ProtocolSection/ReferencesModule/AvailIPDList/AvailIPD/AvailIPDType
+url,,,TEXT,text (stats),Available IPD/Information URL,,,protocolSection.referencesModule.availIpds.url
+AvailIPDURL,,,,,,,,/Study/ProtocolSection/ReferencesModule/AvailIPDList/AvailIPD/AvailIPDURL
+comment,,,MARKUP,markup ✓ (stats),Available IPD/Information Comments,,,protocolSection.referencesModule.availIpds.comment
+AvailIPDComment,,,,,,,,/Study/ProtocolSection/ReferencesModule/AvailIPDList/AvailIPD/AvailIPDComment
+numAvailIpDs ✗,,,FUNC NOccrs(AvailIPD),short (stats),,,,protocolSection.referencesModule.numAvailIpDs
+NumAvailIPDs,,,,,,,,/Study/ProtocolSection/ReferencesModule/NumAvailIPDs
+ipdSharingStatementModule,,,STRUCT,IpdSharingStatementModule,IPD Sharing Statement,,,protocolSection.ipdSharingStatementModule
+IPDSharingStatementModule,,,,,,,,/Study/ProtocolSection/IPDSharingStatementModule
+ipdSharing,,,TEXT,enum IpdSharing (stats),Plan to Share IPD,,,protocolSection.ipdSharingStatementModule.ipdSharing
+IPDSharing,,,,,,,,/Study/ProtocolSection/IPDSharingStatementModule/IPDSharing
+description,,,MARKUP,markup ✓ (stats),IPD Sharing Plan Description,,,protocolSection.ipdSharingStatementModule.description
+IPDSharingDescription,,,,,,,,/Study/ProtocolSection/IPDSharingStatementModule/IPDSharingDescription
+infoTypes,,,TEXT,enum IpdSharingInfoType[] (stats),IPD Sharing Supporting Information Type,,,protocolSection.ipdSharingStatementModule.infoTypes
+IPDSharingInfoType,,,,,,,,/Study/ProtocolSection/IPDSharingStatementModule/IPDSharingInfoTypeList/IPDSharingInfoType
+numIpdSharingInfoTypes ✗,,,FUNC NOccrs(IPDSharingInfoType),short (stats),,,,protocolSection.ipdSharingStatementModule.numIpdSharingInfoTypes
+NumIPDSharingInfoTypes,,,,,,,,/Study/ProtocolSection/IPDSharingStatementModule/NumIPDSharingInfoTypes
+timeFrame,,,MARKUP,markup ✓ (stats),IPD Sharing Time Frame,,,protocolSection.ipdSharingStatementModule.timeFrame
+IPDSharingTimeFrame,,,,,,,,/Study/ProtocolSection/IPDSharingStatementModule/IPDSharingTimeFrame
+accessCriteria,,,MARKUP,markup ✓ (stats),IPD Sharing Access Criteria,,,protocolSection.ipdSharingStatementModule.accessCriteria
+IPDSharingAccessCriteria,,,,,,,,/Study/ProtocolSection/IPDSharingStatementModule/IPDSharingAccessCriteria
+url,,,TEXT,text (stats),IPD Sharing URL,,,protocolSection.ipdSharingStatementModule.url
+IPDSharingURL,,,,,,,,/Study/ProtocolSection/IPDSharingStatementModule/IPDSharingURL

@@ -1,0 +1,3054 @@
+{
+    "studies": [
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT06650397",
+                    "orgStudyIdInfo": {
+                        "id": "24-1030"
+                    },
+                    "secondaryIdInfos": [
+                        {
+                            "id": "7200AA23FA00027",
+                            "type": "OTHER_GRANT",
+                            "domain": "U.S. Agency for International Development"
+                        }
+                    ],
+                    "organization": {
+                        "fullName": "University of Colorado, Denver",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Guatemala Biofortified Maize Study",
+                    "officialTitle": "Absorption of Zinc and Iron from Nixtamalized Biofortified Maize in School-aged Children in Guatemala"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-09",
+                    "overallStatus": "RECRUITING",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2024-07-31",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2025-06",
+                        "type": "ESTIMATED"
+                    },
+                    "completionDateStruct": {
+                        "date": "2026-09",
+                        "type": "ESTIMATED"
+                    },
+                    "studyFirstSubmitDate": "2024-09-04",
+                    "studyFirstSubmitQcDate": "2024-10-18",
+                    "studyFirstPostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-18",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR"
+                    },
+                    "leadSponsor": {
+                        "name": "University of Colorado, Denver",
+                        "class": "OTHER"
+                    },
+                    "collaborators": [
+                        {
+                            "name": "Institute of Nutrition of Central America and Panama",
+                            "class": "OTHER"
+                        },
+                        {
+                            "name": "Semilla Nueva",
+                            "class": "OTHER"
+                        }
+                    ]
+                },
+                "oversightModule": {
+                    "oversightHasDmc": false,
+                    "isFdaRegulatedDrug": false,
+                    "isFdaRegulatedDevice": false,
+                    "isUsExport": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "Zinc (Zn) and iron (Fe) deficiencies are common in Guatemala, and maize is a staple food throughout the country. The primary aim of this study is to demonstrate if utilizing nixtamalized biofortified maize has the potential to increase dietary Zn and Fe intake and improve the amount of Zn and Fe absorbed when compared to diets incorporating traditional maize (control). This is a randomized, double blinded, comparison study of biofortified vs control maize prepared as tortillas from nixtamalized masa. This study will enroll up to 56 school aged children (10-14 yrs old) living in agricultural communities in the Western Highlands of Guatemala (28/group x 2 groups). Researchers will utilize Zn and Fe stable isotopes to measure total absorbed Zn and Fe. Participants will be active in the study for 27 days. During this time, they will have anthropometric measurements taken and collect 2 blood samples, 1 stool sample, and 9 urine samples."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Zinc Absorption",
+                        "Iron Absorption"
+                    ],
+                    "keywords": [
+                        "biofortification",
+                        "stable isotope",
+                        "maize",
+                        "Guatemala",
+                        "school-aged children"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "NA"
+                    ],
+                    "designInfo": {
+                        "allocation": "RANDOMIZED",
+                        "interventionModel": "PARALLEL",
+                        "primaryPurpose": "OTHER",
+                        "maskingInfo": {
+                            "masking": "TRIPLE",
+                            "whoMasked": [
+                                "PARTICIPANT",
+                                "INVESTIGATOR",
+                                "OUTCOMES_ASSESSOR"
+                            ]
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 56,
+                        "type": "ESTIMATED"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Biofortified maize",
+                            "type": "EXPERIMENTAL",
+                            "description": "Children consume biofortified maize that has been traditionally bred to have higher amounts of iron and zinc. Children consume the biofortified maize via 10-15 tortillas a day for 3 days.",
+                            "interventionNames": [
+                                "Other: Biofortified maize"
+                            ]
+                        },
+                        {
+                            "label": "Traditional Maize",
+                            "type": "PLACEBO_COMPARATOR",
+                            "description": "Children consume traditional maize that has lower amounts of iron and zinc compared to the biofortified maize. Children consume the maize via 10-15 tortillas a day for 3 days.",
+                            "interventionNames": [
+                                "Other: Placebo"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "OTHER",
+                            "name": "Biofortified maize",
+                            "description": "Maize that has been grown to have higher amounts of iron and zinc.",
+                            "armGroupLabels": [
+                                "Biofortified maize"
+                            ]
+                        },
+                        {
+                            "type": "OTHER",
+                            "name": "Placebo",
+                            "description": "Traditional maize",
+                            "armGroupLabels": [
+                                "Traditional Maize"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Total absorbed iron (TAI) (mg)",
+                            "description": "Total absorbed iron from the diet = fractional absorption of iron x total dietary iron (mg)",
+                            "timeFrame": "2 days"
+                        },
+                        {
+                            "measure": "Total absorbed zinc (TAZ) (mg)",
+                            "description": "Total zinc absorbed from the diet = fractional absorption of zinc x total dietary zinc (mg)",
+                            "timeFrame": "1 day"
+                        }
+                    ],
+                    "secondaryOutcomes": [
+                        {
+                            "measure": "Plasma C-reactive protein (CRP) (mg/dL)",
+                            "description": "CRP is used to measure systemic inflammation",
+                            "timeFrame": "1 day"
+                        },
+                        {
+                            "measure": "Plasma zinc concentration (mcg/dL)",
+                            "description": "Plasma zinc concentration is used to assess zinc status",
+                            "timeFrame": "1 day"
+                        },
+                        {
+                            "measure": "Plasma Alpha(1)-acid glycoprotein (AGP) (mg/dL)",
+                            "description": "AGP is used to measure systemic inflammation",
+                            "timeFrame": "1 day"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion criteria:\n\n* 10-14 years old school children (male and female sex)\n* BMI between10-85%tile\n* Typically eat homemade tortillas at each meal every day\n\nExclusion criteria:\n\n* Taking iron or zinc supplements\n* Hemoglobin less than 12.9 g/dl for children 10-11 yrs old and less than13.4 g/dl for children 12-14 yrs old (Per the WHO's 2024 publication hemoglobin cut-offs for identifying anemia are 5-11 yrs: less than 11.5 g/dl; 12-14 yrs: less than 12.0 g/dl. To adjust for the elevation of Tecp\u00e1n at 2254 m, 1.4 g/dl is added to the cut-off point.)\n* Girls who are having a menstrual period during the metabolic studies",
+                    "healthyVolunteers": true,
+                    "sex": "ALL",
+                    "minimumAge": "10 Years",
+                    "maximumAge": "14 Years",
+                    "stdAges": [
+                        "CHILD"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "centralContacts": [
+                        {
+                            "name": "Julie Long, MS, MPH",
+                            "role": "CONTACT",
+                            "phone": "303-724-5850",
+                            "email": "julie.long@cuanschutz.edu"
+                        }
+                    ],
+                    "overallOfficials": [
+                        {
+                            "name": "Nancy F Krebs, MD, MS",
+                            "affiliation": "University of Colorado, Denver",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "Institute of Nutrition of Central America and Panama",
+                            "status": "RECRUITING",
+                            "city": "Guatemala City",
+                            "zip": "1188",
+                            "country": "Guatemala",
+                            "contacts": [
+                                {
+                                    "name": "Manolo Mazariegos, MD",
+                                    "role": "CONTACT",
+                                    "phone": "+502-2315-7900",
+                                    "phoneExt": "1190",
+                                    "email": "mmazariegos@incap.int"
+                                },
+                                {
+                                    "name": "Manolo Mazariegos, MD",
+                                    "role": "CONTACT"
+                                }
+                            ],
+                            "geoPoint": {
+                                "lat": 14.64072,
+                                "lon": -90.51327
+                            }
+                        }
+                    ]
+                },
+                "ipdSharingStatementModule": {
+                    "ipdSharing": "UNDECIDED",
+                    "description": "A de-identified dataset will be made available upon request."
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "interventionBrowseModule": {
+                    "browseLeaves": [
+                        {
+                            "id": "M10533",
+                            "name": "Iron",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M17768",
+                            "name": "Zinc",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "Micro",
+                            "name": "Micronutrients"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Drugs and Chemicals"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT05552183",
+                    "orgStudyIdInfo": {
+                        "id": "PAC110"
+                    },
+                    "organization": {
+                        "fullName": "CTI BioPharma",
+                        "class": "INDUSTRY"
+                    },
+                    "briefTitle": "Study to Evaluate the Safety, Tolerability, and PK of Pacritinib",
+                    "officialTitle": "A Phase 1, Open-label, Multiple-dose Study to Evaluate the Safety, Tolerability and Pharmacokinetics of Pacritinib in Subjects With Varying Degrees of Hepatic Impairment Compared to Healthy Subjects"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "COMPLETED",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2022-12-12",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2024-06-10",
+                        "type": "ACTUAL"
+                    },
+                    "completionDateStruct": {
+                        "date": "2024-06-10",
+                        "type": "ACTUAL"
+                    },
+                    "studyFirstSubmitDate": "2022-09-13",
+                    "studyFirstSubmitQcDate": "2022-09-20",
+                    "studyFirstPostDateStruct": {
+                        "date": "2022-09-23",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-18",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR"
+                    },
+                    "leadSponsor": {
+                        "name": "CTI BioPharma",
+                        "class": "INDUSTRY"
+                    },
+                    "collaborators": [
+                        {
+                            "name": "PPD DEVELOPMENT, LP",
+                            "class": "INDUSTRY"
+                        }
+                    ]
+                },
+                "oversightModule": {
+                    "oversightHasDmc": false,
+                    "isFdaRegulatedDrug": true,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "This is a Phase 1 study designed to assess the effect of hepatic insufficiency on the PK of pacritinib by study of 14-day BID dosing of pacritinib in subjects with moderate and severe hepatic impairment compared to healthy matched control subjects with normal liver function. Safety and tolerability of multiple day dosing of pacritinib in the subject populations will also be evaluated.",
+                    "detailedDescription": "This is a Phase 1, multi-center, open-label, multiple-dose, parallel-group study designed to assess the effect of hepatic insufficiency on the PK of 200 mg BID pacritinib. A total of approximately 22 to 32 subjects are planned, with approximately 8 moderate hepatically impaired subjects, approximately 6 to 8 severe hepatically impaired subjects, and approximately 8 to 16 healthy subjects with normal hepatic function. The primary objective of this study is to characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in the study population, and the secondary objective is to evaluate the safety and tolerability of multiple doses (14 days) of 200 mg BID pacritinib. The study will consist of a screening period (Day -28 to Day -2), check-in (Day -1), a confinement period including treatment period (Day 1 through Day 14) and post-treatment period (Day 15 through Day 20), followed by a discharge visit (Day 21), and an EOS follow-up telephone call (Day 44). Serial blood samples for PK analysis of pacritinib will be collected pre dose through Day 21 at protocol-specified timepoints CK 18 will be collected . Safety and tolerability will be assessed by AEs, clinical laboratory tests, vital will occur 4 and 24 hours after the AM dose on Day 1, Day 10, Day 12, and Day 14 signs, ECGs, and physical examinations."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Hepatic Impairment"
+                    ],
+                    "keywords": [
+                        "Pacritinib"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "PHASE1"
+                    ],
+                    "designInfo": {
+                        "allocation": "NON_RANDOMIZED",
+                        "interventionModel": "PARALLEL",
+                        "primaryPurpose": "TREATMENT",
+                        "maskingInfo": {
+                            "masking": "NONE"
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 29,
+                        "type": "ACTUAL"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Moderate Hepatic Impairment",
+                            "type": "EXPERIMENTAL",
+                            "description": "Subjects with moderate hepatic impairment based on Child-Pugh Class B score of 7-9 will receive 14 days of 200 mg BID pacritinib.",
+                            "interventionNames": [
+                                "Drug: oral dose of 200 mg pacritinib twice daily (BID)"
+                            ]
+                        },
+                        {
+                            "label": "Severe Hepatic Impairment",
+                            "type": "EXPERIMENTAL",
+                            "description": "Subjects with severe hepatic impairment based on Child-Pugh Class C score of 10-15 will receive 14 days of 200 mg BID pacritinib.",
+                            "interventionNames": [
+                                "Drug: oral dose of 200 mg pacritinib twice daily (BID)"
+                            ]
+                        },
+                        {
+                            "label": "Normal Hepatic Function",
+                            "type": "EXPERIMENTAL",
+                            "description": "Healthy subjects who have normal hepatic function with age (\u00b1 10 years; \u2265 18 years old and \u2264 85 years old), BMI (\u00b120%), and sex, matching with the moderate and severe hepatic impairment cohorts will receive 14 days of 200 mg BID pacritinib.",
+                            "interventionNames": [
+                                "Drug: oral dose of 200 mg pacritinib twice daily (BID)"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "DRUG",
+                            "name": "oral dose of 200 mg pacritinib twice daily (BID)",
+                            "description": "Subjects will receive 200 mg BID pacritinib for 14 days.",
+                            "armGroupLabels": [
+                                "Moderate Hepatic Impairment",
+                                "Normal Hepatic Function",
+                                "Severe Hepatic Impairment"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 1- (Day 1: Cmax)"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 1(Day 1: Tmax)"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 1( AUC0-12)"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14: Cmax,"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14: Tmax,"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 t1/2"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 CL/F"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 AUC0 t"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 AUC0 -12"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 \u03bbZ,"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 Vz/F"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 f/u"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 ARCmax"
+                        },
+                        {
+                            "measure": "PK",
+                            "description": "To characterize and compare the steady-state PK profile of multiple doses (14 days) of 200 mg BID pacritinib in subjects with moderate and severe hepatic impairment with that of healthy matched control subjects with normal liver function.",
+                            "timeFrame": "Day 14 ARAUC0-12"
+                        }
+                    ],
+                    "secondaryOutcomes": [
+                        {
+                            "measure": "Incidence of adverse events",
+                            "description": "Safety and tolerability of pacritinib, including monitoring of adverse events (AEs); an AE is any untoward medical occurrence in a study subject administered a product or medical device; the event need not necessarily have a causal relationship with the treatment or usage",
+                            "timeFrame": "Day 1-44"
+                        },
+                        {
+                            "measure": "Incidence of clinical laboratory abnormalities",
+                            "description": "Safety and tolerability of pacritinib, including hematology, coagulation, chemistry, and urinalysis parameters",
+                            "timeFrame": "Day 1-21"
+                        },
+                        {
+                            "measure": "Incidence of vital sign abnormalities",
+                            "description": "Safety and tolerability of pacritinib, including monitoring of blood pressure, heart rate, respiratory rate, and body temperature",
+                            "timeFrame": "Day 1-21"
+                        },
+                        {
+                            "measure": "Incidence of ECG abnormalities",
+                            "description": "Safety and tolerability of pacritinib, including monitoring of RR interval, PR interval, QRS width, QT interval, and QTcF",
+                            "timeFrame": "Day1-21"
+                        },
+                        {
+                            "measure": "Incidence of physical examination abnormalities",
+                            "description": "Safety and tolerability of pacritinib, including monitoring for abnormalities on physical examination",
+                            "timeFrame": "Day 1-21"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able to provide written informed consent.\n2. Able to communicate well with the investigator and understands and agrees to comply with all protocol requirements.\n3. Is male or female \u226518 to \u226485 years of age, inclusive, at screening.\n4. Has a BMI 18.0 to 42.0 kg/m2, inclusive, at screening.\n5. Female subjects of childbearing potential must be surgically sterile, or postmenopausal, or agree use an acceptable method of birth control from the time of ICF or 10 days prior to check-in and until 30 days after Day 21. Female subjects of childbearing potential must have a negative serum pregnancy test at screening and a negative urine pregnancy test at check-in.\n6. Male subjects with female partners of childbearing potential must be vasectomized, be willing to use an acceptable method of birth control, or to practice abstinence during the study from check-in until 90 days following Day 21.\n7. Male subjects must refrain from sperm donation from check-in until 90 days following Day 21.\n\n   Additional Inclusion Criteria for Subjects with Hepatic Impairment Only:\n8. Has chronic (\\>6 months) and stable hepatic impairment (ie, no acute episodes of illness within 30 days prior to screening due to deterioration of hepatic function) as assessed by a Child-Pugh classification score of moderate (7 to 9 points) or severe (10 to 15 points).\n9. Is judged by the investigator to be in good general health, as determined by medical history, clinical laboratory assessments, vital sign measurements, 12 lead ECG results, and physical examination findings, except for findings that, as judged by the investigator, are consistent with the subject's hepatic impairment or other stable concomitant medical conditions at screening and check-in.\n\n   Additional Inclusion Criteria for Healthy Subjects Only:\n10. Has normal hepatic function.\n11. Must match a subject in Group 1 and/or Group 2, with respect to sex, age (\u00b110 years), and BMI (\u00b120%).\n12. Is judged by the investigator to be in good general health, as determined by medical history, clinical laboratory assessments, vital sign measurements, 12 lead ECG results, and physical examination findings at screening and check-in.\n\nExclusion Criteria:\n\n1. Has a history or clinical manifestations of a significant neurological, renal, cardiovascular, gastrointestinal, pulmonary, hematologic, immunologic, or psychiatric disease that would preclude study participation, as judged by the investigator.\n2. Has any surgical or medical condition which might significantly alter the absorption, distribution, metabolism, or excretion of drugs or which may jeopardize the subjects participation in the study. The investigator should be guided by evidence of any of the following:\n\n   * History of inflammatory bowel disease\n   * History of major gastrointestinal tract surgery such as gastrectomy, gastroenterostomy, or bowel resection (esophageal varix surgery is allowable)\n   * Clinical evidence of pancreatic injury or pancreatitis\n   * Evidence of urinary obstruction or difficulty in voiding at screening\n3. Has a baseline seated systolic blood pressure \\>160 mm Hg or \u226490 mm Hg and a diastolic blood pressure of \\>100 mm Hg or \u226450 mm Hg, inclusive, at screening and check in unless deemed not clinically significant by the investigator, as approved by the sponsor.\n4. Has a baseline seated pulse rate of \\<50 bpm or \\>100 bpm and/or an oral body temperature \\<35.0\u00b0C or \\>37.5\u00b0C when vital signs are measured at screening and check in.\n5. Has a significant QT interval prolongation (QTcF of \\>480 msec) or other risks for QT prolongation at screening or check-in.\n6. Has a history of being immunocompromised or has a positive serum test result for HIV types 1 or 2 antibodies at screening.\n7. Has had a significant illness within the 2 weeks prior to check-in.\n8. Has a history of alcoholism, drug abuse, or alcohol withdrawal within 3 months before screening, or excessive alcohol consumption (regular alcohol intake \\>21 units per week for male subjects and \\>14 units of alcohol per week for female subjects) (1 unit is equal to approximately \u00bd pint \\[200 mL\\] of beer, 1 small glass \\[100 mL\\] of wine, or 1 measure \\[25 mL\\] of spirits).\n9. Is unable or unwilling to abstain from alcohol from 72 hours prior to check-in until Day 21.\n10. Is unable or unwilling to abstain from caffeine, xanthine-containing beverages or food (eg, coffee, tea, chocolate, and caffeinated sodas, colas) from check in until Day 21.\n11. Has consumed grapefruit, grapefruit juice, Seville oranges, or products containing any of these, from 7 days prior to check-in to the study site until Day 21.\n12. Smokes \\>10 cigarettes daily and is unwilling to reduce to \u22645 daily from the time of screening through Day 21.\n13. Is involved in strenuous activity or contact sports within 24 hours prior to check-in or during the study.\n14. Has donated blood or blood products \\>450 mL within 30 days prior to the first dose of study drug.\n15. Has used over-the-counter medications (except as prescribed by a physician or paracetamol \\[up to 2 g per day\\]), vitamins, or phyto-therapeutic/herbal/plant-derived preparations within 14 days of check-in.\n16. Has used a potent CYP3A4 inducer within 30 days prior to check-in or used a potent CYP3A4 inhibitor within 15 days prior to check-in.\n17. Has received treatment in another clinical study of an investigational drug (or medical device) or investigational vaccine within 30 days or 5 half-lives (whichever is longer) prior to check-in.\n18. The subject has previously received pacritinib.\n19. Has a known hypersensitivity to study drug (ie, allergy to pacritinib or any excipients or drugs similar to pacritinib).\n20. Has had a recent bleeding event of Grade \u22652 within 3 months prior to first dose of study drug.\n21. Has used antiplatelet or anticoagulant therapy within 14 days prior to check in with the exception of aspirin at doses \u2264100 mg daily.\n22. Has a history of heart failure with a New York Heart Association Class II or above.\n23. Has a recent cardiac event of Grade \u22653 within 6 months prior to check in.\n24. In the opinion of the investigator, the subject is not suitable for entry into the study.\n\n    Additional Exclusion Criteria for Subjects with Hepatic Impairment Only:\n25. Has fluctuating or rapidly deteriorating hepatic function, as indicated by recent history or worsening of clinical (ie, abdominal pain, nausea, vomiting, anorexia, or fever) and/or laboratory signs of hepatic impairment, as judged by the investigator.\n26. Has symptoms or history of Stage II or worse degree of encephalopathy that would prohibit informed consent within 6 months before check-in, as judged by the investigator.\n27. Has clinical evidence of ascites that requires paracentesis more frequently than every 3 weeks at screening or check-in.\n28. Has a history of a surgical portosystemic shunt.\n29. Has evidence of hepatorenal syndrome.\n30. Has any of the following laboratory results:\n\n    * Estimated serum creatinine clearance (Cockcroft-Gault) \\<50 mL/min\n    * Absolute neutrophil count \\<1500 cells/mm3\n    * Platelet count \\<30,000 cells/mm3\n    * Hemoglobin \\<9 g/dL\n    * Activated partial thromboplastin time, international normalized ratio, partial thromboplastin time, or prothrombin time clinically significant per investigator discretion.\n31. Has evidence of progressive liver disease (as available within the last 4 weeks, including the time period between screening and check-in) as indicated by liver transaminases, alkaline phosphatase, and gamma-glutamyl transpeptidase, as judged by the investigator.\n32. Has evidence of active acute or chronic hepatitis B virus.\n33. Has a positive test result for drugs of abuse (except for positive results associated with prescription medications that have been reviewed and approved by the investigator) or positive alcohol urine or breath test at screening or check-in. A positive tetrahydrocannabinol result at screening will not be exclusionary, but must be negative at check-in.\n34. Has a urinalysis with any result outside the normal range and deemed clinically significant by the investigator. Results deemed not clinically significant by the investigator in consultation with the sponsor may be allowed.\n35. Has initiated any otherwise allowable prescription or over-the-counter medications within 15 days of check-in. Some of these medications may have to be discontinued 12 to 48 hours before study drug dosing, or earlier. As medication regimens vary and cannot be predicted, each subject will be discussed with the sponsor individually. The dose of an approved medication must remain stable from 7 days before study drug dosing and throughout the study.\n\n    Additional Exclusion Criteria for Healthy Subjects Only:\n36. Has a positive test result for hepatitis B surface antigen and/or hepatitis C virus antibodies.\n37. Any screening or check-in laboratory results outside the normal range and deemed clinically significant. Results outside the normal range and deemed not clinically significant by investigator, in consultation with the sponsor, are allowable.\n38. Has used any prescription medication within 30 days prior to check in.\n39. Activated partial thromboplastin time, international normalized ratio, partial thromboplastin time, or prothrombin time \\> 1.5 \u00d7 ULN.\n40. Has a positive test result for drugs of abuse or positive alcohol urine or breath test prior to the first dose of study drug.",
+                    "healthyVolunteers": true,
+                    "sex": "ALL",
+                    "minimumAge": "18 Years",
+                    "maximumAge": "85 Years",
+                    "stdAges": [
+                        "ADULT",
+                        "OLDER_ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "overallOfficials": [
+                        {
+                            "name": "Buckley",
+                            "affiliation": "Sobi, Inc.",
+                            "role": "STUDY_DIRECTOR"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "Site 2",
+                            "city": "Orlando",
+                            "state": "Florida",
+                            "zip": "32809",
+                            "country": "United States",
+                            "geoPoint": {
+                                "lat": 28.53834,
+                                "lon": -81.37924
+                            }
+                        },
+                        {
+                            "facility": "Site 1",
+                            "city": "San Antonio",
+                            "state": "Texas",
+                            "zip": "78215",
+                            "country": "United States",
+                            "geoPoint": {
+                                "lat": 29.42412,
+                                "lon": -98.49363
+                            }
+                        }
+                    ]
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "conditionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D008107",
+                            "term": "Liver Diseases"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D004066",
+                            "term": "Digestive System Diseases"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M11107",
+                            "name": "Liver Diseases",
+                            "asFound": "Hepatic Impairment",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M8883",
+                            "name": "Gastrointestinal Diseases",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M7255",
+                            "name": "Digestive System Diseases",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "BC06",
+                            "name": "Digestive System Diseases"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Conditions"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT06286397",
+                    "orgStudyIdInfo": {
+                        "id": "855173"
+                    },
+                    "organization": {
+                        "fullName": "University of Pennsylvania",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Topical Anti-Androgens in Pilonidal Sinus Disease",
+                    "officialTitle": "Topical Anti-Androgens in Pilonidal Sinus Disease"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "NOT_YET_RECRUITING",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2024-11-01",
+                        "type": "ESTIMATED"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2027-08-01",
+                        "type": "ESTIMATED"
+                    },
+                    "completionDateStruct": {
+                        "date": "2027-12-01",
+                        "type": "ESTIMATED"
+                    },
+                    "studyFirstSubmitDate": "2024-02-22",
+                    "studyFirstSubmitQcDate": "2024-02-22",
+                    "studyFirstPostDateStruct": {
+                        "date": "2024-02-29",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-17",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR"
+                    },
+                    "leadSponsor": {
+                        "name": "University of Pennsylvania",
+                        "class": "OTHER"
+                    }
+                },
+                "oversightModule": {
+                    "oversightHasDmc": false,
+                    "isFdaRegulatedDrug": true,
+                    "isFdaRegulatedDevice": false,
+                    "isUsExport": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "The goal of this randomized clinical trial is to test the topical drug clascoterone in patients with pilonidal disease, which is a common, benign skin condition of the gluteal cleft. The main questions it aims to answer are:\n\n* Does clascoterone improve the severity of pilonidal disease as scored by a physician?\n* Does clascoterone improve patient symptoms due to pilonidal disease?\n* Does clascoterone improve the inflammation seen under the microscope in pilonidal disease removed at surgery Participants will apply clascoterone or a placebo cream to the diseased area for 3 months. They will be assessed every 4 weeks for disease severity assessed by a physician viewing patient photos and a symptom-based survey.\n\nResearchers will compare participants who received clascoterone treatment to those who received placebo.",
+                    "detailedDescription": "This is a randomized, double-blinded placebo-controlled trial. Recruitment The investigators will recruit patients from the University of Pennsylvania colorectal surgery clinics which consist of six high-volume surgeons and five advance practice providers across three hospitals serving a major metropolitan area. Patients considered for elective surgery will be recruited for the study and undergo a thorough informed consent process. Patients with asymptomatic disease and those with acute abscesses will be excluded as will patients who are pregnant or concurrently on a systemic anti-androgen (i.e. spironolactone). At the intake visit, patients will undergo a 1:1 randomization performed by the University of Pennsylvania's Investigational Drug Service (IDS). Recruited subjects will receive clascoterone or a vehicle cream matched for consistency, color, and container so that both subject and investigator are blinded to the assignment. At the intake visit, subjects will be advised to apply cream to cover the affected area twice daily for 12 weeks. At the intake visit, baseline disease assessment will be obtained including demographics, height and weight, medication usage, and personal history of PSD such as disease onset and prior procedures. Baseline disease measurements and medical photography will be obtained. Photographs will be taken with a dedicated camera, patients given a codified study ID, and data entered into a deidentified, HIPAA- compliant database.\n\nI. Objective assessment of Disease Severity: Medical photography and analysis To objectively evaluate PSD, the investigators will obtain physical measurements of disease extent (left to right, cranial to caudal) and obtain disease photographs at baseline and weeks 4, 8, and 12. Photographs will be collected, deidentified, and provided to two colorectal surgeons for scoring. Surgeons will be asked to compare each timepoint to baseline and rate the PSD severity as significantly worsened, mildly worsened, unchanged, mildly improved, or significantly improved. Discrepant evaluations between surgeons will be referred to a third blinded surgeon.\n\nII. Assessment of Dermatology Quality of Life Randomized subjects will be administered the Dermatology Life Quality Index (DLQI) at baseline and at 4, 8, and 12 weeks. The DLQI is a 10-question survey scored from 0-30 that has been applied widely across multiple dermatologic conditions and covers a range of potential quality of life impacts over a weekly basis. Specifically, the DLQI inquires about the impact of skin disease on symptoms (\"Over the past week, how itchy, painful, or stinging has your skin been?\"), daily activities, leisure, work and school, and personal relationships, as well as a question of impact of treatment (\"Over the last week, how much of a problem has the treatment of your skin been?\"). Subjects respond Very much, A lot, A little, or Not at all for descending scores of 3 to zero. A score at or above 10 is considered a significant impact on quality of life. Responses to the individual questions will be summed and responses compared between groups after unblinding at data analysis.\n\nIII. The investigators anticipate that a large portion of subjects in both groups will ultimately undergo surgery. Those that undergo surgery within 4 weeks will be selected for these analyses, on the hypothesis that the effect of clascoterone may subside at a longer interval. At surgery, blinded investigators will measure the left-right, cranial-caudal, and superficial-deep measurements of the excisional defect with a sterile ruler. The investigators will then follow patients with chart review in the electronic medical record for 8 weeks postoperatively to assess for immediate wound complications such as cellulitis, wound separation, abscess, and early recurrence.\n\nIII. Assessment of Cutaneous Inflammation A full thickness representative sample of the excised pilonidal cyst and adjacent normal tissue will be obtained at operation, fixed in formalin and delivered to the skin phenomics core of the University of Pennsylvania Skin Biology Disease Research Core (SBDRC). Following de-paraffination, rehydration, antigen retrieval, and blocking as necessary, SBDRC-validated antibodies will be applied to characterize the inflammatory infiltrate, specifically anti- CD3 (T- cells and Natural Killer Cells), anti-CD4 (helper T-cells), anti-CD8 (cytotoxic T-cells), anti-CD68 (macrophages), anti-CD79 (B cells). Investigators blinded to treatment groups will assess the specimens for epidermal, dermal, and subcuticular inflammatory infiltrates, hyperkeratosis, and follicular hyperplasia. Antibody-positive cells will be counted in six randomly selected fields under a light microscope at 400x magnification. Cell counts will be tallied and means and standard deviations compared between groups."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Pilonidal Disease",
+                        "Pilonidal Disease of Natal Cleft",
+                        "Pilonidal Sinus",
+                        "Pilonidal Cyst"
+                    ],
+                    "keywords": [
+                        "Pilonidal Cyst",
+                        "Pilonidal Sinus",
+                        "Clascoterone",
+                        "Androgen"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "PHASE2"
+                    ],
+                    "designInfo": {
+                        "allocation": "RANDOMIZED",
+                        "interventionModel": "PARALLEL",
+                        "interventionModelDescription": "Randomized, Double-Blinded, Placebo-Controlled Trial",
+                        "primaryPurpose": "TREATMENT",
+                        "maskingInfo": {
+                            "masking": "QUADRUPLE",
+                            "whoMasked": [
+                                "PARTICIPANT",
+                                "CARE_PROVIDER",
+                                "INVESTIGATOR",
+                                "OUTCOMES_ASSESSOR"
+                            ]
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 75,
+                        "type": "ESTIMATED"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Clascoterone Treatment",
+                            "type": "EXPERIMENTAL",
+                            "description": "Participants will apply 1% clasocterone cream to the affected area twice daily got a total of 12 weeks with assessment visits at weeks 0, 4, 8, and 12. At assessment visits participants will have medical photography of the diseased area, be administered a dermatology-specific quality of life questionnaire, and be assessed for any side effects.",
+                            "interventionNames": [
+                                "Drug: 1% Clascoterone"
+                            ]
+                        },
+                        {
+                            "label": "Placebo Treatment",
+                            "type": "PLACEBO_COMPARATOR",
+                            "description": "Participants will apply a vehicle cream matched in texture, appearance, and odor to clacoterone to the affected area twice daily got a total of 12 weeks with assessment visits at weeks 0, 4, 8, and 12. At assessment visits participants will have medical photography of the diseased area, be administered a dermatology-specific quality of life questionnaire, and be assessed for any side effects.",
+                            "interventionNames": [
+                                "Drug: Vehicle Cream"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "DRUG",
+                            "name": "1% Clascoterone",
+                            "description": "Application of 1% clascoterone cream twice daily to affected area for 12 weeks.",
+                            "armGroupLabels": [
+                                "Clascoterone Treatment"
+                            ]
+                        },
+                        {
+                            "type": "DRUG",
+                            "name": "Vehicle Cream",
+                            "description": "Application of a vehicle cream to the natal cleft twice daily for 12 weeks",
+                            "armGroupLabels": [
+                                "Placebo Treatment"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Physician-Assessed Disease Severity Assessment",
+                            "description": "To objectively evaluate PSD, the investigators will obtain physical measurements of disease extent (left to right, cranial to caudal) and obtain disease photographs at baseline and weeks 4, 8, and 12. Photographs will be collected, deidentified, and provided to two colorectal surgeons for scoring. Surgeons will be asked to compare each timepoint to baseline and rate the PSD severity as significantly worsened, mildly worsened, unchanged, mildly improved, or significantly improved. Discrepant evaluations between surgeons will be referred to a third blinded surgeon. Data will be collated and analyzed in two fashions: as a 6-point ordinal outcome and collapsed into a dichotomous outcome with severely worsened to no change as a negative outcome and improvement as a positive outcome.",
+                            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+                        },
+                        {
+                            "measure": "Dermatology Life Quality Index",
+                            "description": "Randomized subjects will be administered the Dermatology Life Quality Index (DLQI) at baseline and at 4, 8, and 12 weeks. The DLQI is a 10-question survey scored from 0-30 that has been applied widely across multiple dermatologic conditions and covers a range of potential quality of life impacts over a weekly basis. Specifically, the DLQI inquires about the impact of skin disease on symptoms (Example: \"Over the past week, how itchy, painful, or stinging has your skin been?\"), daily activities, leisure, work and school, and personal relationships, as well as a question of impact of treatment (\"Over the last week, how much of a problem has the treatment of your skin been?\"). Subjects respond Very much, A lot, A little, or Not at all for descending scores of 3 to zero. A score at or above 10 is considered a significant impact on quality of life.",
+                            "timeFrame": "From enrollment to the conclusion of treatment at 12 weeks"
+                        }
+                    ],
+                    "secondaryOutcomes": [
+                        {
+                            "measure": "Subcutaneous Inflammation",
+                            "description": "The investigators anticipate that a large portion of subjects will ultimately undergo surgery. Those that undergo surgery within 4 weeks will be selected. At surgery, blinded investigators will measure the excisional defect. The investigators will then follow patients with chart review in the electronic medical record for 8 weeks postoperatively to assess for immediate wound complications. A full thickness representative sample of the excised pilonidal cyst will analyzed including: antibodies against CD3, CD4, CD8, CD68, and D79. Investigators will assess the specimens for hyperkeratosis, and follicular hyperplasia.",
+                            "timeFrame": "From 12 weeks to 16 weeks after enrollment, only in patients who undergo surgery"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 and above\n* Diagnosis of Pilonidal Disease\n* Willingness to comply with study procedures and availability for duration of study\n* Ability to apply topical medications and willing to adhere to regimen\n\nExclusion Criteria:\n\n* Current use of any topical medication to natal cleft\n* Presence of pilonidal-associated abscess\n* Pregnancy or lactation\n* Allergic reaction to components of 1% clascoterone cream\n* Febrile illness within 7 days\n* Treatment with another investigational drug within three months",
+                    "healthyVolunteers": false,
+                    "sex": "ALL",
+                    "minimumAge": "18 Years",
+                    "stdAges": [
+                        "ADULT",
+                        "OLDER_ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "centralContacts": [
+                        {
+                            "name": "Lillias Maguire, MD",
+                            "role": "CONTACT",
+                            "phone": "215-662-2078",
+                            "email": "lillias.maguire@pennmedicine.upenn.edu"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "University of Pennsylvania",
+                            "city": "Philadelphia",
+                            "state": "Pennsylvania",
+                            "zip": "19103",
+                            "country": "United States",
+                            "contacts": [
+                                {
+                                    "name": "Lillias Maguire, MD",
+                                    "role": "CONTACT",
+                                    "phone": "215-662-2078",
+                                    "email": "lillias.maguire@pennmedicine.upenn.edu"
+                                },
+                                {
+                                    "name": "Lillias Maguire, MD",
+                                    "role": "PRINCIPAL_INVESTIGATOR"
+                                }
+                            ],
+                            "geoPoint": {
+                                "lat": 39.95233,
+                                "lon": -75.16379
+                            }
+                        }
+                    ]
+                },
+                "referencesModule": {
+                    "references": [
+                        {
+                            "pmid": "32320027",
+                            "type": "BACKGROUND",
+                            "citation": "Hebert A, Thiboutot D, Stein Gold L, Cartwright M, Gerloni M, Fragasso E, Mazzetti A. Efficacy and Safety of Topical Clascoterone Cream, 1%, for Treatment in Patients With Facial Acne: Two Phase 3 Randomized Clinical Trials. JAMA Dermatol. 2020 Jun 1;156(6):621-630. doi: 10.1001/jamadermatol.2020.0465."
+                        },
+                        {
+                            "pmid": "33533262",
+                            "type": "BACKGROUND",
+                            "citation": "Kalabalik-Hoganson J, Frey KM, Ozdener-Poyraz AE, Slugocki M. Clascoterone: A Novel Topical Androgen Receptor Inhibitor for the Treatment of Acne. Ann Pharmacother. 2021 Oct;55(10):1290-1296. doi: 10.1177/1060028021992053. Epub 2021 Feb 3."
+                        },
+                        {
+                            "pmid": "37660976",
+                            "type": "BACKGROUND",
+                            "citation": "Hargis A, Yaghi M, Maskan Bermudez N, Lev-Tov H. Clascoterone in the treatment of mild hidradenitis suppurativa. J Am Acad Dermatol. 2024 Jan;90(1):142-144. doi: 10.1016/j.jaad.2023.08.064. Epub 2023 Sep 2. No abstract available."
+                        }
+                    ]
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "conditionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D010864",
+                            "term": "Pilonidal Sinus"
+                        },
+                        {
+                            "id": "D010254",
+                            "term": "Paranasal Sinus Diseases"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D003560",
+                            "term": "Cysts"
+                        },
+                        {
+                            "id": "D009369",
+                            "term": "Neoplasms"
+                        },
+                        {
+                            "id": "D009668",
+                            "term": "Nose Diseases"
+                        },
+                        {
+                            "id": "D012140",
+                            "term": "Respiratory Tract Diseases"
+                        },
+                        {
+                            "id": "D010038",
+                            "term": "Otorhinolaryngologic Diseases"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M6765",
+                            "name": "Cysts",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M13759",
+                            "name": "Pilonidal Sinus",
+                            "asFound": "Pilonidal Sinus",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M13167",
+                            "name": "Paranasal Sinus Diseases",
+                            "asFound": "Sinus Disease",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M12604",
+                            "name": "Nose Diseases",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M14977",
+                            "name": "Respiratory Tract Diseases",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M12961",
+                            "name": "Otorhinolaryngologic Diseases",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "BC04",
+                            "name": "Neoplasms"
+                        },
+                        {
+                            "abbrev": "BC23",
+                            "name": "Symptoms and General Pathology"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Conditions"
+                        },
+                        {
+                            "abbrev": "BC08",
+                            "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                        },
+                        {
+                            "abbrev": "BC09",
+                            "name": "Ear, Nose, and Throat Diseases"
+                        }
+                    ]
+                },
+                "interventionBrowseModule": {
+                    "browseLeaves": [
+                        {
+                            "id": "M4059",
+                            "name": "Androgens",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M4057",
+                            "name": "Androgen Antagonists",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "All",
+                            "name": "All Drugs and Chemicals"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT06396247",
+                    "orgStudyIdInfo": {
+                        "id": "STUDY00024492"
+                    },
+                    "secondaryIdInfos": [
+                        {
+                            "id": "R01AG079938",
+                            "type": "NIH",
+                            "link": "https://reporter.nih.gov/quickSearch/R01AG079938"
+                        }
+                    ],
+                    "organization": {
+                        "fullName": "Milton S. Hershey Medical Center",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Impact of Brief Daily Functional Resistance Training on Lower Extremity Physical Performance",
+                    "officialTitle": "Impact of Brief Daily Functional Resistance Training on Lower Extremity Physical Performance",
+                    "acronym": "FASTNIA"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "NOT_YET_RECRUITING",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2025-01",
+                        "type": "ESTIMATED"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2028-03",
+                        "type": "ESTIMATED"
+                    },
+                    "completionDateStruct": {
+                        "date": "2028-08",
+                        "type": "ESTIMATED"
+                    },
+                    "studyFirstSubmitDate": "2024-04-29",
+                    "studyFirstSubmitQcDate": "2024-04-29",
+                    "studyFirstPostDateStruct": {
+                        "date": "2024-05-02",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-17",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "PRINCIPAL_INVESTIGATOR",
+                        "investigatorFullName": "Christopher Sciamanna, MD, MPH",
+                        "investigatorTitle": "Professor of Medicine",
+                        "investigatorAffiliation": "Milton S. Hershey Medical Center"
+                    },
+                    "leadSponsor": {
+                        "name": "Milton S. Hershey Medical Center",
+                        "class": "OTHER"
+                    },
+                    "collaborators": [
+                        {
+                            "name": "National Institute on Aging (NIA)",
+                            "class": "NIH"
+                        }
+                    ]
+                },
+                "oversightModule": {
+                    "oversightHasDmc": true,
+                    "isFdaRegulatedDrug": false,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "In this study, we will randomly assign 360 older adults to 12 months of 5 minutes per day of functional resistance training or to a delayed treatment control condition, and measure the impact of the training on measures of lower extremity performance and walking ability.",
+                    "detailedDescription": "One of the most common, and untreated, health problems among older adults is mobility disability, observed in nearly one in five (17.9%) of older adults. Mobility disability is typically the first disability to develop and increases future risk for additional disabilities and death. Though the most effective treatments for mobility disability are forms of exercise, especially resistance training (RT), they are rarely used, with fewer than 20% of older adults meeting RT guidelines and even fewer among those with mobility disability. The core problem of disseminating the benefits of RT to older adults is adherence. One potential opportunity to enhance adherence to RT, which has not been tested, is to make RT programs shorter. Studies show that most of the benefits of RT accrue with the first few sets per week, consistent with the law of diminishing utility. While traditional RT programs for older adults, like those offered by Silver Sneakers, are typically 45 minutes three times weekly, fewer than 5% of older adults with free access to these programs participate. Our qualitative work shows that older adults often feel that 45 minute sessions are too challenging (e.g., \"I don't think I have the strength to do it for 45 minutes\") and 75% of older adults we surveyed preferred a 5 minute RT to a 45 minute RT option, assuming they were equally effective. In 2020, we set out to design a brief, home-based RT program that would lead to both high levels of adherence and functional improvement. We called the program FAST (Functional Activity Strength Training) and, to overcome its brevity, FAST was augmented with several standard behavior change techniques (e.g., feedback, reminders, self-monitoring) and a novel form of goal- setting, rarely used in RT studies, for the number of additional repetitions participants should be able to do during the study. In FAST-1, 24 healthy older adults were prescribed 30 seconds of squats and push-ups each day and given no personal supervision. Over 6 months, they performed the exercises on 73% of days and showed large increases in squat and push-up performance (Cohen's d \\> 1.0). In FAST-2, we randomly assigned 97 older adults with mobility disability, and those assigned to 30 seconds each of chair stands and steps onto a stepper each day completed exercises on 81% of days (5.7 days per week) and improved their 5 time sit-to-stand test (-2.8 seconds, Cohen's d=0.53), 30 second chair stand test (+4.2 repetitions, d=1.1) and One Leg Stand test (+3.7 seconds, d=0.40), versus controls. In this multicenter study, we will randomly assign 360 older adults with an SPPB score \\< 8 to 6 months of daily FAST or to a delayed control group. We will test the impact of FAST on physical performance, walking ability, falls and functional limitations. We hypothesize that FAST will improve these measures more than controls, and that those with greater adherence and perceived effort will improve the most. By rigorously testing FAST, we hope to change the paradigm of RT prescription from \"More is better\" to \"What will people do that works?\" and, if FAST proves superior, a future study will test whether FAST leads more older adults to do RT and, thereby, improve the public's health."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Mobility Limitation"
+                    ],
+                    "keywords": [
+                        "older adults",
+                        "walking",
+                        "mobility"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "PHASE2",
+                        "PHASE3"
+                    ],
+                    "designInfo": {
+                        "allocation": "RANDOMIZED",
+                        "interventionModel": "PARALLEL",
+                        "interventionModelDescription": "We hypothesize that patients assigned to FAST will improve these outcomes significantly more than those assigned to DTC and that FAST participants with higher levels of perceived exertion and adherence will improve these measures the most.",
+                        "primaryPurpose": "TREATMENT",
+                        "maskingInfo": {
+                            "masking": "DOUBLE",
+                            "maskingDescription": "Randomization",
+                            "whoMasked": [
+                                "PARTICIPANT",
+                                "INVESTIGATOR"
+                            ]
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 360,
+                        "type": "ESTIMATED"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Functional Activity Strength TRaining",
+                            "type": "EXPERIMENTAL",
+                            "description": "Participants will perform 5 minutes of functional resistance training daily, supported by 24 video coaching sessions over 12 months.",
+                            "interventionNames": [
+                                "Behavioral: Functional Activity Strength Training"
+                            ]
+                        },
+                        {
+                            "label": "Delayed Treatment",
+                            "type": "ACTIVE_COMPARATOR",
+                            "description": "Participants will receive the intervention after 12 months.",
+                            "interventionNames": [
+                                "Behavioral: Functional Activity Strength Training"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "BEHAVIORAL",
+                            "name": "Functional Activity Strength Training",
+                            "description": "FAST consists of five exercises (stepping on a step, chair stands, push-ups, rows, walking), for 30 seconds each, performed daily, with 30 seconds of rest between.",
+                            "armGroupLabels": [
+                                "Delayed Treatment",
+                                "Functional Activity Strength TRaining"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Short Physical Performance Battery",
+                            "description": "The SPPB assesses balance, gait speed, and lower extremity strength.",
+                            "timeFrame": "Baseline, 6 months, 12 months"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* Self-reported difficulty or inability to walk \u00bc mile\n\nExclusion Criteria:\n\n* Chest pain on the PAR-Q",
+                    "healthyVolunteers": false,
+                    "sex": "ALL",
+                    "minimumAge": "65 Years",
+                    "stdAges": [
+                        "OLDER_ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "centralContacts": [
+                        {
+                            "name": "Christopher Sciamanna, MD, MPH",
+                            "role": "CONTACT",
+                            "phone": "610-585-9765",
+                            "email": "cns10@psu.edu"
+                        },
+                        {
+                            "name": "Jordan Kurth, Ph.SD.",
+                            "role": "CONTACT",
+                            "phone": "815-988-6357",
+                            "email": "jkurth@pennstatehealth.psu.edu"
+                        }
+                    ],
+                    "overallOfficials": [
+                        {
+                            "name": "Maggie Nellissery, Ph.D.",
+                            "affiliation": "National Institute on Aging (NIA)",
+                            "role": "STUDY_CHAIR"
+                        }
+                    ]
+                },
+                "ipdSharingStatementModule": {
+                    "ipdSharing": "YES",
+                    "description": "We estimate the upload at 10MB, as we have experience uploading our data into ICPSR",
+                    "infoTypes": [
+                        "STUDY_PROTOCOL",
+                        "SAP",
+                        "ICF",
+                        "CSR"
+                    ],
+                    "timeFrame": "12 months after study has completed",
+                    "accessCriteria": "ICPSR Account holder",
+                    "url": "https://www.icpsr.umich.edu/web/pages/"
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "conditionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D051346",
+                            "term": "Mobility Limitation"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M26689",
+                            "name": "Mobility Limitation",
+                            "asFound": "Mobility Limitation",
+                            "relevance": "HIGH"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "BC23",
+                            "name": "Symptoms and General Pathology"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Conditions"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT04143477",
+                    "orgStudyIdInfo": {
+                        "id": "015K-CL-CNA1"
+                    },
+                    "organization": {
+                        "fullName": "Astellas Pharma Inc",
+                        "class": "INDUSTRY"
+                    },
+                    "briefTitle": "A Study to Evaluate the Pharmacokinetics and Safety of ASP015K in Healthy Chinese Subjects",
+                    "officialTitle": "An Open-Label, Single and Multiple Dose Study to Evaluate the Pharmacokinetics and Safety of ASP015K in Healthy Chinese Subjects"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "COMPLETED",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2019-12-05",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2020-12-21",
+                        "type": "ACTUAL"
+                    },
+                    "completionDateStruct": {
+                        "date": "2020-12-21",
+                        "type": "ACTUAL"
+                    },
+                    "studyFirstSubmitDate": "2019-10-27",
+                    "studyFirstSubmitQcDate": "2019-10-27",
+                    "studyFirstPostDateStruct": {
+                        "date": "2019-10-29",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-17",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR"
+                    },
+                    "leadSponsor": {
+                        "name": "Astellas Pharma China, Inc.",
+                        "class": "INDUSTRY"
+                    }
+                },
+                "oversightModule": {
+                    "oversightHasDmc": false,
+                    "isFdaRegulatedDrug": false,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "The purpose of this study is to evaluate the pharmacokinetics and safety of ASP015K after single-dose and multiple-dose administration in healthy Chinese participants."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Healthy Volunteers"
+                    ],
+                    "keywords": [
+                        "peficitinib",
+                        "ASP015K",
+                        "pharmacokinetics"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "PHASE1"
+                    ],
+                    "designInfo": {
+                        "allocation": "RANDOMIZED",
+                        "interventionModel": "SEQUENTIAL",
+                        "primaryPurpose": "BASIC_SCIENCE",
+                        "maskingInfo": {
+                            "masking": "NONE"
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 36,
+                        "type": "ACTUAL"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Peficitinib 50 mg",
+                            "type": "EXPERIMENTAL",
+                            "description": "Participants will receive a single dose of 50 milligrams (mg) under fasted condition Day 1, followed by multiple doses of 50 mg under fed condition once daily in the morning from Day 8 till Day 13.",
+                            "interventionNames": [
+                                "Drug: peficitinib"
+                            ]
+                        },
+                        {
+                            "label": "Peficitinib 100 mg",
+                            "type": "EXPERIMENTAL",
+                            "description": "Participants will receive a single dose of 100 mg under fasted condition Day 1, followed by multiple doses of 100 mg under fed condition once daily in the morning from Day 8 till Day 13.",
+                            "interventionNames": [
+                                "Drug: peficitinib"
+                            ]
+                        },
+                        {
+                            "label": "Peficitinib 150 mg",
+                            "type": "EXPERIMENTAL",
+                            "description": "Participants will receive a single dose of 150 mg under fasted condition Day 1, followed by multiple doses of 150 mg under fed condition once daily in the morning from Day 8 till Day 13.",
+                            "interventionNames": [
+                                "Drug: peficitinib"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "DRUG",
+                            "name": "peficitinib",
+                            "description": "Oral",
+                            "armGroupLabels": [
+                                "Peficitinib 100 mg",
+                                "Peficitinib 150 mg",
+                                "Peficitinib 50 mg"
+                            ],
+                            "otherNames": [
+                                "ASP015K"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Number of participants with adverse events (AEs)",
+                            "description": "An AE is defined as any untoward medical occurrence in a participant administered a study drug or who has undergone study procedures and which does not necessarily have a causal relationship with this treatment. An AE can therefore be any unintended sign (including an abnormal laboratory finding), symptom or disease temporally associated with the use of a study drug, whether or not related to the study drug.\n\nAn AE is considered \"serious\" if, in the view of either the investigator or Sponsor, it results in any of the following outcomes: Death, life-threatening, persistent or significant disability/incapacity, congenital anomaly or birth defect, hospitalization, or medically important event.",
+                            "timeFrame": "Up to Day 20"
+                        },
+                        {
+                            "measure": "Number of participants with laboratory value abnormalities and/or AEs",
+                            "description": "Number of participants with potentially clinically significant laboratory values.",
+                            "timeFrame": "Up to Day 20"
+                        },
+                        {
+                            "measure": "Number of participants with vital sign abnormalities and/or AEs",
+                            "description": "Number of participants with potentially clinically significant vital sign values.",
+                            "timeFrame": "Up to Day 20"
+                        },
+                        {
+                            "measure": "Number of participants with 12-lead electrocardiogram (ECG) abnormalities and/or AEs",
+                            "description": "Number of participants with potentially clinically significant 12-ECG values.",
+                            "timeFrame": "Up to Day 20"
+                        },
+                        {
+                            "measure": "Number of participants with physical examination abnormalities and/or AEs",
+                            "description": "Number of participants with potentially clinically significant physical examination observations.",
+                            "timeFrame": "Up to Day 20"
+                        },
+                        {
+                            "measure": "Pharmacokinetics (PK) of peficitinib: Area under the concentration-time curve (AUC) from the time of dosing extrapolated to time infinity (AUCinf)",
+                            "description": "AUCinf will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1"
+                        },
+                        {
+                            "measure": "PK of peficitinib: AUC from the time of dosing to the last measurable concentration (AUClast)",
+                            "description": "AUClast will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1 and 8"
+                        },
+                        {
+                            "measure": "PK of peficitinib: AUC from the time of dosing to 24 hours post dose (AUC24h)",
+                            "description": "AUC24h will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1, 8 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Apparent total systemic clearance after extravascular dosing (CL/F)",
+                            "description": "CL/F will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Maximum concertation (Cmax)",
+                            "description": "Cmax will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1, 8 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Terminal elimination rate constant (Lambdaz)",
+                            "description": "Lambdaz will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Terminal elimination half-life (t1/2)",
+                            "description": "t1/2 will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Time of the maximum concentration (tmax)",
+                            "description": "tmax will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1, 8 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Apparent volume of distribution during the terminal elimination phase after single extravascular dosing (VzF)",
+                            "description": "VzF will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Concentration immediately prior to dosing at multiple dosing (Ctrough)",
+                            "description": "Ctrough will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 9 to 12 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Concentration at 24 hours post dosing (C24h)",
+                            "description": "C24h will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Peak trough ratio (PTR)",
+                            "description": "PTR will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Accumulation ratio calculated using AUC (Rac(AUC24h))",
+                            "description": "Rac(AUC) will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib: Accumulation ratio calculated using the maximum concentration (Rac (Cmax))",
+                            "description": "Rac(Cmax)will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: AUCinf",
+                            "description": "AUCinf will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: AUClast",
+                            "description": "AUClast will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1 and 8"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: AUC24h",
+                            "description": "AUC24h will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1, 8 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: Cmax",
+                            "description": "Cmax will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1, 8 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: Lambdaz",
+                            "description": "Lambdaz will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: t1/2",
+                            "description": "t1/2 will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: tmax",
+                            "description": "tmax will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1, 8 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: Ctrough",
+                            "description": "Ctrough will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 9 to 12 and 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: C24h",
+                            "description": "C24h will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: PTR",
+                            "description": "PTR will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: Rac(AUC24h)",
+                            "description": "Rac(AUC24h) will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: Rac(Cmax)",
+                            "description": "Rac(Cmax) will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 13"
+                        },
+                        {
+                            "measure": "PK of peficitinib metabolite: Metabolite to parent ratio of the area under the concentration-time curve corrected by the molecular weight ratio of parent to metabolite (MPR)",
+                            "description": "MPR will be recorded from the PK serum samples collected.",
+                            "timeFrame": "On Day 1, 8 and 13"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* Normal Body Mass index (BMI) and weight: BMI\\[= weight kg/(height m)\\^2\\] \\> 19 kg/m\\^2 and \u2264 24 kg/m\\^2, the weight is no less than 50 kg for male and 45 kg for female at screening.\n* Female subject must either: Be of non-childbearing potential, postmenopausal (defined as at least 1 year without any menses) prior to screening, or documented surgically sterile. Or, if of childbearing potential: agree not to try to become pregnant during the study and for 60 days after the final study drug administration, must have a negative pregnancy at Screening and Day -1, and if heterosexually active, agree to consistently use 1 form of highly effective birth control starting at Screening and throughout the study period, and for 60 days after the final study drug administration.\n* Female subject must agree not to breastfeed starting at Screening and throughout the study period, and for 60 days after the final study drug administration.\n* Female subject must not donate ova starting at Screening and throughout the study period, and for 60 days after the final study drug administration.\n* Male subject and female spouse/partners who are of childbearing potential must be using 1 form of highly effective birth control starting at Screening and throughout the study period, and for 90 days after the final study drug administration.\n* Male subject must not donate sperm starting at Screening and throughout the study period, and for 90 days after the final study drug administration.\n* Subject agrees not to participate in another interventional study while participating in the present study, defined as signing the informed consent form until completion of the last study visit.\n\nExclusion Criteria:\n\n* Female subject who has been pregnant within 6 months prior to screening or breast feeding within 3 months prior to screening.\n* Subject has a known or suspected hypersensitivity to ASP015K, or any components of the formulation used.\n* Subject has any of the liver chemistry tests (aspartate aminotransferase \\[AST\\], alanine aminotransferase \\[ALT\\], alkaline phosphatase \\[ALP\\], gamma-glutamyl transferase \\[GGT\\] and total bilirubin \\[TBL\\]) above the upper limit of normal on Day -1. In such a case, the assessment may be repeated once.\n* Subjects who meet any of the following criterion for laboratory tests on Day -1. Normal ranges of each test specified at the study site or test/assay organization will be used as the normal ranges in this study. In such a case, the assessment may be repeated once.\n\n  * Hematology: a deviation of +20% from the upper limit or -20% from the lower limit of the normal range, and clinically significant.\n  * Blood biochemistry: a deviation from the normal range regarding serum creatinine, serum electrolytes (Na, K, and Cl), or fasting blood glucose; a deviation of +20% from the upper limit or -20% from the lower limit of the normal range regarding laboratory test items other than above, and clinically significant. However, the lower limit of the normal range will not be established for lactate dehydrogenase (LD), creatinine kinase (CK), total cholesterol, triglyceride, urea, serum creatinine, and uric acid, whose deviation from the lower limit is considered not clinically significant.\n  * Urinalysis: a deviation from the normal range of each urinalysis test item.\n* Subject has any clinically significant history of allergic conditions (including drug allergies, asthma, eczema, or anaphylactic reactions, but excluding untreated, asymptomatic, seasonal allergies at time of dosing).\n* Subject has any history or evidence of any clinically significant cardiovascular, gastrointestinal endocrinologic, hematologic, hepatic, immunologic, metabolic, urologic, respiratory,pulmonary, neurologic, cerebrovascular, lymphatic, dermatologic, psychiatric, renal, and/or other major disease or malignancy.\n* Subject has/had febrile illness or symptomatic, viral, bacterial (including upper respiratory infection), or fungal (noncutaneous) infection within 1 week prior to Day -1.\n* Subject has any clinically significant abnormality in the physical examination, 12-lead electrocardiogram (ECG) and protocol defined clinical laboratory tests at Screening or Day -1.\n* Subject has a pulse rate \\< 45 or \\> 100 bpm; systolic blood pressure (SBP) \\> 140 mmHg; diastolic blood pressure (DBP) \\> 90 mmHg (measurements taken after subject has been resting in sit position for 5 min; pulse will be measured automatically) at screening or on Day -1. If the pulse rate or blood pressure exceeds the limits above, 1 additional test can be taken.\n* Subjects with abnormal body temperature, defined as axillary temperature \\>37.3 \u00baC or \\<35.0 \u00baC at Screening or Day -1.\n* Subject has a corrected QT interval (QTcF) of \\> 430 ms (for males) and \\> 450 ms (for females) at screen or on Day -1(at screen and on Day-1, will be performed). If the QTcF exceeds the limits above on Day-1, 1 additional ECG test can be taken.\n* Subject has any history or evidence of congenital short QT syndrome(defined as QTc \\< 330 ms).\n* Subject has any history of gastrointestinal resection (excepted appendectomy)..\n* Subject has developed upper gastrointestinal symptoms within 1 week prior to Day -1.\n* Subject applies to any of the following concerns with regard to tuberculosis.\n\n  * History of active tuberculosis\n  * Abnormalities detected in a chest X-ray test at Screening\n  * Contact with infectious tuberculous patients\n  * T-spot or Quantiferon Gold test show tuberculosisinfection positive.\n* Subject applies to any of the following concerns with regard to infection other than tuberculosis.\n\n  * Complication or history of severe herpes zoster or herpes zoster disseminated.\n  * At least twice of relapse of localized herpes zoster\n  * Inpatient hospital care for severe infectious diseases within 90 days prior to Day -1\n  * Treatment with intravenous antibiotics within 90 days prior to Day -1 (prophylactic antibiotics are not applicable).\n  * Other than above, with a high risk of developing infectious disease (subjects with urethral catheterisation etc.).\n* Subject has vaccination of live vaccines or live attenuated vaccines within 56 days prior to Day -1 (inactivated vaccines such as influenza vaccine and pneumococcal vaccines are not applicable.).\n* Subject has used any prescribed or nonprescribed drugs (including vitamins or natural and herbal remedies, e.g. St. John's Wort) in the 2 weeks prior to study drug administration.\n* Subject has a history of smoking more than 10 cigarettes (or equivalent amount of tobacco) per day within 3 months prior to admission to the clinical unit.\n* Subject has a history of drinking more than 21 units of alcohol per week (1 unit = 10 g pure alcohol = 250 mL of beer \\[5%\\] or 35 mL of spirits \\[35%\\] or 100 mL of wine \\[12%\\]) (\\> 14units of alcohol for female subjects) within 3 months prior to admission to the clinical unit or the subject tests positive for alcohol or drugs of abuse at Screening or Day -1 (amphetamines,barbiturates, benzodiazepines, cannabinoids, cocaine, and opiates).\n* Subject has used any drugs of abuse within 3 months prior to admission to the clinical unit.\n* Subject has had significant blood loss, donated 1 unit (450 mL) of blood or more, or received a transfusion of any blood or blood products within 60 days or donated plasma within 7 days prior to Day -1.\n* Subject has a positive serology test for hepatitis B surface antigen (HBsAg), antihepatitis A virus (immunodeficiency virus \\[Ig\\]M), anti-hepatitis C virus, anti-hepatitis B core or antihuman immunodeficiency virus (HIV) at Screening.\n* Subject has participated in any clinical study or has been treated with any investigational drugs within 3 moths prior to screening.\n* Subject has any condition which makes the subject unsuitable for study participation.\n* Subject is an employee of the Astellas Group, Clinical Research Organization (CRO) or the clinical unit.",
+                    "healthyVolunteers": true,
+                    "sex": "ALL",
+                    "minimumAge": "18 Years",
+                    "maximumAge": "45 Years",
+                    "stdAges": [
+                        "ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "overallOfficials": [
+                        {
+                            "name": "Medical Moniter, Senior Manager",
+                            "affiliation": "Astellas Pharma China, Inc.",
+                            "role": "STUDY_DIRECTOR"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "Site CN86001",
+                            "city": "Beijing",
+                            "country": "China",
+                            "geoPoint": {
+                                "lat": 39.9075,
+                                "lon": 116.39723
+                            }
+                        }
+                    ]
+                },
+                "referencesModule": {
+                    "references": [
+                        {
+                            "pmid": "35586186",
+                            "type": "DERIVED",
+                            "citation": "Gao X, He X, Oshima H, Miyatake D, Otsuka Y, Kato K, Cai C, Wojtkowski T, Song N, Kaneko Y, Shi A. Pharmacokinetics and Safety of Single and Multiple Doses of Peficitinib (ASP015K) in Healthy Chinese Subjects. Drug Des Devel Ther. 2022 May 9;16:1365-1381. doi: 10.2147/DDDT.S359501. eCollection 2022."
+                        }
+                    ]
+                },
+                "ipdSharingStatementModule": {
+                    "ipdSharing": "NO",
+                    "description": "Access to anonymized individual participant level data will not be provided for this trial. Further details on Astellas' data sharing policy can be found at https://www.clinicaltrials.astellas.com/transparency/."
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "interventionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "C000608065",
+                            "term": "Peficitinib"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D004791",
+                            "term": "Enzyme Inhibitors"
+                        },
+                        {
+                            "id": "D045504",
+                            "term": "Molecular Mechanisms of Pharmacological Action"
+                        },
+                        {
+                            "id": "D007166",
+                            "term": "Immunosuppressive Agents"
+                        },
+                        {
+                            "id": "D007155",
+                            "term": "Immunologic Factors"
+                        },
+                        {
+                            "id": "D045505",
+                            "term": "Physiological Effects of Drugs"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M259039",
+                            "name": "Peficitinib",
+                            "asFound": "Attenuate",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M7951",
+                            "name": "Enzyme Inhibitors",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M10212",
+                            "name": "Immunosuppressive Agents",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M10201",
+                            "name": "Immunologic Factors",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "All",
+                            "name": "All Drugs and Chemicals"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT05072977",
+                    "orgStudyIdInfo": {
+                        "id": "ASD_2021_8"
+                    },
+                    "organization": {
+                        "fullName": "Fondation Ophtalmologique Adolphe de Rothschild",
+                        "class": "NETWORK"
+                    },
+                    "briefTitle": "Photorefractive Keratectomy (PRK) : Comparison of Corneal Haze Between Two Modes of De-epithelialisation (Laser Versus Manual Alcohol)",
+                    "officialTitle": "Prospective Randomised Controlled Study in 2 Parallel Arms Comparing Corneal Haze, Visual and Refractive Outcomes and Postoperative Pain According to the Mode of De-epithelialisation (Laser Versus Manual Alcohol) During Photorefractive Keratectomy",
+                    "acronym": "H-TransPKR"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "RECRUITING",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2022-02-09",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2026-02",
+                        "type": "ESTIMATED"
+                    },
+                    "completionDateStruct": {
+                        "date": "2026-03",
+                        "type": "ESTIMATED"
+                    },
+                    "studyFirstSubmitDate": "2021-09-29",
+                    "studyFirstSubmitQcDate": "2021-09-29",
+                    "studyFirstPostDateStruct": {
+                        "date": "2021-10-11",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-18",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR"
+                    },
+                    "leadSponsor": {
+                        "name": "Fondation Ophtalmologique Adolphe de Rothschild",
+                        "class": "NETWORK"
+                    }
+                },
+                "oversightModule": {
+                    "isFdaRegulatedDrug": false,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "surgical correction of ametropia. A number of improvements have been introduced to overcome the side effects and complications such as corneal haze, epithelial irregularities induced by wound healing, pain and delayed visual acuity recovery associated with PRK surgery. During traditional PRK, the corneal epithelium is mechanically debrided before stromal ablation is performed. Alcohol PRK is frequently used as an alternative to mechanical epithelial debridement and is considered simpler and faster. Transepithelial PRK (TransPRK) is a new method in which the corneal epithelium is photoablated by the laser in one step using a specific ablation profile.\n\nThis study attempts to establish a means of quantitatively and objectively measuring corneal haze, using patented software based on optical coherence tomography (OCT) of the cornea. This will confirm or refute the hypothesis of a lower occurrence of corneal haze after TransPRK (experimental group) versus PRK with alcohol (control group). Each patient will have one eye randomised to one of the two groups being compared."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Myopia",
+                        "Astigmatism"
+                    ],
+                    "keywords": [
+                        "Myopia",
+                        "Astigmatism",
+                        "Corneal haze",
+                        "Trans Photorefractive Keratectomy",
+                        "Alcohol Photorefractive Keratectomy"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "NA"
+                    ],
+                    "designInfo": {
+                        "allocation": "RANDOMIZED",
+                        "interventionModel": "PARALLEL",
+                        "primaryPurpose": "TREATMENT",
+                        "maskingInfo": {
+                            "masking": "SINGLE",
+                            "whoMasked": [
+                                "PARTICIPANT"
+                            ]
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 71,
+                        "type": "ESTIMATED"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "TransPRK",
+                            "type": "EXPERIMENTAL",
+                            "interventionNames": [
+                                "Procedure: TransPRK"
+                            ]
+                        },
+                        {
+                            "label": "Alcohol PRK",
+                            "type": "ACTIVE_COMPARATOR",
+                            "interventionNames": [
+                                "Procedure: Alcohol PRK"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "PROCEDURE",
+                            "name": "TransPRK",
+                            "description": "A Merocel sponge is soaked in a saline solution to expand before being gently applied to the corneal surface in three gestures similar to painting. This standardised procedure avoids inhomogeneous wetting of the cornea, which would result in uneven ablation. The laser ablation is then performed.",
+                            "armGroupLabels": [
+                                "TransPRK"
+                            ]
+                        },
+                        {
+                            "type": "PROCEDURE",
+                            "name": "Alcohol PRK",
+                            "description": "A ring is placed in the centre of the cornea and filled with 20% alcohol. After 20 seconds of exposure, the alcohol is absorbed with a small sponge and the corneal epithelium is debrided with a polyvinyl alcohol expanding sponge (Merocel, Medtronic). The entire cornea is rinsed with balanced salt solution and the epithelium is peeled away from the corneal stroma. The corneal bed is then dried with a small sponge and laser ablation is performed.",
+                            "armGroupLabels": [
+                                "Alcohol PRK"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Corneal haze assessed with the the software analysing the corneal OCT images",
+                            "description": "Corneal haze assessed by the intensity of the luminosity of the whole cornea (expressed as a percentage) evaluated by the software analysing the corneal OCT images.",
+                            "timeFrame": "1 month after refractive surgery"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* Planned Photorefractive Keratectomy in both eyes\n* Simple myopia or myopic astigmatism, refractive spherical equivalent between -0.50 and -9.0 diopters in both eyes with regular corneal topography\n\nExclusion Criteria:\n\n* Only one eye operated on\n* At least one contraindication to refractive surgery, namely : keratoconus, minimum corneal thickness \\< 400 \u00b5m, severe dry syndrome, progressive corneal infection\n* Personal history of corneal surgery\n* Personal history of ocular pathology other than simple myopia or myopic astigmatism\n* Pregnant or breastfeeding woman",
+                    "healthyVolunteers": false,
+                    "sex": "ALL",
+                    "minimumAge": "18 Years",
+                    "stdAges": [
+                        "ADULT",
+                        "OLDER_ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "centralContacts": [
+                        {
+                            "name": "Am\u00e9lie YAVCHITZ, MD",
+                            "role": "CONTACT",
+                            "phone": "01 48 03 64 54",
+                            "phoneExt": "+33",
+                            "email": "ayavchitz@for.paris"
+                        },
+                        {
+                            "name": "Alain SAAD",
+                            "role": "CONTACT",
+                            "email": "asaad@for.paris"
+                        }
+                    ],
+                    "overallOfficials": [
+                        {
+                            "name": "Alain SAAD, MD",
+                            "affiliation": "H\u00f4pital Fondation A. de Rothschild",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "H\u00f4pital Fondation A. de Rothschuld",
+                            "status": "RECRUITING",
+                            "city": "Paris",
+                            "zip": "75019",
+                            "country": "France",
+                            "contacts": [
+                                {
+                                    "name": "Alain SAAD, MD",
+                                    "role": "CONTACT",
+                                    "phone": "01 48 03 64 92",
+                                    "phoneExt": "+33",
+                                    "email": "asaad@for.paris"
+                                },
+                                {
+                                    "name": "Damien GATINEL",
+                                    "role": "CONTACT",
+                                    "email": "dgatinel@for.paris"
+                                }
+                            ],
+                            "geoPoint": {
+                                "lat": 48.85341,
+                                "lon": 2.3488
+                            }
+                        }
+                    ]
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "conditionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D009216",
+                            "term": "Myopia"
+                        },
+                        {
+                            "id": "D001251",
+                            "term": "Astigmatism"
+                        },
+                        {
+                            "id": "D003318",
+                            "term": "Corneal Opacity"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D012030",
+                            "term": "Refractive Errors"
+                        },
+                        {
+                            "id": "D005128",
+                            "term": "Eye Diseases"
+                        },
+                        {
+                            "id": "D003316",
+                            "term": "Corneal Diseases"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M13069",
+                            "name": "Pain, Postoperative",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M12168",
+                            "name": "Myopia",
+                            "asFound": "Myopia",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M4558",
+                            "name": "Astigmatism",
+                            "asFound": "Astigmatism",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M13066",
+                            "name": "Pain",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M6541",
+                            "name": "Corneal Opacity",
+                            "asFound": "Corneal Haze",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M14872",
+                            "name": "Refractive Errors",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M8271",
+                            "name": "Eye Diseases",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M6539",
+                            "name": "Corneal Diseases",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "BC23",
+                            "name": "Symptoms and General Pathology"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Conditions"
+                        },
+                        {
+                            "abbrev": "BC11",
+                            "name": "Eye Diseases"
+                        }
+                    ]
+                },
+                "interventionBrowseModule": {
+                    "browseLeaves": [
+                        {
+                            "id": "M21860",
+                            "name": "Pharmaceutical Solutions",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M3777",
+                            "name": "Ethanol",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M70246",
+                            "name": "Polyvinyl alcohol formaldehyde foam",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "PhSol",
+                            "name": "Pharmaceutical Solutions"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Drugs and Chemicals"
+                        },
+                        {
+                            "abbrev": "Infe",
+                            "name": "Anti-Infective Agents"
+                        },
+                        {
+                            "abbrev": "CNSDep",
+                            "name": "Central Nervous System Depressants"
+                        },
+                        {
+                            "abbrev": "Coag",
+                            "name": "Coagulants"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT02245997",
+                    "orgStudyIdInfo": {
+                        "id": "14-186"
+                    },
+                    "organization": {
+                        "fullName": "Memorial Sloan Kettering Cancer Center",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Local Control With Reduced-dose Radiotherapy for High-Risk Neuroblastoma",
+                    "officialTitle": "Local Control With Reduced-dose Radiotherapy for High-Risk Neuroblastoma"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "ACTIVE_NOT_RECRUITING",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2014-09"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2025-09",
+                        "type": "ESTIMATED"
+                    },
+                    "completionDateStruct": {
+                        "date": "2025-09",
+                        "type": "ESTIMATED"
+                    },
+                    "studyFirstSubmitDate": "2014-09-17",
+                    "studyFirstSubmitQcDate": "2014-09-18",
+                    "studyFirstPostDateStruct": {
+                        "date": "2014-09-22",
+                        "type": "ESTIMATED"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-18",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR"
+                    },
+                    "leadSponsor": {
+                        "name": "Memorial Sloan Kettering Cancer Center",
+                        "class": "OTHER"
+                    }
+                },
+                "descriptionModule": {
+                    "briefSummary": "The purpose of this study is to give 12T a smaller dose of radiation in order to decrease these late side effects."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Neuroblastoma"
+                    ],
+                    "keywords": [
+                        "Reduced-dose Radiotherapy",
+                        "14-186"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "NA"
+                    ],
+                    "designInfo": {
+                        "allocation": "NA",
+                        "interventionModel": "SINGLE_GROUP",
+                        "primaryPurpose": "TREATMENT",
+                        "maskingInfo": {
+                            "masking": "NONE"
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 75,
+                        "type": "ACTUAL"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "patients with high-risk neuroblastoma",
+                            "type": "EXPERIMENTAL",
+                            "description": "Patients undergo external beam radiation therapy using IMRT or proton beam RT twice daily for 5-6 weekdays (10-12 treatments). Patients will be evaluated by physical exams, CT scan or MRI of the primary site, and MIBG at, 6, 12, 18 and 24 months (+/- 6 weeks).",
+                            "interventionNames": [
+                                "Radiation: External beam radiotherapy",
+                                "Radiation: proton beam RT"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "RADIATION",
+                            "name": "External beam radiotherapy",
+                            "armGroupLabels": [
+                                "patients with high-risk neuroblastoma"
+                            ],
+                            "otherNames": [
+                                "IMRT"
+                            ]
+                        },
+                        {
+                            "type": "RADIATION",
+                            "name": "proton beam RT",
+                            "armGroupLabels": [
+                                "patients with high-risk neuroblastoma"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "assess local control rates treatment response",
+                            "description": "will be assessed via imaging (CT+/- MRI and MIBG) and clinical evidence at the primary site post completion of treatment. The baseline scan will be the pre-irradiation CT scan. Local failure is defined as a relapse in the primary tumor bed or adjacent lymph nodes.",
+                            "timeFrame": "3 yeas"
+                        }
+                    ],
+                    "secondaryOutcomes": [
+                        {
+                            "measure": "event-free survival",
+                            "description": "will be performed for each patient using clinical data and imaging. Events are defined as failure (loco-regional and/or distant), treatment-related malignancy, or death.",
+                            "timeFrame": "3 years"
+                        },
+                        {
+                            "measure": "Assessment of toxicity",
+                            "description": "will occur at the pre-specified follow-up time-points using the CTCAE version 4.0 grading system.",
+                            "timeFrame": "3 years"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have a diagnosis of neuroblastoma (International Classification of Disease for Oncology \\[ICD-O\\] morphology 9500/3) confirmed by MSKCC pathologic review\n* Patients must have high-risk neuroblastoma as defined by the COG Risk Stratification Schema\n\n  o Patients with International agreement on staging (INSS) stage 4 are eligible with the following:\n* MYCN amplification, regardless of age or additional biologic features\n* Age \\>18 months, regardless of biologic features OR\n* Age 1-18 months, with any of the 3 following unfavorable biologic OR features: MYCN amplification, unfavorable pathology, and/or DNA index = 1\n\n  o Patients with INSS stage 3 are eligible with the following:\n* MYCN amplification, regardless of age or additional biologic features OR\n* Age \\> 18 months with unfavorable pathology, regardless of MYCN status\n\n  o Patients with INSS stage 2a or 2b are eligible with the following:\n* MYCN amplification, regardless of age or additional biologic features\n\n  o Patients with INSS stage 4s are eligible with the following:\n* MYCN amplification, regardless of additional biologic features Patients must have undergone chemotherapy and surgery for high-risk neuroblastoma prior to enrollment on trial.\n* Age at time of enrollment of \u22651 month and \u226418 years\n* Female patients of childbearing potential must have a negative pregnancy test within 14 days of radiation start.\n* Female patients who are lactating must agree to stop breast-feeding.\n* Sexually active patients of childbearing potential must agree to use effective contraception.\n\nExclusion Criteria:\n\n* Patients with gross residual tumor after surgical resection\n* Patients who have received prior radiotherapy at or adjacent to the primary tumor bed\n* Patients with any concurrent medical or psychiatric condition or disease which, in the investigator's judgment, would make them inappropriate candidates for entry into this study.",
+                    "healthyVolunteers": false,
+                    "sex": "ALL",
+                    "minimumAge": "12 Months",
+                    "maximumAge": "18 Years",
+                    "stdAges": [
+                        "CHILD",
+                        "ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "overallOfficials": [
+                        {
+                            "name": "Suzanne Wolden, MD",
+                            "affiliation": "Memorial Sloan Kettering Cancer Center",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "Memorial Sloan Kettering Cancer Center",
+                            "city": "New York",
+                            "state": "New York",
+                            "zip": "10065",
+                            "country": "United States",
+                            "geoPoint": {
+                                "lat": 40.71427,
+                                "lon": -74.00597
+                            }
+                        }
+                    ]
+                },
+                "referencesModule": {
+                    "seeAlsoLinks": [
+                        {
+                            "label": "Memorial Sloan Kettering Cancer Center",
+                            "url": "http://www.mskcc.org/"
+                        }
+                    ]
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "conditionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D009447",
+                            "term": "Neuroblastoma"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D018241",
+                            "term": "Neuroectodermal Tumors, Primitive, Peripheral"
+                        },
+                        {
+                            "id": "D018242",
+                            "term": "Neuroectodermal Tumors, Primitive"
+                        },
+                        {
+                            "id": "D018302",
+                            "term": "Neoplasms, Neuroepithelial"
+                        },
+                        {
+                            "id": "D017599",
+                            "term": "Neuroectodermal Tumors"
+                        },
+                        {
+                            "id": "D009373",
+                            "term": "Neoplasms, Germ Cell and Embryonal"
+                        },
+                        {
+                            "id": "D009370",
+                            "term": "Neoplasms by Histologic Type"
+                        },
+                        {
+                            "id": "D009369",
+                            "term": "Neoplasms"
+                        },
+                        {
+                            "id": "D009375",
+                            "term": "Neoplasms, Glandular and Epithelial"
+                        },
+                        {
+                            "id": "D009380",
+                            "term": "Neoplasms, Nerve Tissue"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M12391",
+                            "name": "Neuroblastoma",
+                            "asFound": "Neuroblastoma",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M19845",
+                            "name": "Neuroectodermal Tumors",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M20388",
+                            "name": "Neuroectodermal Tumors, Primitive",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M20387",
+                            "name": "Neuroectodermal Tumors, Primitive, Peripheral",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M20446",
+                            "name": "Neoplasms, Neuroepithelial",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M12318",
+                            "name": "Neoplasms, Germ Cell and Embryonal",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M12315",
+                            "name": "Neoplasms by Histologic Type",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M12320",
+                            "name": "Neoplasms, Glandular and Epithelial",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M12325",
+                            "name": "Neoplasms, Nerve Tissue",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "T4085",
+                            "name": "Neuroblastoma",
+                            "asFound": "Neuroblastoma",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "T4092",
+                            "name": "Neuroepithelioma",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "BC04",
+                            "name": "Neoplasms"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Conditions"
+                        },
+                        {
+                            "abbrev": "Rare",
+                            "name": "Rare Diseases"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT05819645",
+                    "orgStudyIdInfo": {
+                        "id": "EK-1381/22"
+                    },
+                    "organization": {
+                        "fullName": "University Hospital, Motol",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Oral Fluid Intake After Extubation",
+                    "officialTitle": "Early Versus Delayed Oral Fluid Intake Initiation (Sipping) After Extubation, Influence on the Feeling of Thirst, Patient Comfort and the Occurrence of Complications."
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "COMPLETED",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2023-02-01",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2024-10-16",
+                        "type": "ACTUAL"
+                    },
+                    "completionDateStruct": {
+                        "date": "2024-10-16",
+                        "type": "ACTUAL"
+                    },
+                    "studyFirstSubmitDate": "2023-01-06",
+                    "studyFirstSubmitQcDate": "2023-04-15",
+                    "studyFirstPostDateStruct": {
+                        "date": "2023-04-19",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-17",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "PRINCIPAL_INVESTIGATOR",
+                        "investigatorFullName": "Durila Miroslav MUDr. Ph.D.",
+                        "investigatorTitle": "prf.",
+                        "investigatorAffiliation": "University Hospital, Motol"
+                    },
+                    "leadSponsor": {
+                        "name": "University Hospital, Motol",
+                        "class": "OTHER"
+                    }
+                },
+                "oversightModule": {
+                    "oversightHasDmc": false,
+                    "isFdaRegulatedDrug": false,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "According to the current guidelines the patient is not allowed to drink any fluid at least 2 hours after extubation to prevent complications. However there is no evidence in the literature to support this approach. Because anaesthetic drugs and their side effects changed significantly from their first usage, the investigators can assume that existing approach is obsolete and has no place anymore in the modern medicine. Keeping patient n.p.o (nothing per os) for 2 hours after extubation may lead to patient\u00b4s thirst or other discomfort. The aim of the study is to detect whether early oral fluid intake after extubation could lead to safe relief of thirst and to better patient\u00b4s comfort overall.",
+                    "detailedDescription": "Everything stated in the brief summary."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Intubation"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "NA"
+                    ],
+                    "designInfo": {
+                        "allocation": "RANDOMIZED",
+                        "interventionModel": "PARALLEL",
+                        "primaryPurpose": "TREATMENT",
+                        "maskingInfo": {
+                            "masking": "NONE"
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 160,
+                        "type": "ACTUAL"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Early fluid intake",
+                            "type": "EXPERIMENTAL",
+                            "interventionNames": [
+                                "Behavioral: Fluid intake not as per standard guidlines"
+                            ]
+                        },
+                        {
+                            "label": "Standard Delayed oral fluid",
+                            "type": "OTHER",
+                            "interventionNames": [
+                                "Behavioral: Fluid intake not as per standard guidlines"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "BEHAVIORAL",
+                            "name": "Fluid intake not as per standard guidlines",
+                            "description": "The participant will be randomized into two arms. After the randomization one arm will get the per os fluid intake before the standard time frame.",
+                            "armGroupLabels": [
+                                "Early fluid intake",
+                                "Standard Delayed oral fluid"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Assessment of presence or absence of thirst 120 minutes after extubation",
+                            "description": "Between both groups the presence of anpleasent feeling of thirst will be assessed and compared",
+                            "timeFrame": "During procedure (120 minutes after extubation)"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* patients with planned extubation assigned to the study\n* able to swallow the fluid\n* willing to participate the study\n\nExclusion Criteria:\n\n* patients after upper digestive tract surgery\n* patients after trachea surgery\n* patients with possible neurological deficiency\n* patients after VIII. cranial nerve surgery\n* patients not able to swallow",
+                    "healthyVolunteers": false,
+                    "sex": "ALL",
+                    "stdAges": [
+                        "CHILD",
+                        "ADULT",
+                        "OLDER_ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "locations": [
+                        {
+                            "facility": "University Hospital Motol, Charles University in Prague",
+                            "city": "Prague",
+                            "state": "Czech Republic",
+                            "zip": "15006",
+                            "country": "Czechia",
+                            "geoPoint": {
+                                "lat": 50.08804,
+                                "lon": 14.42076
+                            }
+                        }
+                    ]
+                },
+                "ipdSharingStatementModule": {
+                    "ipdSharing": "UNDECIDED"
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT06650345",
+                    "orgStudyIdInfo": {
+                        "id": "RRC-2013-015"
+                    },
+                    "organization": {
+                        "fullName": "King Saud University",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Aerobic Exercise Effects on Cognitive Function in Aging Individuals",
+                    "officialTitle": "Exploring the Impact of Supervised Treadmill Aerobic Exercise on Cognitive Function and Apoptotic-Related Biomarkers in Aging Individuals"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "COMPLETED",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2013-12-25",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2014-11-30",
+                        "type": "ACTUAL"
+                    },
+                    "completionDateStruct": {
+                        "date": "2014-12-30",
+                        "type": "ACTUAL"
+                    },
+                    "studyFirstSubmitDate": "2024-10-07",
+                    "studyFirstSubmitQcDate": "2024-10-17",
+                    "studyFirstPostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-17",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "PRINCIPAL_INVESTIGATOR",
+                        "investigatorFullName": "Sami Gabr",
+                        "investigatorTitle": "Clinical investigator",
+                        "investigatorAffiliation": "King Saud University"
+                    },
+                    "leadSponsor": {
+                        "name": "King Saud University",
+                        "class": "OTHER"
+                    }
+                },
+                "oversightModule": {
+                    "oversightHasDmc": false,
+                    "isFdaRegulatedDrug": false,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "Positive effects are exerted by participating in moderate exercise training with physical activity which positively affects body health, including cognitive abilities, among older adults. Thus, the investigators are trying to study the potential effects of the supervised aerobic training regimen for 12 weeks on cognitive function among older adults based on molecular changes in cellular apoptosis.",
+                    "detailedDescription": "Physical activity exerts many positive effects on body health, including cognitive abilities, among older adults. Nevertheless, a paucity of knowledge exists regarding the potential anti-apoptotic benefits of moderate exercise and its potential influence on cognitive function. The objective of the present study was to explore the possible connection between the anti-apoptotic mechanisms associated with exercise and cognitive performance in a cohort of 60 older adults who participated in a 12-week supervised aerobic training regimen.\n\nA total of 120 healthy home residents and older subjects with an age range of 65 to 95 years were enrolled to participate in this study. Only, 60 subjects who met the inclusion criteria were included in this study.\n\nThe participants were categorized into two groups, specifically the control group (consisting of 30 individuals) and the exercise group (also comprising 30 individuals), based on their participation in an exercise program. Assessments of cognitive function, leisure-time physical activity (LTPA), and apoptotic-related markers such as Bcl-2, p53, and Cytochrome c were conducted both before and after a 12-week aerobic exercise intervention."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Cognitive Function",
+                        "Exercise Training"
+                    ],
+                    "keywords": [
+                        "Cognitive abilities ,Apoptosis, LOTCA,exercise"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "NA"
+                    ],
+                    "designInfo": {
+                        "allocation": "RANDOMIZED",
+                        "interventionModel": "PARALLEL",
+                        "interventionModelDescription": "The participants were categorized into two groups, specifically the control group (consisting of 30 individuals) and the exercise group (also comprising 30 individuals), based on their participation in an exercise program.",
+                        "primaryPurpose": "PREVENTION",
+                        "maskingInfo": {
+                            "masking": "NONE"
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 60,
+                        "type": "ACTUAL"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "the control group",
+                            "type": "NO_INTERVENTION",
+                            "description": "non-exercised participants with daily life activities"
+                        },
+                        {
+                            "label": "exercise group",
+                            "type": "EXPERIMENTAL",
+                            "description": "participants engaged in a 12-week exercise regimen structured thrice weekly.Each session's intensity was customized to match the individual's maximum and resting heart rates. The warm-up involved stretching and a 5 to 10-minute walk. In the core exercise phase, participants aimed to reach their predetermined training heart rate (THR max; between 60 to 70%) for 45-60 minutes through intervals on a treadmill, bike, or stair climber.The exercise protocol was designed to elicit physical exertion equivalent to 30-45% of their maximum oxygen consumption (VO2 max)",
+                            "interventionNames": [
+                                "Other: supervised aerobic exercise"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "OTHER",
+                            "name": "supervised aerobic exercise",
+                            "description": "In this training program, the participants exercised for 45-60 minutes through intervals on a treadmill, bike, or stair climber, three times a week for 12 weeks.",
+                            "armGroupLabels": [
+                                "exercise group"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Assessment of body weight as anthropometric measurements",
+                            "description": "the impact of exercise training program on body weight was identified pre and post exercise period. Weight measurements in kilograms from all participants were estimated by employing a standardized approach, utilizing a tape measure and a calibrated Salter Electronic Scale (Digital Pearson Scale; ADAM Equipment Inc., Columbia, MD, USA). The calculated weights were used to estimate BMI of each recpective participant.",
+                            "timeFrame": "3 month"
+                        },
+                        {
+                            "measure": "Assessment of body height as anthropometric measurements",
+                            "description": "the impact of exercise training program on body height was identified pre and post exercise period. A standardized approach, utilizing a tape measure and a calibrated Salter Electronic Scale (Digital Pearson Scale; ADAM Equipment Inc., Columbia, MD, USA) were used to estimate body height of each participants. The values of body height in meters were used in combination with body weight to perform BMI of its respective participant.",
+                            "timeFrame": "3 month"
+                        },
+                        {
+                            "measure": "Assessment of BMI as as anthropometric measurements",
+                            "description": "Assessment of body mass index ( BMI in kg/m\\^2)as anthropometric measurements In this test, BMI from body weight and height measurements for each participant were estimated before and after exercise training interventions by using a bioelectrical impedance analysis (BIA) based body composition analyzer (TBF 105, Tanita Corporation, Tokyo, Japan)",
+                            "timeFrame": "3 month"
+                        }
+                    ],
+                    "secondaryOutcomes": [
+                        {
+                            "measure": "Assessment of cognitive abilities",
+                            "description": "the cognitive capabilities of the elderly participants prior and post structured aerobic exercise program using the Loewenstein Occupational Therapy Cognitive Assessment (LOTCA) battery.The LOTCA comprises seven primary domains, each further subdivided into 26 subtests. Scoring for each subtest was carried out utilizing either a four- or five-point Likert scale. The overall LOTCA score was obtained by summing the scores from all subtests. Scores on the test range from a minimum of 27 to a maximum of 123, where a higher score signifies superior cognitive function.",
+                            "timeFrame": "3 month"
+                        },
+                        {
+                            "measure": "Assessment of serum Bcl-2 as apoptotic-related protein",
+                            "description": "in this outcome measure, ELISA kits specifically designed for Bcl-2 (Cat# QIA23, Oncogene Research Products, Germany). The levels of serum Bcl-2 (\u00b5g/ml) were identified in all participants of control and exercised groups, pre- and post exercie training for 12 weeks",
+                            "timeFrame": "3 month"
+                        },
+                        {
+                            "measure": "Assessment of serum cytochrome c as apoptotic-related protein",
+                            "description": "Serum cytochrome c (ng /ml) was estimated in the serum of all participant's by using cytochrome c (Zymed ELISA Kit, Cat. No. 99-0040). The results were measured by immunoassay analysis using ELISA reader",
+                            "timeFrame": "3 month"
+                        },
+                        {
+                            "measure": "Assessment of serum p53 (pg/ml) as apoptotic-related protein",
+                            "description": "The quantification of p53 (pg/ml) concentration in the serum of all participants before and after exercise training was determined utilizing a single-step enzyme-immunoassay ELISA kit (Catalog Number 11 828 789 001; Roche Diagnostics GmbH, Roche Applied Science, Germany) based on photometric methods.",
+                            "timeFrame": "3 month"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* home resident older\n* healthy individuals\n* the participants were aged between 65 and 95\n\nExclusion Criteria:\n\n* Participants with Any physical impairments or conditions such as endocrine, immune, or psychiatric disorders\n* participants with eating disorders\n* participants' use of any glucocorticoid medications, which might impact the assessment of apoptotic and cognitive functions.",
+                    "healthyVolunteers": true,
+                    "sex": "ALL",
+                    "minimumAge": "65 Years",
+                    "maximumAge": "95 Years",
+                    "stdAges": [
+                        "OLDER_ADULT"
+                    ]
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT03681561",
+                    "orgStudyIdInfo": {
+                        "id": "BTCRC-HEM15-027"
+                    },
+                    "organization": {
+                        "fullName": "Big Ten Cancer Research Consortium",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Nivolumab With Ruxolitinib in Relapsed or Refractory Classical Hodgkin Lymphoma",
+                    "officialTitle": "Phase I/II Study of Nivolumab in Combination With Ruxolitinib in Relapsed or Refractory Classical Hodgkin Lymphoma"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "RECRUITING",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2018-09-13",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2025-07",
+                        "type": "ESTIMATED"
+                    },
+                    "completionDateStruct": {
+                        "date": "2027-07",
+                        "type": "ESTIMATED"
+                    },
+                    "studyFirstSubmitDate": "2018-09-20",
+                    "studyFirstSubmitQcDate": "2018-09-20",
+                    "studyFirstPostDateStruct": {
+                        "date": "2018-09-24",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-18",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR_INVESTIGATOR",
+                        "investigatorFullName": "Veronika Bachanova",
+                        "investigatorTitle": "Sponsor-Investigator",
+                        "investigatorAffiliation": "Big Ten Cancer Research Consortium"
+                    },
+                    "leadSponsor": {
+                        "name": "Veronika Bachanova",
+                        "class": "OTHER"
+                    },
+                    "collaborators": [
+                        {
+                            "name": "Incyte Corporation",
+                            "class": "INDUSTRY"
+                        },
+                        {
+                            "name": "Bristol-Myers Squibb",
+                            "class": "INDUSTRY"
+                        }
+                    ]
+                },
+                "oversightModule": {
+                    "oversightHasDmc": true,
+                    "isFdaRegulatedDrug": true,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "This is a Phase I/II, multicenter, open-label, dose escalation/dose-expansion study to evaluate the tolerability, safety, and the maximum tolerated dose (MTD) of ruxolitinib when given with fixed dose nivolumab in patients with relapsed or refractory classical Hodgkin lymphoma (cHL)."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Hodgkin Lymphoma"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "PHASE1",
+                        "PHASE2"
+                    ],
+                    "designInfo": {
+                        "allocation": "NON_RANDOMIZED",
+                        "interventionModel": "SEQUENTIAL",
+                        "primaryPurpose": "TREATMENT",
+                        "maskingInfo": {
+                            "masking": "NONE"
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 54,
+                        "type": "ESTIMATED"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Phase I:Ruxolitinib and Nivolumab",
+                            "type": "EXPERIMENTAL",
+                            "description": "Participants will receive ruxolitinib at their assigned dose taken orally twice daily on a 28-day cycle combined with nivolumab 480 mg IV administered every 4 weeks (i.e. on Day 1 of a 28-day cycle) until disease progression, unacceptable toxicity, or for a maximum of 2 years.",
+                            "interventionNames": [
+                                "Drug: Ruxolitinib",
+                                "Drug: Nivolumab"
+                            ]
+                        },
+                        {
+                            "label": "Phase II: Ruxolitinib and Nivolumab",
+                            "type": "EXPERIMENTAL",
+                            "description": "Participants will receive ruxolitinib at 20mg orally twice daily on a 28-day cycle combined with nivolumab 480 mg IV administered every 4 weeks (i.e. on Day 1 of a 28-day cycle) until disease progression, unacceptable toxicity, or for a maximum of 2 years.",
+                            "interventionNames": [
+                                "Drug: Ruxolitinib",
+                                "Drug: Nivolumab"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "DRUG",
+                            "name": "Ruxolitinib",
+                            "description": "Phase I: Ruxolitinib at assigned dose\\* twice daily by mouth begin Day 1 and continuing daily until study treatment stop.\n\n* Dose Levels:\n\n  1. (starting) : 10mg twice daily 2: 15mg twice daily 3: 20mg: twice daily\n\nPhase II: Ruxolitinib 20mg twice daily by mouth begin Day 1 and continuing daily until study treatment stop.",
+                            "armGroupLabels": [
+                                "Phase I:Ruxolitinib and Nivolumab",
+                                "Phase II: Ruxolitinib and Nivolumab"
+                            ],
+                            "otherNames": [
+                                "Jakafi"
+                            ]
+                        },
+                        {
+                            "type": "DRUG",
+                            "name": "Nivolumab",
+                            "description": "Nivolumab 480 mg IV every 4 weeks (Day 1) Until disease progression, unacceptable toxicity, patient refusal or a maximum of 2 years",
+                            "armGroupLabels": [
+                                "Phase I:Ruxolitinib and Nivolumab",
+                                "Phase II: Ruxolitinib and Nivolumab"
+                            ],
+                            "otherNames": [
+                                "Opdivo"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Maximum Tolerated Dose",
+                            "description": "To assess the maximum tolerated dose (MTD) of ruxolitinib in combination with nivolumab in patients with relapsed/refractory Hodgkin lymphoma. (Phase I Only)",
+                            "timeFrame": "24 months"
+                        },
+                        {
+                            "measure": "Overall Disease Control",
+                            "description": "To evaluate the best Overall Disease Control (CR+PR+SD) at 3 months of nivolumab in combination with ruxolitinib at MTD in patients with relapsed/refractory Hodgkin lymphoma using the modified Lugano Classification \"lymphoma response criteria to immunomodulatory therapy criteria\" (LYRIC)1 (Phase II Only)",
+                            "timeFrame": "24 months"
+                        }
+                    ],
+                    "secondaryOutcomes": [
+                        {
+                            "measure": "Overall Response Rate",
+                            "description": "To characterize the Best Overall Response Rate (CR+PR) at 6 months of nivolumab in combination with ruxolitinib in patients with relapsed/refractory classical Hodgkin lymphoma (cHL).",
+                            "timeFrame": "24 months"
+                        },
+                        {
+                            "measure": "Progression Free Survival",
+                            "description": "To evaluate progression free survival (PFS) at 2 years for nivolumab in combination with ruxolitinib in patients with relapsed/refractory Hodgkin lymphoma using the modified Lugano Classification \"lymphoma response criteria to immunomodulatory therapy criteria\" (LYRIC)",
+                            "timeFrame": "24 months"
+                        },
+                        {
+                            "measure": "Duration of Response",
+                            "description": "To evaluate duration of response (DOR) at 2 years for nivolumab in combination with ruxolitinib in patients with relapsed/refractory Hodgkin lymphoma using the modified Lugano Classification \"lymphoma response criteria to immunomodulatory therapy criteria\" (LYRIC)",
+                            "timeFrame": "24 months"
+                        },
+                        {
+                            "measure": "Overall Survival",
+                            "description": "To evaluate overall survival (OS) at 2 years for nivolumab in combination with ruxolitinib in patients with relapsed/refractory Hodgkin lymphoma using the modified Lugano Classification \"lymphoma response criteria to immunomodulatory therapy criteria\" (LYRIC)",
+                            "timeFrame": "24 months"
+                        },
+                        {
+                            "measure": "Frequency and Severity of Adverse Events as assessed by CTCAE v4.0",
+                            "description": "To characterize he safety and tolerability of nivolumab in combination with ruxolitinib as determined by the frequency and severity of adverse events (AEs) as defined by the NCI's Common Terminology Criteria for Adverse Events version 4 (CTCAE v4)",
+                            "timeFrame": "24 months"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent and HIPAA authorization for release of personal health information. NOTE: HIPAA authorization may be included in the informed consent or obtained separately.\n* Age \u2265 18 years at the time of consent.\n* ECOG Performance Status of 0, 1 or 2.\n* Histologically confirmed diagnosis of classical Hodgkin lymphoma that is relapsed or refractory - historical biopsy at last relapse is acceptable. NOTE: a repeat biopsy is not required for Phase I if the historical biopsy was performed at the most recent relapse, without remission in between. A fresh biopsy is not required for Phase II.\n* Presence of radiographically measurable disease (defined as the presence one or more \u2265 1.5 cm lesions, as measured in the longest dimension by PET/CT) within 4 weeks of study registration.\n* Prior therapy with check-point inhibitors (nivolumab, pembrolizumab, others) and subsequent progressive disease, stable disease or mixed response\n* Failed at least 2 prior therapies including cytotoxic chemotherapy including ABVD or similar, autologous transplantation, brentuximab vedotin, allogenic transplantation without active graft versus host disease Note: Patients who are eligible and willing to undergo autologous transplant should not be enrolled on this trial\n* Prior cancer treatment must be completed at least 14 days prior to registration and the patient must have recovered from all reversible acute toxic effects of the regimen (other than alopecia) to \u2264Grade 1 or baseline. Radiation therapy must be completed at least 7 days prior to registration.\n* Absolute Neutrophil Count \u2265 1000/\u03bcL\n* Platelets \u2265 75,000/\u03bcL (or \u226550,000/mm3 if known BM involvement)\n* Calculated creatinine clearance \u2265 40 cc/min using the Cockcroft-Gault formula\n* Bilirubin \u2264 1.5 x upper limit of normal (ULN)\n* Aspartate aminotransferase (AST) \u2264 2.5 \u00d7 ULN\n* Alanine aminotransferase (ALT) \u2264 2.5 \u00d7 ULN\n* Females of childbearing potential must have a negative serum pregnancy test within 7 days prior to registration. NOTE: Females are considered of child bearing potential unless they are surgically sterile (have undergone a hysterectomy, bilateral tubal ligation, or bilateral oophorectomy) or they are naturally postmenopausal for at least 12 consecutive months\n* Males who are sexually active with partners of child-bearing potential must be willing to abstain from heterosexual activity or adhere to contraception from the time of written consent until 7 months after treatment discontinuation.\n* Patient must provide voluntary written informed consent prior to the performance of any research related tests or procedures.\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding (NOTE: breast milk cannot be stored for future use while the mother is being treated on study).\n* Inability or unwillingness to swallow oral medication or any condition that precludes the administration and/or absorption of oral medications\n* A life-threatening illness, medical condition or organ system dysfunction, which in the investigator's opinion, could compromise the patient's safety, interfere with the metabolism of study drugs, or put the study outcomes at undue risk\n* Active central nervous system (CNS) involvement by lymphoma\n* Uncontrolled cardiovascular disease such as uncontrolled or symptomatic arrhythmias, congestive heart failure, or myocardial infarction or any class 3 or 4 cardiac disease as defined by the New York Heart Association Functional Classification\n* Concomitant therapy with immunosuppressive agents, including systemic corticosteroids (doses \u2264 10 mg/day prednisone or equivalent are permitted).\n* Has a history of autoimmune disease now or in past 3 years such as hepatitis, nephritis, hyperthyroidism, interstitial lung disease or colitis except vitiligo or alopecia, hypothyroidism (eg, following Hashimoto syndrome) stable on hormone replacement or psoriasis not requiring systemic treatment\n* HIV-infected patients on effective anti-retroviral therapy with undetectable viral load within 6 months of registration are eligible for this trial.\n* Active Hepatitis B or C infection (defined as a positive Hepatitis B surface antigen (Ag) or detectable viral load by PCR). NOTES: Hepatitis B and C testing is required. Patients with positive Hepatitis B Ag may enroll if PCR is negative. Suppressive antiviral therapy should be considered for these patients as clinically indicated.\n* Currently active, clinically significant hepatic impairment Child-Pugh class B or C\n* Currently receiving a strong CYP3A4 Inhibitor (such as but not limited to boceprevir clarithromycin, conivaptan, grapefruit juice, indinavir, itraconazole, ketoconazole, lopinavir/ritonavir, mibefradil, nefazodone, nelfinavir, posaconazole, ritonavir, saquinavir, telaprevir, telithromycin, voriconazole) or Fluconazole \\>200 mg/day. Washout period of 1 week is required.\n* History of stroke or intracranial hemorrhage within 6 months of study registration",
+                    "healthyVolunteers": false,
+                    "sex": "ALL",
+                    "minimumAge": "18 Years",
+                    "stdAges": [
+                        "ADULT",
+                        "OLDER_ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "centralContacts": [
+                        {
+                            "name": "Veronika Bachanova",
+                            "role": "CONTACT",
+                            "phone": "612-625-5469",
+                            "email": "bach0173@umn.edu"
+                        },
+                        {
+                            "name": "Ahran Lee",
+                            "role": "CONTACT",
+                            "phone": "317-634-5842",
+                            "phoneExt": "14",
+                            "email": "alee@hoosiercancer.org"
+                        }
+                    ],
+                    "overallOfficials": [
+                        {
+                            "name": "Veronkia Bachanova",
+                            "affiliation": "University of Minnesota",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "University of Illinois Cancer Center",
+                            "status": "COMPLETED",
+                            "city": "Chicago",
+                            "state": "Illinois",
+                            "zip": "60612",
+                            "country": "United States",
+                            "geoPoint": {
+                                "lat": 41.85003,
+                                "lon": -87.65005
+                            }
+                        },
+                        {
+                            "facility": "Indiana Melvin and Bren Simon Comprehensive Cancer Center",
+                            "status": "WITHDRAWN",
+                            "city": "Indianapolis",
+                            "state": "Indiana",
+                            "zip": "46202",
+                            "country": "United States",
+                            "geoPoint": {
+                                "lat": 39.76838,
+                                "lon": -86.15804
+                            }
+                        },
+                        {
+                            "facility": "University of Iowa Hospitals and Clinics",
+                            "status": "ACTIVE_NOT_RECRUITING",
+                            "city": "Iowa City",
+                            "state": "Iowa",
+                            "zip": "52242",
+                            "country": "United States",
+                            "geoPoint": {
+                                "lat": 41.66113,
+                                "lon": -91.53017
+                            }
+                        },
+                        {
+                            "facility": "University of Minnesota",
+                            "status": "RECRUITING",
+                            "city": "Minneapolis",
+                            "state": "Minnesota",
+                            "zip": "55455",
+                            "country": "United States",
+                            "contacts": [
+                                {
+                                    "name": "Erin Zielinski",
+                                    "role": "CONTACT",
+                                    "phone": "612-624-0937",
+                                    "email": "eezielin@umn.edu"
+                                },
+                                {
+                                    "name": "Veronika Bachanova, MD",
+                                    "role": "PRINCIPAL_INVESTIGATOR"
+                                }
+                            ],
+                            "geoPoint": {
+                                "lat": 44.97997,
+                                "lon": -93.26384
+                            }
+                        },
+                        {
+                            "facility": "University of Wisconsin",
+                            "status": "RECRUITING",
+                            "city": "Madison",
+                            "state": "Wisconsin",
+                            "zip": "53705",
+                            "country": "United States",
+                            "contacts": [
+                                {
+                                    "name": "Kaitlin Chambers",
+                                    "role": "CONTACT",
+                                    "phone": "608-263-5006",
+                                    "email": "kchambers2@wisc.edu"
+                                },
+                                {
+                                    "name": "Vaishalee Kenkre, MD",
+                                    "role": "PRINCIPAL_INVESTIGATOR"
+                                }
+                            ],
+                            "geoPoint": {
+                                "lat": 43.07305,
+                                "lon": -89.40123
+                            }
+                        }
+                    ]
+                },
+                "ipdSharingStatementModule": {
+                    "ipdSharing": "NO"
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "conditionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D008223",
+                            "term": "Lymphoma"
+                        },
+                        {
+                            "id": "D006689",
+                            "term": "Hodgkin Disease"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D009370",
+                            "term": "Neoplasms by Histologic Type"
+                        },
+                        {
+                            "id": "D009369",
+                            "term": "Neoplasms"
+                        },
+                        {
+                            "id": "D008232",
+                            "term": "Lymphoproliferative Disorders"
+                        },
+                        {
+                            "id": "D008206",
+                            "term": "Lymphatic Diseases"
+                        },
+                        {
+                            "id": "D007160",
+                            "term": "Immunoproliferative Disorders"
+                        },
+                        {
+                            "id": "D007154",
+                            "term": "Immune System Diseases"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M11220",
+                            "name": "Lymphoma",
+                            "asFound": "Lymphoma",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M9751",
+                            "name": "Hodgkin Disease",
+                            "asFound": "Hodgkin Lymphoma",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M12315",
+                            "name": "Neoplasms by Histologic Type",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M11225",
+                            "name": "Lymphoproliferative Disorders",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M11203",
+                            "name": "Lymphatic Diseases",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M10206",
+                            "name": "Immunoproliferative Disorders",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M10200",
+                            "name": "Immune System Diseases",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "T3543",
+                            "name": "Lymphosarcoma",
+                            "asFound": "Lymphoma",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "T2817",
+                            "name": "Hodgkin Lymphoma",
+                            "asFound": "Hodgkin Lymphoma",
+                            "relevance": "HIGH"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "BC04",
+                            "name": "Neoplasms"
+                        },
+                        {
+                            "abbrev": "BC15",
+                            "name": "Blood and Lymph Conditions"
+                        },
+                        {
+                            "abbrev": "BC20",
+                            "name": "Immune System Diseases"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Conditions"
+                        },
+                        {
+                            "abbrev": "Rare",
+                            "name": "Rare Diseases"
+                        }
+                    ]
+                },
+                "interventionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D000077594",
+                            "term": "Nivolumab"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D000074322",
+                            "term": "Antineoplastic Agents, Immunological"
+                        },
+                        {
+                            "id": "D000970",
+                            "term": "Antineoplastic Agents"
+                        },
+                        {
+                            "id": "D000082082",
+                            "term": "Immune Checkpoint Inhibitors"
+                        },
+                        {
+                            "id": "D045504",
+                            "term": "Molecular Mechanisms of Pharmacological Action"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M1854",
+                            "name": "Nivolumab",
+                            "asFound": "Syndrome",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M1346",
+                            "name": "Antineoplastic Agents, Immunological",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M2342",
+                            "name": "Immune Checkpoint Inhibitors",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "ANeo",
+                            "name": "Antineoplastic Agents"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Drugs and Chemicals"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        }
+    ],
+    "nextPageToken": "NF0g5JCBlvUpxg4"
+}

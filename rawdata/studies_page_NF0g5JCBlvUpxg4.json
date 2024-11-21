@@ -1,0 +1,605 @@
+{
+    "studies": [
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT06650553",
+                    "orgStudyIdInfo": {
+                        "id": "IIT-2024-018-FS02"
+                    },
+                    "organization": {
+                        "fullName": "Shanxi Bethune Hospital",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Umbilical Cord Blood-Supported Haplo-HSCT for Aplastic Anemia Treatment Study",
+                    "officialTitle": "Clinical Study on Umbilical Cord Blood-Supported Haploidentical Hematopoietic Stem Cell Transplantation for the Treatment of Aplastic Anemia"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-09",
+                    "overallStatus": "RECRUITING",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2024-06-01",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2026-06",
+                        "type": "ESTIMATED"
+                    },
+                    "completionDateStruct": {
+                        "date": "2026-07",
+                        "type": "ESTIMATED"
+                    },
+                    "studyFirstSubmitDate": "2024-09-28",
+                    "studyFirstSubmitQcDate": "2024-10-18",
+                    "studyFirstPostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-18",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR"
+                    },
+                    "leadSponsor": {
+                        "name": "Shanxi Bethune Hospital",
+                        "class": "OTHER"
+                    }
+                },
+                "oversightModule": {
+                    "oversightHasDmc": true,
+                    "isFdaRegulatedDrug": false,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "Aplastic anemia (AA) is a rare bone marrow failure syndrome with an annual incidence of about 0.74/100,000, affecting all ages but more common in the elderly. It's divided into congenital and acquired forms, with the latter being more prevalent. The primary acquired form is linked to T lymphocyte activation and genetic factors. The best treatment is allogeneic hematopoietic stem cell transplantation (allo-HSCT), with a near 90% cure rate. Sibling allo-HSCT is ideal but finding a match is challenging. For those who relapse after immunosuppressive therapy, haploidentical HSCT is a viable option despite risks like graft failure and GVHD. Advances in transplantation have made haplo-HSCT's efficacy comparable to other methods. Recent studies suggest co-transplantation with umbilical cord blood cells can improve outcomes by hastening hematopoietic recovery and prognosis. Our study will evaluate the feasibility and safety of this approach in AA treatment, comparing it to sibling fully matched transplantation, with a focus on infection rates, GVHD incidence, TRM, and EFS, aiming to enhance treatment practices and benefit patients and the medical industry.",
+                    "detailedDescription": "Aplastic anemia (aplastic anaemia\uff0cAA) is a syndrome of bone marrow hematopoietic dysfunction \uff08bone marrow hematopoietic failure\uff0cBMF\uff09with an annual incidence rate of approximately 0.74/100,000 people, affecting all age groups with a higher incidence rate in the elderly, and similar incidence rates between males and females. AA is divided into congenital and acquired types, with acquired AA being more common. The pathogenesis of primary acquired AA is mainly related to the abnormal activation of T lymphocytes, and genetic background may also play a role in the development and progression of AA. Currently, allogeneic hematopoietic stem cell transplantation (allo-HSCT) is the best treatment for AA, with a cure rate close to 90%. Sibling allogeneic hematopoietic stem cell transplantation (HLA-matched HSCT) is the preferred treatment plan, but it is not easy to find a fully matched sibling donor. For patients who relapse after immunosuppressive therapy (IST), haploidentical hematopoietic stem cell transplantation (haplo-HSCT) is a good alternative, despite the risks of engraftment failure, infection, and graft-versus-host disease (GVHD). With the advancement of transplantation technology, the efficacy of haplo-HSCT is not significantly different from that of unrelated donor hematopoietic stem cell transplantation (MUD-HSCT) and HLA-matched sibling donor hematopoietic stem cell transplantation (MSD-HSCT). Studies have shown that haplo-HSCT has a higher survival rate in treating patients with severe aplastic anemia (SAA), and there is no significant difference compared to MSD-HSCT.To address the risk of complications associated with haplo-HSCT, recent research has indicated that co-transplantation with third-party umbilical cord blood cells can shorten the time for hematopoietic reconstitution and improve prognosis. The co-transplantation of third-party umbilical cord blood with bone marrow and peripheral blood hematopoietic stem cells has become a new transplantation option. Studies at home and abroad have shown that combined third-party transplantation can shorten the time for hematopoietic reconstitution and improve long-term survival rates. This study plans to adopt a prospective, open-label, parallel-controlled trial design to conduct a clinical study of non-related umbilical cord blood-assisted haploidentical allogeneic hematopoietic stem cell transplantation for the treatment of AA. The study will compare the umbilical cord blood combined with haploidentical transplantation plan with sibling fully matched transplantation, to assess the feasibility and safety of the umbilical cord blood combined with haploidentical transplantation plan, and to monitor the incidence of patient infections, acute/chronic GVHD incidence, transplant-related mortality (TRM), and event-free survival (EFS), in the hope of providing new practical experience in the field of AA treatment, and bringing dual benefits to patients and the social medical enterprise."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Aplastic Anemias"
+                    ],
+                    "keywords": [
+                        "Aplastic Anemias",
+                        "Stem Cell Transplantation",
+                        "Umbilical Cord Blood"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "INTERVENTIONAL",
+                    "phases": [
+                        "NA"
+                    ],
+                    "designInfo": {
+                        "allocation": "NA",
+                        "interventionModel": "SINGLE_GROUP",
+                        "primaryPurpose": "TREATMENT",
+                        "maskingInfo": {
+                            "masking": "NONE"
+                        }
+                    },
+                    "enrollmentInfo": {
+                        "count": 110,
+                        "type": "ESTIMATED"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Umbilical Cord Blood-Supported Haplo-HSCT for Aplastic Anemia Treatment Study",
+                            "type": "EXPERIMENTAL",
+                            "description": "In patients with AA undergoing hematopoietic stem cell transplantation, the feasibility of the umbilical cord blood combined with haploidentical transplantation scheme is assessed by comparing it with sibling fully matched transplantation using a non-inferiority analysis method (with the time of neutrophil engraftment after transplantation as the primary efficacy indicator). At the same time, indicators such as the time of platelet engraftment, infection incidence (including CMV, EBV incidence), acute/chronic GvHD incidence, transplant-related mortality (TRM), event-free survival (EFS), and overall survival (OS) are monitored to evaluate the safety and effectiveness of this scheme.",
+                            "interventionNames": [
+                                "Procedure: Clinically diagnosed AA patients are divided into HLA-matched HSCT group and umbilical cord blood-supported haplo-HSCT group."
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "PROCEDURE",
+                            "name": "Clinically diagnosed AA patients are divided into HLA-matched HSCT group and umbilical cord blood-supported haplo-HSCT group.",
+                            "description": "This clinical trial is divided into three stages: the screening phase, the treatment phase, and the follow-up phase. During the screening phase, patient enrollment must be completed, and baseline conditions must be recorded. In the treatment phase, the transplantation treatment process for patients in the HLA-matched HSCT group and the umbilical cord blood-supported haplo-HSCT group must be completed, and treatment conditions must be recorded. In the follow-up phase, outcome evaluation indicators must be collected according to the follow-up plan, ensuring data quality.",
+                            "armGroupLabels": [
+                                "Umbilical Cord Blood-Supported Haplo-HSCT for Aplastic Anemia Treatment Study"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Time to neutrophil engraftment",
+                            "description": "Neutrophil engraftment was defined as the first of three consecutive days on which the patient's absolute neutrophil count was 500/uL.",
+                            "timeFrame": "60 days"
+                        }
+                    ],
+                    "secondaryOutcomes": [
+                        {
+                            "measure": "Time to platelet engraftment",
+                            "description": "It was defined as independence from platelet transfusion for at least 7 days with a platelet count of more than 20 \u00d7 10\\^9/L.",
+                            "timeFrame": "60 days"
+                        },
+                        {
+                            "measure": "Incidence of infections (including CMV and EBV incidence)",
+                            "description": "CMV DNAemia was defined as positive CMV-DNA in the blood when the copies exceeded 500 copies/ml.EBV DNAemia was defined as positive EBV-DNA in the blood when the copies exceeded 500 copies/ml.",
+                            "timeFrame": "100 days,6 months,12 months,24 months"
+                        },
+                        {
+                            "measure": "Overall survival rate (OS)",
+                            "description": "Overall survival is a secondary endpoint that will be measured as time from the start of treatment until death from any cause, or the last date the patient was known to be alive.",
+                            "timeFrame": "24 months"
+                        },
+                        {
+                            "measure": "Event-free survival (EFS)",
+                            "description": "Considering as event aGVHD, SOS, relapse and death",
+                            "timeFrame": "24 months"
+                        },
+                        {
+                            "measure": "Incidence of acute/chronic GvHD",
+                            "description": "aGVHD (acute GVHD) was defined according to the 1994 Consensus Conference on Acute GVHD Grading and graded from I to IV. Chronic GVHD (cGVHD) was graded as limited or extensive.",
+                            "timeFrame": "24 months"
+                        },
+                        {
+                            "measure": "Transplant-related mortality (TRM)",
+                            "description": "Transplant-related mortality (TRM) is defined as the proportion of patients who die as a direct or indirect result of the complications arising from the hematopoietic stem cell transplantation (HSCT) process, rather than from the underlying disease for which the transplant was performed. This includes deaths due to graft failure, severe infections, organ toxicity, graft-versus-host disease (GVHD), and other treatment-related complications.",
+                            "timeFrame": "100 days,6 months,12 months,24 months"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* A patient age of 14-70 years\n* Patients diagnosed with Severe Aplastic Anemia (SAA) or Transfusion-Dependent Non-Severe Aplastic Anemia (TD-NSAA) according to the Chinese Guidelines for the Diagnosis and Treatment of Aplastic Anemia (2022 Edition) and suitable for allo-HSCT\n* Subjects (or their legally acceptable representatives) must have signed an informed consent document indicating that they understand the purpose of and procedures required for the study and are willing to participate in the study\n\nExclusion Criteria:\n\n* Any abnormality in a vital sign (e.g., heart rate, respiratory rate, or blood pressure)\n* Patients with any conditions not suitable for the trial (investigators' decision)",
+                    "healthyVolunteers": false,
+                    "sex": "ALL",
+                    "minimumAge": "14 Years",
+                    "maximumAge": "70 Years",
+                    "stdAges": [
+                        "CHILD",
+                        "ADULT",
+                        "OLDER_ADULT"
+                    ]
+                },
+                "contactsLocationsModule": {
+                    "centralContacts": [
+                        {
+                            "name": "Tao Wang, Dr.",
+                            "role": "CONTACT",
+                            "phone": "13835175119",
+                            "email": "wangtao99699@163.com"
+                        }
+                    ],
+                    "overallOfficials": [
+                        {
+                            "name": "Tao Wang, Dr.",
+                            "affiliation": "Shanxi Bethune Hospital Regulatory Authority",
+                            "role": "STUDY_DIRECTOR"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "Shanxi Bethune Hospital",
+                            "status": "RECRUITING",
+                            "city": "Taiyuan",
+                            "state": "Shanxi",
+                            "zip": "030000",
+                            "country": "China",
+                            "contacts": [
+                                {
+                                    "name": "Tao Wang, Dr.",
+                                    "role": "CONTACT",
+                                    "phone": "13835175119",
+                                    "email": "wangtao99699@163.com"
+                                }
+                            ],
+                            "geoPoint": {
+                                "lat": 37.86944,
+                                "lon": 112.56028
+                            }
+                        }
+                    ]
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "conditionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D000740",
+                            "term": "Anemia"
+                        },
+                        {
+                            "id": "D000741",
+                            "term": "Anemia, Aplastic"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D006402",
+                            "term": "Hematologic Diseases"
+                        },
+                        {
+                            "id": "D000080983",
+                            "term": "Bone Marrow Failure Disorders"
+                        },
+                        {
+                            "id": "D001855",
+                            "term": "Bone Marrow Diseases"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M4071",
+                            "name": "Anemia, Aplastic",
+                            "asFound": "Aplastic Anemia",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M4070",
+                            "name": "Anemia",
+                            "asFound": "Anemia",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "M9490",
+                            "name": "Hematologic Diseases",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M2241",
+                            "name": "Bone Marrow Failure Disorders",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M13118",
+                            "name": "Pancytopenia",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M5134",
+                            "name": "Bone Marrow Diseases",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "T460",
+                            "name": "Aplastic Anemia",
+                            "asFound": "Aplastic Anemia",
+                            "relevance": "HIGH"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "BC15",
+                            "name": "Blood and Lymph Conditions"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Conditions"
+                        },
+                        {
+                            "abbrev": "Rare",
+                            "name": "Rare Diseases"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        },
+        {
+            "protocolSection": {
+                "identificationModule": {
+                    "nctId": "NCT03888651",
+                    "orgStudyIdInfo": {
+                        "id": "2018-0740"
+                    },
+                    "secondaryIdInfos": [
+                        {
+                            "id": "NCI-2018-03357",
+                            "type": "REGISTRY",
+                            "domain": "CTRP (Clinical Trial Reporting Program)"
+                        },
+                        {
+                            "id": "2018-0740",
+                            "type": "OTHER",
+                            "domain": "M D Anderson Cancer Center"
+                        },
+                        {
+                            "id": "P30CA016672",
+                            "type": "NIH",
+                            "link": "https://reporter.nih.gov/quickSearch/P30CA016672"
+                        }
+                    ],
+                    "organization": {
+                        "fullName": "M.D. Anderson Cancer Center",
+                        "class": "OTHER"
+                    },
+                    "briefTitle": "Clinical Data Collection in Studying Clinical Factors Associated With Post-Surgery Chronic Opioid Use in Patients With Head and Neck Cancers",
+                    "officialTitle": "An Investigation of Postoperative Chronic Opioid Use and Its Associations With Other Clinical Factors Among Patients With Head and Neck Cancers"
+                },
+                "statusModule": {
+                    "statusVerifiedDate": "2024-10",
+                    "overallStatus": "ACTIVE_NOT_RECRUITING",
+                    "expandedAccessInfo": {
+                        "hasExpandedAccess": false
+                    },
+                    "startDateStruct": {
+                        "date": "2019-01-25",
+                        "type": "ACTUAL"
+                    },
+                    "primaryCompletionDateStruct": {
+                        "date": "2025-04-30",
+                        "type": "ESTIMATED"
+                    },
+                    "completionDateStruct": {
+                        "date": "2025-04-30",
+                        "type": "ESTIMATED"
+                    },
+                    "studyFirstSubmitDate": "2019-01-16",
+                    "studyFirstSubmitQcDate": "2019-03-22",
+                    "studyFirstPostDateStruct": {
+                        "date": "2019-03-25",
+                        "type": "ACTUAL"
+                    },
+                    "lastUpdateSubmitDate": "2024-10-16",
+                    "lastUpdatePostDateStruct": {
+                        "date": "2024-10-21",
+                        "type": "ACTUAL"
+                    }
+                },
+                "sponsorCollaboratorsModule": {
+                    "responsibleParty": {
+                        "type": "SPONSOR"
+                    },
+                    "leadSponsor": {
+                        "name": "M.D. Anderson Cancer Center",
+                        "class": "OTHER"
+                    },
+                    "collaborators": [
+                        {
+                            "name": "National Cancer Institute (NCI)",
+                            "class": "NIH"
+                        }
+                    ]
+                },
+                "oversightModule": {
+                    "oversightHasDmc": false,
+                    "isFdaRegulatedDrug": false,
+                    "isFdaRegulatedDevice": false
+                },
+                "descriptionModule": {
+                    "briefSummary": "This trial studies the risk of developing disorders associated with chronic opioid use post-surgery in patients with head and neck cancers. Clinical data collection may help doctors to learn how often and how likely disorders associated with the use of opioid pain medication may occur in patients with head and neck cancer who are having surgery as part of their treatment plan.",
+                    "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. Assess prevalence of chronic opioid use and severity of symptom burden (M. D. Anderson Symptom Inventory-Head and Neck \\[MDASI-HN\\]) in patients undergoing surgery of head/neck cancer.\n\nSECONDARY OBJECTIVES:\n\nI. To investigate the extent of association of chronic opioid use with risk of opioid use disorder (as assessed by Screener and Opioid Assessment for Patients with Pain\\[SOAPP-14\\] and Cut down, Annoyed, Guilty and Eye Opener \\[CAGE\\] scores) and psychosocial factors (as assessed by MDASI).\n\nII. To assess frequency of positive risk of opioid use disorder as assessed by Screener and Opioid Assessment for Patients tool (SOAPP-14) and CAGE-adapted to include drugs (AID).\n\nIII. Assess frequency of aberrant opioid use behaviors. IV. Assess frequency of post-operative complications.\n\nOUTLINE:\n\nPatients complete questionnaires and quality of life assessments over 10-15 minutes at pre-surgery, after-surgery, at discharge, within 2-3 weeks after surgery, and within 90 days after surgery."
+                },
+                "conditionsModule": {
+                    "conditions": [
+                        "Head and Neck Carcinoma"
+                    ]
+                },
+                "designModule": {
+                    "studyType": "OBSERVATIONAL",
+                    "patientRegistry": false,
+                    "designInfo": {
+                        "observationalModel": "COHORT",
+                        "timePerspective": "PROSPECTIVE"
+                    },
+                    "enrollmentInfo": {
+                        "count": 125,
+                        "type": "ESTIMATED"
+                    }
+                },
+                "armsInterventionsModule": {
+                    "armGroups": [
+                        {
+                            "label": "Observational (questionnaires, quality of life assessment)",
+                            "description": "Patients complete questionnaires and quality of life assessments over 10-15 minutes at pre-surgery, after-surgery, at discharge, within 2-3 weeks after surgery, and within 90 days after surgery.",
+                            "interventionNames": [
+                                "Other: Quality-of-Life Assessment",
+                                "Other: Questionnaire Administration"
+                            ]
+                        }
+                    ],
+                    "interventions": [
+                        {
+                            "type": "OTHER",
+                            "name": "Quality-of-Life Assessment",
+                            "description": "Complete quality of life assessment",
+                            "armGroupLabels": [
+                                "Observational (questionnaires, quality of life assessment)"
+                            ],
+                            "otherNames": [
+                                "Quality of Life Assessment"
+                            ]
+                        },
+                        {
+                            "type": "OTHER",
+                            "name": "Questionnaire Administration",
+                            "description": "Complete questionnaire",
+                            "armGroupLabels": [
+                                "Observational (questionnaires, quality of life assessment)"
+                            ]
+                        }
+                    ]
+                },
+                "outcomesModule": {
+                    "primaryOutcomes": [
+                        {
+                            "measure": "Rate of chronic opioid use",
+                            "description": "Rate of chronic opioid use will be measured by the association of chronic opioid use with that of the risk of opioid misuse Screener and Opioid Assessment for Patients tool (SOAPP-14)",
+                            "timeFrame": "At 90 days after surgery"
+                        },
+                        {
+                            "measure": "Severity of symptom burden",
+                            "description": "Will be measured by MDASI.",
+                            "timeFrame": "At 90 days after surgery"
+                        },
+                        {
+                            "measure": "Association of chronic opioid use",
+                            "description": "Association of chronic opioid use with that of the CAGE-AID scores",
+                            "timeFrame": "At 90 days after surgery"
+                        }
+                    ],
+                    "secondaryOutcomes": [
+                        {
+                            "measure": "Risk of opioid use assessed",
+                            "description": "Screener and Opioid Assessment for Patients with Pain\\[SOAPP-14\\] Score of greater than or equal 7 is considered as risk factor for opioid misuse.",
+                            "timeFrame": "Up to 90 days after surgery"
+                        },
+                        {
+                            "measure": "Frequency of positive risk of opioid use disorder",
+                            "description": "Will be assessed by Screener and Opioid Assessment for Patients with Pain\\[SOAPP-14.",
+                            "timeFrame": "Up to 90 days post surgery"
+                        },
+                        {
+                            "measure": "Frequency of aberrant opioid use behaviors",
+                            "description": "Correlation between categorical variables will be evaluated using Chisquare test or Fisher's exact test.",
+                            "timeFrame": "Up to 90 days post surgery"
+                        },
+                        {
+                            "measure": "Frequency of post-operative complications",
+                            "description": "Correlation between categorical variables will be evaluated using Chisquare test or Fisher's exact test",
+                            "timeFrame": "Up to 90 days post surgery"
+                        },
+                        {
+                            "measure": "Risk of opioid use will be assessed by CAGE-AID",
+                            "description": "CAGE-AID: Score of greater than or equal 2 is considered as risk factor for opioid misuse",
+                            "timeFrame": "Up to 90 days post surgery"
+                        },
+                        {
+                            "measure": "Frequency of positive risk of opioid use disorder",
+                            "description": "Will be assessed by CAGE-adapted to include drugs (AID).",
+                            "timeFrame": "Up to 90 days post surgery"
+                        }
+                    ]
+                },
+                "eligibilityModule": {
+                    "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with head and neck cancer scheduled for combined head and neck surgery - plastic surgery free flap\n* Competent to give informed consent\n* Ability to read and write in English\n\nExclusion Criteria:\n\n* Patient not willing to participate\n* Not competent to give informed consent\n* Inability to read and write in English",
+                    "healthyVolunteers": false,
+                    "sex": "ALL",
+                    "minimumAge": "18 Years",
+                    "stdAges": [
+                        "ADULT",
+                        "OLDER_ADULT"
+                    ],
+                    "studyPopulation": "MD Anderson Cancer Participants",
+                    "samplingMethod": "NON_PROBABILITY_SAMPLE"
+                },
+                "contactsLocationsModule": {
+                    "overallOfficials": [
+                        {
+                            "name": "Lakshmi Koyyalagunta",
+                            "affiliation": "M.D. Anderson Cancer Center",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "facility": "M D Anderson Cancer Center",
+                            "city": "Houston",
+                            "state": "Texas",
+                            "zip": "77030",
+                            "country": "United States",
+                            "geoPoint": {
+                                "lat": 29.76328,
+                                "lon": -95.36327
+                            }
+                        }
+                    ]
+                },
+                "referencesModule": {
+                    "seeAlsoLinks": [
+                        {
+                            "label": "MD Anderson Cancer Center Website",
+                            "url": "http://www.mdanderson.org"
+                        }
+                    ]
+                }
+            },
+            "derivedSection": {
+                "miscInfoModule": {
+                    "versionHolder": "2024-11-18"
+                },
+                "conditionBrowseModule": {
+                    "meshes": [
+                        {
+                            "id": "D006258",
+                            "term": "Head and Neck Neoplasms"
+                        }
+                    ],
+                    "ancestors": [
+                        {
+                            "id": "D009371",
+                            "term": "Neoplasms by Site"
+                        },
+                        {
+                            "id": "D009369",
+                            "term": "Neoplasms"
+                        }
+                    ],
+                    "browseLeaves": [
+                        {
+                            "id": "M5534",
+                            "name": "Carcinoma",
+                            "relevance": "LOW"
+                        },
+                        {
+                            "id": "M9348",
+                            "name": "Head and Neck Neoplasms",
+                            "asFound": "Head and Neck Cancer",
+                            "relevance": "HIGH"
+                        },
+                        {
+                            "id": "T1303",
+                            "name": "Chronic Graft Versus Host Disease",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "BC04",
+                            "name": "Neoplasms"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Conditions"
+                        },
+                        {
+                            "abbrev": "Rare",
+                            "name": "Rare Diseases"
+                        }
+                    ]
+                },
+                "interventionBrowseModule": {
+                    "browseLeaves": [
+                        {
+                            "id": "M4033",
+                            "name": "Analgesics, Opioid",
+                            "relevance": "LOW"
+                        }
+                    ],
+                    "browseBranches": [
+                        {
+                            "abbrev": "Analg",
+                            "name": "Analgesics"
+                        },
+                        {
+                            "abbrev": "CNSDep",
+                            "name": "Central Nervous System Depressants"
+                        },
+                        {
+                            "abbrev": "All",
+                            "name": "All Drugs and Chemicals"
+                        }
+                    ]
+                }
+            },
+            "hasResults": false
+        }
+    ]
+}
