@@ -1,12 +1,18 @@
-# Import the functions from the 'assignment' package
-from extract_disease import main1, main2, main3
+import subprocess
 
-def main():
-    print("Starting sequence of main functions...")
-    main1()  # Call module1's main to download data via API
-    main2()  # Call module2's main to map data to target schema
-    main3()  # Call module3's main to extract diseases from inclusion criteria
-    print("All main functions executed.")
+# Define the list of scripts you want to run
+scripts = [
+    "data_API.py",
+    "map_schema.py",
+    "extract_diseases.py"
+]
 
-if __name__ == "__main__":
-    main()
+# Run each script
+for script in scripts:
+    try:
+        print(f"Running {script}...")
+        result = subprocess.run(["python", script], check=True, capture_output=True, text=True)
+        print(f"Output of {script}: {result.stdout}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error running {script}: {e.stderr}")
+    print("="*40)
