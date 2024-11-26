@@ -1,0 +1,13 @@
+name: assign_bd  # Name of your conda environment
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11  # Specify the Python version
+  - numpy       # Add other packages
+  - pandas
+  - requests
+  - pip:
+    - torch==2.1.2
+    - transformers==4.39.3
