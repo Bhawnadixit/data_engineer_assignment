@@ -1,4 +1,4 @@
-torch==2.1.2
+torch>=2.2.0
 transformers==4.39.3
 numpy
 pandas
